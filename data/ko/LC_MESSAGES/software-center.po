@@ -1,0 +1,2323 @@
+# Korean translation for software-store
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the software-store package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: software-store\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-03-21 22:43+0000\n"
+"PO-Revision-Date: 2013-09-06 17:13+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:03+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../data/ubuntu-software-center.desktop.in.h:1
+#: ../softwarecenter/distro/ubuntu.py:71
+msgid "Ubuntu Software Center"
+msgstr "우분투 소프트웨어 센터"
+
+#: ../data/ubuntu-software-center.desktop.in.h:2
+#: ../softwarecenter/distro/__init__.py:55
+#: ../softwarecenter/distro/suselinux.py:42
+msgid "Software Center"
+msgstr "소프트웨어 센터"
+
+#: ../data/ubuntu-software-center.desktop.in.h:3
+msgid "Lets you choose from thousands of applications available for Ubuntu"
+msgstr "우분투에 사용할 수 있는 수천 개의 프로그램을 선택할 수 있습니다"
+
+#: ../data/ubuntu-software-center.desktop.in.h:4
+msgid "Sources;PPA;Install;Uninstall;Remove;Purchase;Catalogue;Store;Apps;"
+msgstr ""
+"Sources;소스;PPA;Install;설치;Uninstall;제거;Remove;Purchase;구입;Catalogue;카탈로그;Stor"
+"e;상점;Apps;프로그램;"
+
+#: ../data/featured.menu.in.h:1
+msgid "Featured"
+msgstr "중요한 프로그램"
+
+#: ../data/whats_new.menu.in.h:1
+#: ../softwarecenter/ui/gtk3/views/lobbyview.py:252
+msgid "What’s New"
+msgstr "새 프로그램"
+
+#: ../data/software-center.menu.in.h:1
+msgid "Accessories"
+msgstr "보조 프로그램"
+
+#: ../data/software-center.menu.in.h:2
+msgid "Universal Access"
+msgstr "보편적 접근성"
+
+#: ../data/software-center.menu.in.h:3
+msgid "Developer Tools"
+msgstr "개발자 도구"
+
+#: ../data/software-center.menu.in.h:4
+msgid "Debugging"
+msgstr "디버깅"
+
+#: ../data/software-center.menu.in.h:5
+msgid "Graphic Interface Design"
+msgstr "그래픽 인터페이스 디자인"
+
+#: ../data/software-center.menu.in.h:6
+msgid "Haskell"
+msgstr "해스켈"
+
+#: ../data/software-center.menu.in.h:7
+msgid "IDEs"
+msgstr "통합 개발 환경"
+
+#: ../data/software-center.menu.in.h:8
+msgid "Java"
+msgstr "자바"
+
+#: ../data/software-center.menu.in.h:9
+msgid "Libraries"
+msgstr "라이브러리"
+
+#: ../data/software-center.menu.in.h:10
+msgid "Lisp"
+msgstr "Lisp"
+
+#: ../data/software-center.menu.in.h:11
+msgid "Localization"
+msgstr "지역화"
+
+#: ../data/software-center.menu.in.h:12
+msgid "Mono/CLI"
+msgstr "Mono/CLI"
+
+#: ../data/software-center.menu.in.h:13
+msgid "OCaml"
+msgstr "OCaml"
+
+#: ../data/software-center.menu.in.h:14
+msgid "Perl"
+msgstr "Perl"
+
+#: ../data/software-center.menu.in.h:15
+msgid "Profiling"
+msgstr "프로파일링"
+
+#: ../data/software-center.menu.in.h:16
+msgid "Python"
+msgstr "파이썬"
+
+#: ../data/software-center.menu.in.h:17
+msgid "Ruby"
+msgstr "루비"
+
+#: ../data/software-center.menu.in.h:18
+msgid "Version Control"
+msgstr "버전 관리"
+
+#: ../data/software-center.menu.in.h:19
+msgid "Web Development"
+msgstr "웹 개발"
+
+#: ../data/software-center.menu.in.h:20
+msgid "Education"
+msgstr "교육"
+
+#: ../data/software-center.menu.in.h:21
+msgid "Science &amp; Engineering"
+msgstr "과학 및 공학"
+
+#: ../data/software-center.menu.in.h:22
+msgid "Astronomy"
+msgstr "천문학"
+
+#: ../data/software-center.menu.in.h:23
+msgid "Biology"
+msgstr "생물학"
+
+#: ../data/software-center.menu.in.h:24
+msgid "Chemistry"
+msgstr "화학"
+
+#: ../data/software-center.menu.in.h:25
+msgid "Computer Science &amp; Robotics"
+msgstr "컴퓨터 과학 및 로봇"
+
+#: ../data/software-center.menu.in.h:26
+msgid "Electronics"
+msgstr "전자"
+
+#: ../data/software-center.menu.in.h:27
+msgid "Engineering"
+msgstr "공학"
+
+#: ../data/software-center.menu.in.h:28
+msgid "Geography"
+msgstr "지리학"
+
+#: ../data/software-center.menu.in.h:29
+msgid "Geology"
+msgstr "지질학"
+
+#: ../data/software-center.menu.in.h:30
+msgid "Mathematics"
+msgstr "수학"
+
+#: ../data/software-center.menu.in.h:31
+msgid "Physics"
+msgstr "물리학"
+
+#: ../data/software-center.menu.in.h:32
+msgid "Fonts"
+msgstr "글꼴"
+
+#: ../data/software-center.menu.in.h:33
+msgid "Games"
+msgstr "게임"
+
+#: ../data/software-center.menu.in.h:34
+msgid "Arcade"
+msgstr "아케이드"
+
+#: ../data/software-center.menu.in.h:35
+msgid "Board Games"
+msgstr "보드 게임"
+
+#: ../data/software-center.menu.in.h:36
+msgid "Card Games"
+msgstr "카드 게임"
+
+#: ../data/software-center.menu.in.h:37
+msgid "Puzzles"
+msgstr "퍼즐"
+
+#: ../data/software-center.menu.in.h:38
+msgid "Role Playing"
+msgstr "롤 플레잉"
+
+#: ../data/software-center.menu.in.h:39
+msgid "Simulation"
+msgstr "시뮬레이션"
+
+#: ../data/software-center.menu.in.h:40
+msgid "Sports"
+msgstr "스포츠"
+
+#: ../data/software-center.menu.in.h:41
+msgid "Graphics"
+msgstr "그래픽"
+
+#: ../data/software-center.menu.in.h:42
+msgid "3D Graphics"
+msgstr "3D 그래픽"
+
+#: ../data/software-center.menu.in.h:43
+msgid "Drawing"
+msgstr "그림"
+
+#: ../data/software-center.menu.in.h:44
+msgid "Painting &amp; Editing"
+msgstr "그림 및 편집"
+
+#: ../data/software-center.menu.in.h:45
+msgid "Photography"
+msgstr "사진 촬영"
+
+#: ../data/software-center.menu.in.h:46
+msgid "Publishing"
+msgstr "출판"
+
+#: ../data/software-center.menu.in.h:47
+msgid "Scanning &amp; OCR"
+msgstr "스캐닝 및 OCR"
+
+#: ../data/software-center.menu.in.h:48
+msgid "Viewers"
+msgstr "뷰어"
+
+#: ../data/software-center.menu.in.h:49
+msgid "Internet"
+msgstr "인터넷"
+
+#: ../data/software-center.menu.in.h:50
+msgid "Chat"
+msgstr "대화"
+
+#: ../data/software-center.menu.in.h:51
+msgid "File Sharing"
+msgstr "파일공유"
+
+#: ../data/software-center.menu.in.h:52
+msgid "Mail"
+msgstr "메일"
+
+#: ../data/software-center.menu.in.h:53
+msgid "Web Browsers"
+msgstr "웹 브라우저"
+
+#: ../data/software-center.menu.in.h:54
+msgid "Multimedia"
+msgstr "멀티미디어"
+
+#: ../data/software-center.menu.in.h:55
+msgid "Office"
+msgstr "오피스"
+
+#: ../data/software-center.menu.in.h:56
+msgid "Themes &amp; Tweaks"
+msgstr "테마 및 트윅"
+
+#: ../data/software-center.menu.in.h:57
+msgid "Dash Search Plugins"
+msgstr "대시 검색 플러그인"
+
+#: ../data/software-center.menu.in.h:58
+#: ../softwarecenter/ui/gtk3/models/appstore2.py:297
+msgid "System"
+msgstr "시스템"
+
+#: ../data/software-center.menu.in.h:59
+msgid "Books &amp; Magazines"
+msgstr "책&amp; 잡지"
+
+#: ../softwarecenter/backend/channel.py:234
+msgid "Canonical Partners"
+msgstr "케노니컬 파트너"
+
+#. commercial apps provide license info via the
+#. software-center-agent, but if a given commercial app does not
+#. provide this for some reason, default to a license type of
+#. "Unknown"
+#: ../softwarecenter/backend/channel.py:236
+#: ../softwarecenter/distro/ubuntu.py:127
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1490
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1495
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2072
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../softwarecenter/backend/channel.py:240
+msgid "For Purchase"
+msgstr "상업 프로그램"
+
+#: ../softwarecenter/backend/channel.py:242
+msgid "Previous Purchases"
+msgstr "이전에 구매한 항목"
+
+#: ../softwarecenter/backend/channel.py:244
+msgid "Independent"
+msgstr "독립 프로그램"
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review
+#. inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../softwarecenter/backend/channel.py:246
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1238
+msgid "Other"
+msgstr "기타"
+
+#: ../softwarecenter/backend/channel.py:325
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:382
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:81
+msgid "All Software"
+msgstr "모든 프로그램"
+
+#: ../softwarecenter/backend/channel.py:331
+msgid "All Installed"
+msgstr "깔림"
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:120
+#: ../softwarecenter/backend/oneconfhandler/core.py:124
+#, python-format
+msgid "Last sync %s"
+msgstr "%s에 마지막으로 동기화"
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:122
+#, python-format
+msgid "Last sync yesterday %s"
+msgstr "어제 %s에 마지막으로 동기화"
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:126
+msgid ""
+"To sync with another computer, choose “Sync Between Computers” from that "
+"computer."
+msgstr "다른 컴퓨터와 동기화 하려면 동기화 하려는 컴퓨터에서 “컴퓨터 간 동기화“를 선택하십시오."
+
+#: ../softwarecenter/backend/oneconfhandler/core.py:166
+msgid ""
+"With multiple Ubuntu computers, you can publish their inventories online to "
+"compare the software installed on each\n"
+"No-one else will be able to see what you have installed."
+msgstr ""
+"여러 대의 우분투 컴퓨터에 설치한 패키지 목록을 온라인에 업로드해 각 컴퓨터에 설치한 소프트웨어를 비교할 수 있습니다.\n"
+"사용자를 이외의 사람은 설치한 프로그램 목록을 절대 볼 수 없습니다."
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:835
+#: ../softwarecenter/ui/gtk3/app.py:1298
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:420
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:427
+msgid "Error"
+msgstr "오류"
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:887
+msgid "_Ignore and install"
+msgstr "무시하고 설치(_I)"
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:901
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:917
+#: ../data/ui/gtk3/dialogs.ui.h:2
+msgid "Repair"
+msgstr "복구"
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:1040
+msgid "Authentication Error"
+msgstr "인증 오류"
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:1041
+#, python-format
+msgid ""
+"Software can't be installed or removed because the authentication service is "
+"not available. (%s"
+msgstr "인증 서버를 사용할 수 있기 때문에 소프트웨어를 설치하거나 제거하라 수 없습니다. (%s"
+
+#: ../softwarecenter/backend/installbackend_impl/aptd.py:1061
+msgid "There was an error submitting the transaction"
+msgstr "처리 과정 제출 중 오류 발생"
+
+#: ../softwarecenter/db/application.py:234
+#: ../softwarecenter/db/application.py:380
+#: ../softwarecenter/db/application.py:544
+#: ../softwarecenter/db/application.py:578 ../softwarecenter/db/debfile.py:76
+#: ../softwarecenter/db/debfile.py:80
+msgid "Not found"
+msgstr "찾을 수 없음"
+
+#: ../softwarecenter/db/application.py:236
+#: ../softwarecenter/db/application.py:382
+#: ../softwarecenter/db/application.py:546
+#: ../softwarecenter/db/application.py:580
+#, python-format
+msgid ""
+"There isn’t a software package called “%s” in your current software sources."
+msgstr "사용자의 현재 소프트웨어 소스에 \"%s\"(이)라는 소프트웨어가 없습니다."
+
+#. TRANSLATORS: Free here means Gratis
+#. TRANSLATORS: Free here means Libre
+#. TRANSLATORS: Free here means Gratis
+#: ../softwarecenter/db/application.py:608
+#: ../softwarecenter/db/application.py:623
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:406
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:702
+msgid "Free"
+msgstr "자유"
+
+#: ../softwarecenter/db/application.py:900
+#, python-format
+msgid "Version %s or later not available."
+msgstr "%s 버전과 그 이후 버전을 사용할 수 없습니다."
+
+#: ../softwarecenter/db/application.py:913
+#, python-format
+msgid "Available from the \"%s\" source."
+msgstr "\"%s\" 소스에서 사용할 수 있습니다."
+
+#. Translators: the visible string is constructed
+#. concatenating the following 3 strings like this:
+#. Available from the following sources: %s, ... %s, %s.
+#: ../softwarecenter/db/application.py:919
+msgid "Available from the following sources: "
+msgstr "다음의 소스에서 사용 할 수 있습니다: "
+
+#: ../softwarecenter/db/application.py:922
+#, python-format
+msgid "\"%s\", "
+msgstr "\"%s\", "
+
+#: ../softwarecenter/db/application.py:923
+#, python-format
+msgid "\"%s\"."
+msgstr "\"%s\"."
+
+#: ../softwarecenter/db/categories.py:160
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:137
+#, python-format
+msgid "Recommended For You in %s"
+msgstr "%s에서 사용자에게 추천합니다"
+
+#: ../softwarecenter/db/categories.py:165
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:218
+msgid "Recommended For You"
+msgstr "사용자 맞춤 추천"
+
+#: ../softwarecenter/db/categories.py:214
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:426
+msgid "People Also Installed"
+msgstr "설치한 사람"
+
+#. TRANSLATORS: List of "grey-listed" words separated with ";"
+#. Do not translate this list directly. Instead,
+#. provide a list of words in your language that people are likely
+#. to include in a search but that should normally be ignored in
+#. the search.
+#: ../softwarecenter/db/database.py:139
+msgid "app;application;package;program;programme;suite;tool"
+msgstr "app;application;package;program;programme;suite;tool"
+
+#. WARNING: item.name needs to be different than
+#. the item.name in the DB otherwise the DB
+#. gets confused about (appname, pkgname) duplication
+#: ../softwarecenter/db/update.py:701
+#, python-format
+msgid "%s (already purchased)"
+msgstr "%s (이미 구입함)"
+
+#: ../softwarecenter/db/update.py:1055
+#, python-format
+msgid ""
+"The file: '%s' could not be read correctly. The application associated with "
+"this file will not be included in the software catalog. Please consider "
+"raising a bug report for this issue with the maintainer of that application"
+msgstr ""
+"파일 '%s'을(를) 올바로 읽을 수 없습니다. 이 파일과 관련 있는 프로그램은 소프트웨어 카탈로그에 포함되지 않을 것입니다. 이 사안에 "
+"대한 버그 보고서를 프로그램 관리자에게 제출하십시오."
+
+#: ../softwarecenter/db/pkginfo_impl/packagekit.py:63
+msgid "Unknown repository"
+msgstr "알 수 없는 저장소"
+
+#: ../softwarecenter/distro/debian.py:49
+msgid "Provided by Debian"
+msgstr "데비안이 제공함"
+
+#: ../softwarecenter/distro/debian.py:52 ../softwarecenter/distro/fedora.py:67
+#: ../softwarecenter/distro/ubuntu.py:89
+#: ../softwarecenter/distro/suselinux.py:56
+#, python-format
+msgid "To remove %s, these items must be removed as well:"
+msgstr "%s을(를) 제거하려면  다음 항목들도 함께 제거해야 합니다:"
+
+#: ../softwarecenter/distro/debian.py:54 ../softwarecenter/distro/fedora.py:69
+#: ../softwarecenter/distro/__init__.py:158
+#: ../softwarecenter/distro/ubuntu.py:91
+#: ../softwarecenter/distro/suselinux.py:58
+msgid "Remove All"
+msgstr "모두 제거"
+
+#: ../softwarecenter/distro/debian.py:59
+#: ../softwarecenter/distro/ubuntu.py:107
+#, python-format
+msgid ""
+"If you uninstall %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr "%s을(를) 제거하면 <b>%s</b> 내의 항목들은 더 이상 업데이트되지 않습니다. 계속 하시겠습니까?"
+
+#: ../softwarecenter/distro/debian.py:63 ../softwarecenter/distro/debian.py:74
+#: ../softwarecenter/distro/ubuntu.py:100
+#: ../softwarecenter/distro/ubuntu.py:111
+msgid "Remove Anyway"
+msgstr "그래도 제거하기"
+
+#: ../softwarecenter/distro/debian.py:70
+#, python-format
+msgid ""
+"%s is a core application in Debian. Uninstalling it may cause future "
+"upgrades to be incomplete. Are you sure you want to continue?"
+msgstr "%s은(는) 우분투의 핵심 프로그램입니다. 이것을 제거하면 향후 업그레이드가 불완전해질 수도 있습니다. 계속하시겠습니까?"
+
+#: ../softwarecenter/distro/debian.py:81
+msgid "Meets the Debian Free Software Guidelines"
+msgstr "데비안 자유 소프트웨어 지침을 확인하세요"
+
+#: ../softwarecenter/distro/debian.py:83
+msgid ""
+"Meets the Debian Free Software Guidelines itself but requires additional non-"
+"free software to work"
+msgstr "데비안 자유 소프트웨어 지침을 확인하세요 하지만 실행에는 추가적으로 비 자유 소프트웨어가 필요합니다."
+
+#: ../softwarecenter/distro/debian.py:86
+msgid ""
+"Non-free since it is either restricted in use, redistribution or "
+"modification."
+msgstr "사용, 재배포, 수정에 제한이 있는 비 자유 소프트웨어입니다."
+
+#: ../softwarecenter/distro/debian.py:131
+msgid "Debian does not provide critical updates."
+msgstr "데비안이 중요 업데이트를 제공하지 않습니다."
+
+#: ../softwarecenter/distro/debian.py:133
+#, python-format
+msgid ""
+"Debian does not provide critical updates. Some updates may be provided by "
+"the developers of %s and redistributed by Debian."
+msgstr "데비안이 중요 업데이트를 제공하지 않습니다. 일부 업데이트는 %s의 개발자가 제공하고 데비안이 재 배포할 수 있습니다."
+
+#: ../softwarecenter/distro/debian.py:138
+#, python-format
+msgid "Debian provides critical updates for %s."
+msgstr "데비안이 %s의 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/debian.py:140
+#, python-format
+msgid ""
+"Debian only provides updates for %s during a transition phase. Please "
+"consider upgrading to a later stable release of Debian."
+msgstr "데비안은 다음 안정 배포판 출시 이전까지만 %s의 업데이트를 제공합니다. 데비안의 최신 안정 배포판으로 업그레이드하십시오."
+
+#: ../softwarecenter/distro/debian.py:145
+#, python-format
+msgid ""
+"Debian provides critical updates for %s. But updates could be delayed or "
+"skipped."
+msgstr "데비안이 %s의 중요 업데이트를 제공하지만 업데이트는 지연되거나 생략될 수 있습니다."
+
+#: ../softwarecenter/distro/debian.py:148
+#, python-format
+msgid "Debian does not provide critical updates for %s"
+msgstr "데이안이 %s의 중요 업데이트를 제공하지 않습니다."
+
+#: ../softwarecenter/distro/fedora.py:58
+msgid "Provided by Fedora"
+msgstr "페도라가 제공함"
+
+#: ../softwarecenter/distro/fedora.py:61
+msgid "Fedora Software Center"
+msgstr "페도라 소프트웨어 선터"
+
+#. with a PackageKit backend, component is always 'main'
+#. (but we have license in the individual packages)
+#: ../softwarecenter/distro/fedora.py:76
+#: ../softwarecenter/distro/ubuntu.py:119
+#: ../softwarecenter/distro/suselinux.py:64
+msgid "Open source"
+msgstr "오픈 소스"
+
+#: ../softwarecenter/distro/__init__.py:67
+msgid ""
+"Lets you choose from thousands of applications available for your system."
+msgstr "이 시스템에 사용할 수 있는 수천 개의 프로그램에서 선택할 수 있습니다."
+
+#: ../softwarecenter/distro/__init__.py:110
+msgid "Supported Software"
+msgstr "지원하는 소프트웨어"
+
+#: ../softwarecenter/distro/__init__.py:113
+#, python-format
+msgid "To install %s, these items must be removed:"
+msgstr "%s을(를) 설치하기 위해서는 반드시 다음의 항목을 제거해야 합니다:"
+
+#: ../softwarecenter/distro/__init__.py:115
+#: ../softwarecenter/distro/__init__.py:125
+#: ../softwarecenter/distro/__init__.py:135
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:411
+msgid "Install Anyway"
+msgstr "그래도 설치"
+
+#: ../softwarecenter/distro/__init__.py:121
+#, python-format
+msgid ""
+"If you install %s, future updates will not include new items in <b>%s</b> "
+"set. Are you sure you want to continue?"
+msgstr "%s을(를) 설치하면 이후 업데이트에 <b>%s</b> 묶음 안의 새 항목은 포함되지 않을 것입니다. 계속하시겠습니까?"
+
+#: ../softwarecenter/distro/__init__.py:132
+#, python-format
+msgid ""
+"Installing %s may cause core applications to be removed. Are you sure you "
+"want to continue?"
+msgstr "%s을(를) 설치할 경우 핵심 프로그램이 제거될 수 있습니다. 계속하시겠습니까?"
+
+#: ../softwarecenter/distro/__init__.py:144
+#, python-format
+msgid ""
+"Are you sure you want to deauthorize this computer from the \"%s\" account?"
+msgstr "컴퓨터와 \"%s\" 계정의 연결 권한 승인을 취소하시겠습니까?"
+
+#: ../softwarecenter/distro/__init__.py:147
+msgid "Are you sure you want to deauthorize this computer for purchases?"
+msgstr "이 컴퓨터의 구매 권한 승인을 정말 취소하시겠습니까?"
+
+#: ../softwarecenter/distro/__init__.py:149
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:69
+msgid "Deauthorize"
+msgstr "권한 승인 취소"
+
+#: ../softwarecenter/distro/__init__.py:152
+#, python-format
+msgid ""
+"Deauthorizing this computer from the \"%s\" account will remove this "
+"purchased software:"
+msgstr "이 컴퓨터와 \"%s\" 계정의 연결을 해제하면 구입한 이 소프트웨어를 제거합니다:"
+
+#: ../softwarecenter/distro/__init__.py:156
+msgid ""
+"Deauthorizing this computer for purchases will remove the following "
+"purchased software:"
+msgstr "이 컴퓨터의 구매 권한을 취소하면 구입한 다음 소프트웨어를 제거합니다:"
+
+#: ../softwarecenter/distro/ubuntu.py:77
+msgid "Lets you choose from thousands of applications available for Ubuntu."
+msgstr "우분투에서 사용할 수 있는 수천 개의 프로그램을 선택할 수 있습니다."
+
+#: ../softwarecenter/distro/ubuntu.py:86
+msgid "Provided by Ubuntu"
+msgstr "우분투가 제공함"
+
+#: ../softwarecenter/distro/ubuntu.py:96
+#, python-format
+msgid ""
+"%s is a core item in Ubuntu. Removing it may cause future upgrades to be "
+"incomplete. Are you sure you want to continue?"
+msgstr "%s은(는) 우분투의 핵심 항목입니다. 제거할 경우 향후 업그레이드를 완료할 수 없습니다. 계속 진행하시겠습니까?"
+
+#: ../softwarecenter/distro/ubuntu.py:121
+#: ../softwarecenter/distro/suselinux.py:66
+msgid "Proprietary"
+msgstr "독점"
+
+#: ../softwarecenter/distro/ubuntu.py:150
+msgid "Canonical-Maintained Software"
+msgstr "캐노니컬이 관리하는 소프트웨어"
+
+#: ../softwarecenter/distro/ubuntu.py:204
+#: ../softwarecenter/distro/ubuntu.py:217
+#, python-format
+msgid ""
+"Canonical does no longer provide updates for %s in Ubuntu %s. Updates may be "
+"available in a newer version of Ubuntu."
+msgstr "캐노니컬은 %s의 최신 버전을 우분투 %s에서 이제 제공하지 않습니다. 업데이트는 새로운 버전의 우분투에서만 가능합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:212
+#, python-format
+msgid ""
+"Canonical provides critical updates for %(appname)s until "
+"%(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"캐노니컬은 %(support_end_year)s년 %(support_end_month_str)s까지 %(appname)s에 대한 중요 "
+"업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:226
+#, python-format
+msgid ""
+"Canonical provides critical updates supplied by the developers of "
+"%(appname)s until %(support_end_month_str)s %(support_end_year)s."
+msgstr ""
+"캐노니컬은 %(support_end_year)s년 %(support_end_month_str)s까지 %(appname)s의 개발자들이 "
+"만든 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:235
+msgid "Provided by the vendor."
+msgstr "제작 업체가 제공합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:237
+#, python-format
+msgid "Canonical provides critical updates for %s."
+msgstr "캐노니컬은 %s에 대한 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:239
+#, python-format
+msgid "Canonical provides critical updates supplied by the developers of %s."
+msgstr "캐노니컬은 %s의 개발자들이 제공하는 중요 업데이트를 제공합니다."
+
+#: ../softwarecenter/distro/ubuntu.py:242
+#, python-format
+msgid ""
+"Canonical does not provide updates for %s. Some updates may be provided by "
+"the Ubuntu community."
+msgstr "캐노니컬은 %s의 업데이트를 제공하지 않습니다. 우분투 커뮤니티에서 업데이트를 제공할 수도 있습니다."
+
+#: ../softwarecenter/enums.py:29 ../softwarecenter/ui/gtk3/app.py:850
+msgid ""
+"To reinstall previous purchases, sign in to the Ubuntu Single Sign-On "
+"account you used to pay for them."
+msgstr "이전에 구입한 항목을 다시 설치하려면, 프로그램 가격을 지출한 우분투 단일 계정으로 로그인하세요."
+
+#: ../softwarecenter/enums.py:132
+msgid "Most helpful first"
+msgstr "유용한 것을 처음으로"
+
+#: ../softwarecenter/enums.py:132
+msgid "Newest first"
+msgstr "새 항목을 처음으로"
+
+#. normal tags
+#: ../softwarecenter/hw.py:29
+msgid "webcam"
+msgstr "웹 카메라"
+
+#: ../softwarecenter/hw.py:30
+msgid "digicam"
+msgstr "디지털 카메라"
+
+#: ../softwarecenter/hw.py:31
+msgid "mouse"
+msgstr "마우스"
+
+#: ../softwarecenter/hw.py:32
+msgid "joystick"
+msgstr "조이스틱"
+
+#: ../softwarecenter/hw.py:33
+msgid "touchscreen"
+msgstr "터치 스크린"
+
+#: ../softwarecenter/hw.py:34
+msgid "GPS"
+msgstr "GPS"
+
+#: ../softwarecenter/hw.py:35
+msgid "notebook computer"
+msgstr "노트북 컴퓨터"
+
+#: ../softwarecenter/hw.py:36
+msgid "printer"
+msgstr "프린터"
+
+#: ../softwarecenter/hw.py:37
+msgid "scanner"
+msgstr "스캐너"
+
+#: ../softwarecenter/hw.py:38
+msgid "CD drive"
+msgstr "CD 드라이브"
+
+#: ../softwarecenter/hw.py:39
+msgid "CD burner"
+msgstr "기록 가능한 CD 드라이브"
+
+#: ../softwarecenter/hw.py:40
+msgid "DVD drive"
+msgstr "DVD 드라이브"
+
+#: ../softwarecenter/hw.py:41
+msgid "DVD burner"
+msgstr "기록 가능한 DVD 드라이브"
+
+#: ../softwarecenter/hw.py:42
+msgid "floppy disk drive"
+msgstr "플로피 디스트 드라이브"
+
+#: ../softwarecenter/hw.py:43
+msgid "OpenGL hardware acceleration"
+msgstr "OpenGL 하드웨어 가속"
+
+#. "special" private tag extension that needs special handling
+#: ../softwarecenter/hw.py:45
+#, python-format
+msgid "Graphics driver that is not %s"
+msgstr "그래픽 드라이버가 %s이(가) 아닙니다."
+
+#: ../softwarecenter/hw.py:49
+msgid ""
+"This software requires a digital camera, but none are currently connected"
+msgstr "이 소프트웨어는 디지털 카메라가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:51
+msgid ""
+"This software requires a video camera, but none are currently connected"
+msgstr "이 소프트웨어는 비디오 카메라가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:53
+msgid "This software requires a mouse, but none is currently set up."
+msgstr "이 소프트웨어는 마우스가 필요하지만 설정한 마우스가 없습니다."
+
+#: ../softwarecenter/hw.py:55
+msgid "This software requires a joystick, but none are currently connected."
+msgstr "이 소프트웨어는 조이스틱이 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:57
+msgid ""
+"This software requires a touchscreen, but the computer does not have one."
+msgstr "이 소프트웨어는 터치 스크린이 필요합니다 하지만 이 컴퓨터에서 찾을 수 없습니다."
+
+#: ../softwarecenter/hw.py:59
+msgid "This software requires a GPS, but the computer does not have one."
+msgstr "이 소프트웨어는 GPS가 필요합니다 하지만 이 컴퓨터에서 찾을 수 없습니다."
+
+#: ../softwarecenter/hw.py:61
+msgid "This software is for notebook computers."
+msgstr "이 소프트웨어는 노트북 컴퓨터 용입니다."
+
+#: ../softwarecenter/hw.py:62
+msgid "This software requires a printer, but none are currently set up."
+msgstr "이 소프트웨어는 프린터가 필요하지만 아직 설정하지 않았습니다."
+
+#: ../softwarecenter/hw.py:64
+msgid "This software requires a scanner, but none are currently set up."
+msgstr "이 소프트웨어는 스캐너가 필요하지만 아직 설정하지 않았습니다."
+
+#: ../softwarecenter/hw.py:66
+msgid "This software requires a CD drive, but none are currently connected."
+msgstr "이 소프트웨어는 CD 드라이브가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:68
+msgid "This software requires a CD burner, but none are currently connected."
+msgstr "이 소프트웨어는 기록 가능한 CD 드라이브가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:70
+msgid "This software requires a DVD drive, but none are currently connected."
+msgstr "이 소프트웨어는 DVD 드라이브가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:72
+msgid ""
+"This software requires a DVD burner, but none are currently connected."
+msgstr "이 소프트웨어는 기록 가능한 DVD 드라이브가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:74
+msgid ""
+"This software requires a floppy disk drive, but none are currently connected."
+msgstr "이 소프트웨어는 플로피 디스크 드라이브가 필요하지만 아직 연결하지 않았습니다."
+
+#: ../softwarecenter/hw.py:76
+msgid "This computer does not have graphics fast enough for this software."
+msgstr "컴퓨터에 이 소프트웨어를 실행할 수 있을 정도로 빠른 그래픽 카드가 없습니다."
+
+#. private extension
+#: ../softwarecenter/hw.py:79
+#, python-format
+msgid ""
+"This software does not work with the “%s” graphics driver this computer is "
+"using."
+msgstr "이 컴퓨터가 사용하는 그래픽 드라이버 \"%s\"(으)로는 이 소프트웨어를 사용할 수 없습니다."
+
+#. warning displayed if region does not match
+#: ../softwarecenter/region.py:34
+msgid "Sorry, this software is not available in your region."
+msgstr "죄송합니다. 사용자의 지역에서는 사용할 수 없습니다."
+
+#. less than 2 minute ago
+#: ../softwarecenter/utils.py:579
+msgid "a few minutes ago"
+msgstr "수 분 전"
+
+#. don't be fussy
+#. less than an hour ago
+#: ../softwarecenter/utils.py:582
+#, python-format
+msgid "%(min)i minute ago"
+msgid_plural "%(min)i minutes ago"
+msgstr[0] "%(min)i분 전"
+
+#. less than a day ago
+#: ../softwarecenter/utils.py:587
+#, python-format
+msgid "%(hours)i hour ago"
+msgid_plural "%(hours)i hours ago"
+msgstr[0] "%(hours)i시간 전"
+
+#. less than a week ago
+#: ../softwarecenter/utils.py:591
+#, python-format
+msgid "%(days)i day ago"
+msgid_plural "%(days)i days ago"
+msgstr[0] "%(days)i일 전"
+
+#. TRANSLATORS: this is a generic list delimit char, e.g. "foo, bar"
+#: ../softwarecenter/utils.py:795
+msgid ", "
+msgstr ", "
+
+#. TRANSLATORS: this is the last part of a list, e.g. "foo, bar and baz"
+#: ../softwarecenter/utils.py:797
+#, python-format
+msgid "%s and %s"
+msgstr "%s, %s"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:1
+msgid "_Go Back"
+msgstr "뒤로(_G)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:2
+msgid "_Go Forward"
+msgstr "앞으로(_G)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:3
+msgid "©2009–2013 Canonical"
+msgstr "©2009–2013 Canonical"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:4
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Bundo https://launchpad.net/~kang-bundo\n"
+"  DoHwan Kim https://launchpad.net/~koxel\n"
+"  FreaxTux https://launchpad.net/~freaxtux\n"
+"  Hongjune Kim https://launchpad.net/~prolinko\n"
+"  Huioon Kim https://launchpad.net/~pcandme\n"
+"  Jaesung https://launchpad.net/~jaesung\n"
+"  Jinkyu Yi https://launchpad.net/~jincreator\n"
+"  Kim Boram https://launchpad.net/~boramism\n"
+"  Kim Hyunsoo https://launchpad.net/~khs1778\n"
+"  Koongchi https://launchpad.net/~kama8644-g\n"
+"  MinSik CHO https://launchpad.net/~mscho527\n"
+"  MinSoo Kim https://launchpad.net/~misol\n"
+"  Namhyung Kim https://launchpad.net/~namhyung\n"
+"  Sangkeun Park https://launchpad.net/~sangkeun\n"
+"  Seo JangHo https://launchpad.net/~aljjam\n"
+"  Seonghun Lim https://launchpad.net/~wariua\n"
+"  Seung Soo, Ha https://launchpad.net/~sungsuha\n"
+"  Thedis https://launchpad.net/~levy27\n"
+"  atto https://launchpad.net/~kpsman\n"
+"  han9k https://launchpad.net/~hjyoo\n"
+"  sangho https://launchpad.net/~sangho\n"
+"  sungyup https://launchpad.net/~nhamfnad"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:5
+msgid "_File"
+msgstr "파일(_F)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:6
+msgid "_Install"
+msgstr "설치(_I)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:7
+msgid "Reinstall Previous _Purchases…"
+msgstr "이전에 구입한 항목 다시 설치(_P)..."
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:8
+msgid "_Deauthorize Computer…"
+msgstr "컴퓨터 인증 해제(_D)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:9
+msgid "Sync Between Computers…"
+msgstr "컴퓨터 간 동기화…"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:10
+msgid "_Edit"
+msgstr "편집(_E)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:11
+msgid "Copy _Web Link"
+msgstr "웹 주소 복사(_W)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:12
+msgid "Search…"
+msgstr "검색…"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:13
+msgid "_Software Sources…"
+msgstr "소프트웨어 소스(_S)…"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:14
+msgid "_View"
+msgstr "보기(_V)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:15
+msgid "_All Software"
+msgstr "모든 소프트웨어(_A)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:16
+msgid "_Canonical-Maintained Software"
+msgstr "케노니컬이 관리하는 소프트웨어(_C)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:17
+msgid "_New Applications in Launcher"
+msgstr "새 프로그램 런처에 고정(_N)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:18 ../softwarecenter/ui/gtk3/app.py:589
+msgid "Turn On Recommendations…"
+msgstr "추천 기능 끄기..."
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:19
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:20
+msgid "For Software _Developers"
+msgstr "소프트웨어 개발자(_D)"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:21
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:38
+msgid "Terms of Use"
+msgstr "이용 약관"
+
+#: ../data/ui/gtk3/SoftwareCenter.ui.h:22
+msgid "Updating software catalog…"
+msgstr "소프트웨어 카탈로그 업데이트 중…"
+
+#: ../data/ui/gtk3/dialogs.ui.h:1
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:709
+msgid "Cancel"
+msgstr "취소"
+
+#: ../data/ui/gtk3/dialogs.ui.h:3
+msgid ""
+"<span weight=\"bold\" font_size=\"large\">New software can’t be installed, \n"
+"because there is a problem with the software currently installed. Do you "
+"want to repair this problem now?</span>"
+msgstr ""
+"<span weight=\"bold\" font_size=\"large\">현재 설치한 버전에 문제가 있어\n"
+"새 소프트웨어를 설치할 수 없습니다,  지금 이 문제를 해결하시겠습니까?</span>"
+
+#: ../data/ui/gtk3/dialogs.ui.h:5
+msgid " "
+msgstr " "
+
+#: ../data/ui/gtk3/dialogs.ui.h:6
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:369
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:84
+msgid "Remove"
+msgstr "제거"
+
+#: ../data/ui/gtk3/dialogs.ui.h:8
+#, no-c-format
+msgid "There was a problem posting this review to %s"
+msgstr "이 평가를 %s(으)로 전송하던 중 문제가 발생했습니다."
+
+#: ../data/ui/gtk3/dialogs.ui.h:10
+#, no-c-format
+msgid "%s had not responded within 30 seconds."
+msgstr "%s이(가) 30초 동안 응답이 없습니다."
+
+#: ../data/ui/gtk3/dialogs.ui.h:11
+msgid "Retry"
+msgstr "다시 시도"
+
+#: ../data/ui/gtk3/dialogs.ui.h:12
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:438
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:442
+msgid "OK"
+msgstr "예"
+
+#: ../data/ui/gtk3/dialogs.ui.h:14
+#, no-c-format
+msgid ""
+"<span weight=\"bold\" font_size=\"large\">Sorry, %s can't be installed at "
+"the moment. Try again in a day or two.</span>"
+msgstr ""
+"<span weight=\"bold\" font_size=\"large\">죄송합니다, 지금은 %s을(를) 설치할 수 없습니다. 하루나 "
+"이틀 뒤 다시 시도해주십시오.</span>"
+
+#: ../data/ui/gtk3/dialogs.ui.h:15
+#: ../softwarecenter/ui/gtk3/dialogs/__init__.py:94
+msgid "Details"
+msgstr "자세한 내용"
+
+#: ../data/ui/gtk3/report_abuse.ui.h:1 ../data/ui/gtk3/submit_review.ui.h:1
+#: ../data/ui/gtk3/submit_usefulness.ui.h:1
+msgid "label"
+msgstr "레이블"
+
+#: ../data/ui/gtk3/report_abuse.ui.h:2
+#: ../data/ui/gtk3/submit_usefulness.ui.h:2
+msgid "Thank you."
+msgstr "감사합니다."
+
+#: ../data/ui/gtk3/report_abuse.ui.h:3
+msgid "Report"
+msgstr "보고서"
+
+#: ../data/ui/gtk3/report_abuse.ui.h:4 ../data/ui/gtk3/submit_review.ui.h:8
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:750
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1263
+msgid "Error Details"
+msgstr "오류의 자세한 내용"
+
+#: ../data/ui/gtk3/submit_review.ui.h:2
+msgid "<small>Be brief and informative. Do not post bug reports.</small>"
+msgstr "<small>솔직하고 자세히 써 주세요. 버그를 보고하지 말아주십시오.</small>"
+
+#: ../data/ui/gtk3/submit_review.ui.h:3
+msgid "<small>More…</small>"
+msgstr "<small>자세히…</small>"
+
+#: ../data/ui/gtk3/submit_review.ui.h:4
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:715
+msgid "Yes"
+msgstr "확인"
+
+#: ../data/ui/gtk3/submit_review.ui.h:5
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:717
+msgid "No"
+msgstr "아니요"
+
+#: ../data/ui/gtk3/submit_review.ui.h:6
+msgid ""
+"You have started a review, are you really sure you want to cancel now?"
+msgstr "평가 작성을 시작했습니다. 정말 취소하시겠습니까?"
+
+#: ../data/ui/gtk3/submit_review.ui.h:7
+msgid "Publish"
+msgstr "발행"
+
+#: ../data/ui/gtk3/submit_usefulness.ui.h:3
+msgid "Submit"
+msgstr "제출"
+
+#: ../softwarecenter/db/debfile.py:77
+#, python-format
+msgid "The file “%s” does not exist."
+msgstr "파일 “%s”이(가) 존재하지 않습니다."
+
+#: ../softwarecenter/db/debfile.py:81
+#, python-format
+msgid "The file “%s” is not a software package."
+msgstr "파일 “%s”은(는) 소프트웨어 패키지가 아닙니다."
+
+#. deb files which are corrupt
+#. or unknown error, but we are in string freeze,
+#. should never happen anyway
+#: ../softwarecenter/db/debfile.py:94
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:566
+msgid "Internal Error"
+msgstr "내부 오류"
+
+#: ../softwarecenter/db/debfile.py:95 ../softwarecenter/ui/gtk3/app.py:1299
+#, python-format
+msgid "The file “%s” could not be opened."
+msgstr "파일 “%s”을(를) 열 수 없습니다."
+
+#: ../softwarecenter/db/debfile.py:203
+msgid "Only install this file if you trust the origin."
+msgstr "파일의 출처를 믿을 수 있을 때만 설치하십시오."
+
+#: ../softwarecenter/db/debfile.py:208 ../softwarecenter/db/debfile.py:212
+#, python-format
+msgid ""
+"Please install \"%s\" via your normal software channels. Only install this "
+"file if you trust the origin."
+msgstr "기본 소프트웨어 채널을 통해 \"%s\"을(를) 설치하십시오. 반드시 출처를 믿을 수 있을 경우에만 설치하십시오."
+
+#: ../softwarecenter/db/debfile.py:216
+#, python-format
+msgid ""
+"An older version of \"%s\" is available in your normal software channels. "
+"Only install this file if you trust the origin."
+msgstr ""
+"기본 소프트웨어 채널을 통해 이전 버전의 \"%s\"을(를) 사용할 수 있습니다. 반드시 출처를 믿을 수 있을 경우에만 설치하십시오."
+
+#: ../softwarecenter/distro/suselinux.py:45
+msgid "Lets you choose from thousands of applications available."
+msgstr "우분투에서 사용할 수 있는 수천 개의 프로그램을 선택할 수 있습니다."
+
+#: ../softwarecenter/distro/suselinux.py:53
+msgid "Provided by openSUSE"
+msgstr "오픈 수세 제공"
+
+#: ../softwarecenter/ui/gtk3/app.py:317
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:128
+msgid "Sorry, can not open the software database"
+msgstr "죄송합니다. 소프트웨어 데이터베이스를 열 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/app.py:318
+#: ../softwarecenter/ui/gtk3/dialogs/deauthorize_dialog.py:129
+msgid "Please re-install the 'software-center' package."
+msgstr "'software-center' 패키지를 다시 설치하십시오."
+
+#. TRANSLATORS: this is the help menuitem label,
+#. e.g. Ubuntu Software Center _Help
+#: ../softwarecenter/ui/gtk3/app.py:416
+#, python-format
+msgid "%s _Help"
+msgstr "%s 도움말(_H)"
+
+#: ../softwarecenter/ui/gtk3/app.py:586
+msgid "Turn Off Recommendations"
+msgstr "추천 기능 끄기."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:268
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1324
+msgid "Failed to delete review"
+msgstr "평가를 삭제할 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:348
+msgid "Server's response was:"
+msgstr "서버의 응답:"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:350
+#, python-format
+msgid ""
+"%s\n"
+"%s"
+msgstr ""
+"%s\n"
+"%s"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:352
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:357
+msgid ""
+"Unknown error communicating with server. Check your log and consider raising "
+"a bug report if this problem persists"
+msgstr "서버 통신에서 알 수 없는 오류가 발생했습니다. 이 문제가 계속된다면 기록 파일을 확인한 후 버그를 보고해주십시오."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:427
+msgid "Signing in…"
+msgstr "로그인 중…"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:452
+msgid ""
+"To review software or to report abuse you need to sign in to a Ubuntu Single "
+"Sign-On account."
+msgstr "소프트웨어를 평가하거나 나쁜 것을 보고하려면 우분투 단일 접속 계정에 등록해야 합니다."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:466
+msgid "Login was canceled"
+msgstr "로그인을 취소했습니다."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:492
+msgid "Failed to log in"
+msgstr "로그인 실패"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:589
+msgid "Submitting Review"
+msgstr "평가 제출"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:590
+msgid "Failed to submit review"
+msgstr "평가를 제출하는데 실패하였습니다."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:591
+msgid "Review submitted"
+msgstr "리뷰를 제출했습니다"
+
+#. legal fineprint, do not change without consulting a lawyer
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:598
+msgid ""
+"By submitting this review, you agree not to include anything defamatory, "
+"infringing, or illegal. Canonical may, at its discretion, publish your name "
+"and review in Ubuntu Software Center and elsewhere, and allow the software "
+"or content author to publish it too."
+msgstr ""
+"평가를 제출할 때는 비방, 계약 위반 또는 불법적인 것을 포함해서는 안됩니다. 캐노니컬 사는 재량에 의해 사용자의 이름과 평가를 우분투 "
+"소프트웨어 센터나 기타 장소에 발표할 수 있고, 소프트웨어나 콘텐츠의 저자 역시 발표할 수 있습니다."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:684
+#, python-format
+msgid "Review %s"
+msgstr "%s 평가"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:689
+#, python-format
+msgid "Modify Your %(appname)s Review"
+msgstr "%(appname)s에 대한 평가 수정"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:691
+msgid "Modify"
+msgstr "수정"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:692
+msgid "Updating your review"
+msgstr "평가 업데이트 중"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:693
+msgid "Failed to edit review"
+msgstr "평가를 편집할 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:694
+msgid "Review updated"
+msgstr "평가를 업데이트함"
+
+#. review label
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:740
+#, python-format
+msgid "Review by: %s"
+msgstr "평가한 사람: %s"
+
+#. review summary label
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:744
+msgid "Summary:"
+msgstr "요약:"
+
+#. rating label
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:747
+msgid "Rating:"
+msgstr "평점:"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:787
+msgid "Can't submit unmodified"
+msgstr "수정하지 않고 제출할 수 없음"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:942
+#, python-format
+msgid "Also post this review to %s (@%s)"
+msgstr "이 평가를 %s (@%s)에도 게시합니다"
+
+#. setup accounts combo
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:956
+msgid "Also post this review to: "
+msgstr "다음 장소에도 이 평가를 제출: "
+
+#. add "all" to both combo and accounts (the later is only pseudo)
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:963
+msgid "All my Gwibber services"
+msgstr "나의 모든 그위버 서비스"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:978
+#, python-format
+msgid "Posting to %s"
+msgstr "%s에 게시"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1101
+msgid "Problems posting to Gwibber"
+msgstr "지위버에 게시할 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1117
+#, python-format
+msgid "There was a problem posting this review to %s."
+msgid_plural "There was a problem posting this review to %s."
+msgstr[0] "이 평가를 %s에 보내는 중 오류가 발생했습니다."
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1140
+#, python-format
+msgid "reviewed %(appname)s in Ubuntu: %(rating)s %(summary)s %(link)s"
+msgstr "우분투에서 %(appname)s을(를) 평가함: %(rating)s %(summary)s %(link)s"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1181
+msgid "Sending report…"
+msgstr "보고서를 보내고 있습니다…"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1182
+msgid "Failed to submit report"
+msgstr "보고서를 제출할 수 없습니다"
+
+#. title
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1197
+msgid "Flag as Inappropriate"
+msgstr "부적절한 것으로 표시"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1214
+msgid "Please make a selection…"
+msgstr "선택하십시오…"
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review
+#. inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1220
+msgid "Offensive language"
+msgstr "저속한 언어 사용"
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review
+#. inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1226
+msgid "Infringes copyright"
+msgstr "저작권 침해"
+
+#. TRANSLATORS: The following is one entry in a combobox that is
+#. located directly beneath a label asking 'Why is this review
+#. inappropriate?'.
+#. This text refers to a possible reason for why the corresponding
+#. review is being flagged as inappropriate.
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1232
+msgid "Contains inaccuracies"
+msgstr "부정확한 것을 포함"
+
+#. report label
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1255
+msgid "Please give details:"
+msgstr "자세한 내용을 작성하세요:"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1259
+msgid "Why is this review inappropriate?"
+msgstr "왜 이 평가가 부적절합니까?"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1282
+msgid "Sending usefulness…"
+msgstr "유용한 정도 보내는 중…"
+
+#: ../softwarecenter/ui/gtk3/review_gui_helper.py:1323
+msgid "Deleting review…"
+msgstr "평가 삭제…"
+
+#. buttons
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:40
+msgid "Decline"
+msgstr "거부"
+
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:41
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:51
+msgid "Accept"
+msgstr "수락"
+
+#. label
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:43
+msgid "One moment, please…"
+msgstr "잠시만 기다려주십시오..."
+
+#: ../softwarecenter/ui/gtk3/dialogs/dialog_tos.py:79
+msgid "Do you accept these terms?"
+msgstr "이 약관을 수락하시겠습니까?"
+
+#. add the dependencies
+#: ../softwarecenter/ui/gtk3/dialogs/dependency_dialogs.py:109
+msgid "Dependency"
+msgstr "의존성"
+
+#: ../softwarecenter/ui/gtk3/models/appstore2.py:80
+msgid "Uncategorized"
+msgstr "분류 없음"
+
+#: ../softwarecenter/ui/gtk3/models/pendingstore.py:91
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:329
+msgid "Installing purchase…"
+msgstr "구입한 항목을 설치하는 중…"
+
+#: ../softwarecenter/ui/gtk3/models/pendingstore.py:175
+#, python-format
+msgid "Downloaded %s of %s"
+msgstr "%s / %s 다운로드함"
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:166
+msgid "Get Software"
+msgstr "소프트웨어 얻기"
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:315
+msgid "Failure in the purchase process."
+msgstr "구매 절치를 진행할 수 없습니다."
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:316
+msgid "Sorry, something went wrong. Your payment has been cancelled."
+msgstr "죄송합니다. 문제가 발생했습니다. 결재를 취소했습니다."
+
+#: ../softwarecenter/ui/gtk3/panes/availablepane.py:537
+#, python-format
+msgid "Install %(amount)s Item"
+msgid_plural "Install %(amount)s Items"
+msgstr[0] "%(amount)s개의 항목 설치"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:71
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:95
+msgid "History"
+msgstr "기록"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:89
+msgid "All Changes"
+msgstr "모든 바뀐 내용"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:96
+msgid "Installations"
+msgstr "설치한 항목"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:102
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1306
+msgid "Updates"
+msgstr "업데이트한 항목"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:108
+msgid "Removals"
+msgstr "제거한 항목"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:128
+msgid "Loading history"
+msgstr "기록 불러오기"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:144
+msgid "Date"
+msgstr "날짜"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:349
+msgid "Today"
+msgstr "오늘"
+
+#. Current week, display the name of the day
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:352
+msgid "%A"
+msgstr "%A"
+
+#. Current year, display the day and month
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:356
+msgid "%d %B"
+msgstr "%B %d일"
+
+#. Display the full date: day, month, year
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:359
+msgid "%d %B %Y"
+msgstr "%Y년 %B %d일"
+
+#. Translators : time displayed in history, display hours
+#. (0-12), minutes and AM/PM. %H should be used instead
+#. of %I to display hours 0-24
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:370
+msgid "%I:%M %p"
+msgstr "%p %I:%M"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:375
+#, python-format
+msgid "installed %s"
+msgstr "%s 설치함"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:377
+#, python-format
+msgid "removed %s"
+msgstr "%s 제거함"
+
+#: ../softwarecenter/ui/gtk3/panes/historypane.py:379
+#, python-format
+msgid "updated %s"
+msgstr "%s 업데이트함"
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:100
+msgid "Installed Software"
+msgstr "설치한 소프트웨어"
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:135
+#, python-format
+msgid "This computer (%s)"
+msgstr "이 컴퓨터 (%s)"
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:170
+#, python-format
+msgid "Stop Syncing “%s”"
+msgstr "“%s” 동기화 정지"
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:516
+#, python-format
+msgid "%(amount)s item on “%(machine)s” not on this computer"
+msgid_plural "%(amount)s items on “%(machine)s” not on this computer"
+msgstr[0] "이 컴퓨터에 있지 않고 “%(machine)s”에 있는%(amount)s개의 항목"
+
+#: ../softwarecenter/ui/gtk3/panes/installedpane.py:540
+#, python-format
+msgid "%(amount)s item on this computer not on “%(machine)s”"
+msgid_plural "%(amount)s items on this computer not on “%(machine)s”"
+msgstr[0] "“%(machine)s”에 있지 않고 이 컴퓨터에 있는 %(amount)s개의 항목"
+
+#: ../softwarecenter/ui/gtk3/panes/pendingpane.py:40
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:99
+msgid "Progress"
+msgstr "진행"
+
+#. TRANSLATORS: the text in between the underscores acts as a link
+#. In most/all languages you will want the whole string as a link
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:299
+#, python-format
+msgid "_Hide %(amount)i technical item_"
+msgid_plural "_Hide %(amount)i technical items_"
+msgstr[0] "_%(amount)i개 기술 항목 숨기기_"
+
+#: ../softwarecenter/ui/gtk3/panes/softwarepane.py:305
+#, python-format
+msgid "_Show %(amount)i technical item_"
+msgid_plural "_Show %(amount)i technical items_"
+msgstr[0] "_%(amount)i개 기술 항목 보이기_"
+
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:89
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:365
+msgid "Installed"
+msgstr "설치함"
+
+#: ../softwarecenter/ui/gtk3/panes/viewswitcher.py:103
+msgid "Software sources"
+msgstr "소프트웨어 소스"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:278
+msgid "default"
+msgstr "기본값"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:326
+msgid "Installing…"
+msgstr "설치 중…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:333
+msgid "Removing…"
+msgstr "제거 중…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:336
+msgid "Upgrading…"
+msgstr "업그레이드 중…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:344
+msgid "Installed (you’re using it right now)"
+msgstr "설치한 프로그램"
+
+#. TRANSLATORS : %Y-%m-%d formats the date as 2011-03-31,
+#. please specify a format per your locale (if you prefer,
+#. %x can be used to provide a default locale-specific date
+#. representation)
+#. TRANSLATORS : %Y-%m-%d formats the date as 2011-03-31, please
+#. specify a format per your locale (if you prefer, %x can be used
+#. to provide a default locale-specific date representation)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:355
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:389
+msgid "Purchased on %Y-%m-%d"
+msgstr "%Y년 %m월 %d일 에 구입함"
+
+#. TRANSLATORS : %Y-%m-%d formats the date as 2011-03-31,
+#. please specify a format per your locale (if you prefer,
+#. %x can be used to provide a default locale-specific date
+#. representation)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:361
+msgid "Installed on %Y-%m-%d"
+msgstr "%Y년 %m월 %d일에 설치함"
+
+#. only deb files atm
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:367
+msgid "Reinstall"
+msgstr "다시 설치"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:374
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:85
+msgid "Buy…"
+msgstr "구입…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:376
+msgid "Buy Anyway…"
+msgstr "그래도 구입…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:378
+msgid "Change"
+msgstr "바꾸기"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:390
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:409
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:83
+msgid "Install"
+msgstr "설치"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:393
+msgid ""
+"Purchased on %Y-%m-%d but not available for your current Ubuntu version. "
+"Please contact the vendor for an update."
+msgstr "%Y-%m-%d에 구입했습니다 하지만 현재 우분투에서 사용할 수 없습니다.  제작 업체에서 업데이트를 확인하십시오."
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:403
+msgid "Removed (close it and it’ll be gone)"
+msgstr "제거함 (닫으면 사라집니다_"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:413
+msgid "Upgrade Available"
+msgstr "업그레이드 사용 가능"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:414
+msgid "Upgrade"
+msgstr "업그레이드"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:416
+msgid "Changing Add-ons…"
+msgstr "확장 기능 바꾸는 중…"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:437
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:440
+msgid "Use This Source"
+msgstr "이 소스 사용"
+
+#. FIXME: This will currently not be displayed,
+#. because we don't differentiate between
+#. components that are not enabled or that just
+#. lack the "Packages" files (but are in sources.list)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:446
+msgid "Update Now"
+msgstr "지금 업데이트"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:641
+msgid "Optional add-ons"
+msgstr "추가 프로그램"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:707
+msgid "Apply Changes"
+msgstr "바뀐 내용 적용"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:967
+msgid "Checking for reviews..."
+msgstr "평가를 확인하고 있습니다..."
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1067
+#, python-format
+msgid "Connection ... (%s%%)"
+msgstr "연결 ...(%s%%)"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1072
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1075
+msgid "Connected"
+msgstr "연결함"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1079
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1085
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1237
+msgid "Test drive"
+msgstr "테스트 드라이브"
+
+#. info header
+#. ~ self.info_header = Gtk.Label()
+#. ~ self.info_header.set_markup('<big><b>%s</b></big>' % _("Details"))
+#. ~ self.info_header.set_alignment(0, 0.5)
+#. ~ self.info_header.set_padding(0, 6)
+#. ~ self.info_header.set_use_markup(True)
+#. ~ info_vb.pack_start(self.info_header, False, False, 0)
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1294
+msgid "Version"
+msgstr "버전"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1297
+msgid "Also requires"
+msgstr "추가로 필요함"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1300
+msgid "Total size"
+msgstr "전체 크기"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1303
+msgid "License"
+msgstr "라이선스"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1421
+msgid "Developer Web Site"
+msgstr "개발자 웹사이트"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1429
+msgid "Support Web Site"
+msgstr "지원 웹 사이트"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1485
+#, python-format
+msgid "%s (unknown version)"
+msgstr "%s (알 수 없는 버전)"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1595
+msgid "This program is run from a terminal: "
+msgstr "이 프로그램은 터미널에서 실행합니다: "
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1596
+msgid "These programs are run from a terminal: "
+msgstr "이 프로그램은 터미널에서 실행합니다: "
+
+#. display launcher location
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1621
+msgid "Find it in the menu: "
+msgstr "메뉴에서 찾기: "
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1629
+msgid "Activities"
+msgstr "활동"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1776
+msgid "Version unknown"
+msgstr "버전을 알 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1777
+msgid ""
+"The version of the application can not be detected. Entering a review is not "
+"possible."
+msgstr "이 버전의 프로그램을 찾을 수 없습니다. 평가를 작성할 수 없습니다."
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1789
+msgid "Origin unknown"
+msgstr "출처를 알 수 없습니다"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:1790
+msgid ""
+"The origin of the application can not be detected. Entering a review is not "
+"possible."
+msgstr "프로그램의 출처를 알 수 없습니다. 평가를 작성할 수 없습니다."
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2026
+msgid "Calculating..."
+msgstr "계산 중..."
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2051
+#, python-format
+msgid "%s to download, "
+msgstr "%s 다운로드함, "
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2054
+#, python-format
+msgid "%s when installed"
+msgstr "설치한 후 %s 사용"
+
+#. FIXME: this is not really a good indication of the size
+#. on disk
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2067
+#, python-format
+msgid "%s on disk"
+msgstr "디스크에서 %s 사용"
+
+#: ../softwarecenter/ui/gtk3/views/appdetailsview.py:2070
+#, python-format
+msgid "%s to be freed"
+msgstr "%s을(를) 비웁니다."
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:141
+msgid "By Name"
+msgstr "이름으로"
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:142
+msgid "By Top Rated"
+msgstr "가장 높은 평점부터"
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:143
+msgid "By Newest First"
+msgstr "가장 새 것을 처음으로"
+
+#: ../softwarecenter/ui/gtk3/views/appview.py:144
+#: ../softwarecenter/ui/gtk3/views/appview.py:154
+msgid "By Relevance"
+msgstr "관련성으로"
+
+#: ../softwarecenter/ui/gtk3/views/catview.py:116
+#: ../softwarecenter/ui/gtk3/views/lobbyview.py:325
+msgid "Departments"
+msgstr "분야"
+
+#. FIXME: should this be m = "%s %s" % (_(gettext text), header text) ??
+#. TRANSLATORS: %s is a category name, like Internet or Development
+#. Tools
+#: ../softwarecenter/ui/gtk3/views/catview.py:233
+#, python-format
+msgid "Top Rated %(category)s"
+msgstr "최고 평점을 받은 %(category)s"
+
+#. append an additional button to show all of the items in the category
+#: ../softwarecenter/ui/gtk3/views/catview.py:313
+#: ../softwarecenter/ui/gtk3/views/catview.py:315
+msgid "All"
+msgstr "모두"
+
+#: ../softwarecenter/ui/gtk3/views/catview.py:339
+#, python-format
+msgid "%(amount)s item available"
+msgid_plural "%(amount)s items available"
+msgstr[0] "%(amount)s개 항목 사용 가능"
+
+#: ../softwarecenter/ui/gtk3/views/lobbyview.py:223
+msgid "Top Rated"
+msgstr "최고 평점"
+
+#: ../softwarecenter/ui/gtk3/views/lobbyview.py:311
+#, python-format
+msgid "%(amount)s item"
+msgid_plural "%(amount)s items"
+msgstr[0] "%(amount)s개의 항목"
+
+#: ../softwarecenter/ui/gtk3/views/purchaseview.py:81
+msgid "Connecting to payment service..."
+msgstr "결제 서비스 접속 중..."
+
+#: ../softwarecenter/ui/gtk3/widgets/apptreeview.py:77
+msgid "More Info"
+msgstr "더 많은 정보"
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:45
+msgid "History Navigation"
+msgstr "기록으로 이동"
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:46
+msgid "Navigate forwards and backwards."
+msgstr "앞 페이지와 뒤 페이지로 이동합니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:86
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:97
+msgid "Back Button"
+msgstr "뒤로 가기 단추"
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:87
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:98
+msgid "Navigates back."
+msgstr "뒤로 갑니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:91
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:103
+msgid "Forward Button"
+msgstr "앞으로 가기 단추"
+
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:92
+#: ../softwarecenter/ui/gtk3/widgets/backforward.py:104
+msgid "Navigates forward."
+msgstr "앞으로 갑니다."
+
+#. TRANSLATORS: this is an accessibility description for eg orca and
+#. is not visible in the ui
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:234
+#, python-format
+msgid "%(stars)d stars - %(reviews)d reviews"
+msgstr "평점 %(stars)d - 평가 %(reviews)d개"
+
+#: ../softwarecenter/ui/gtk3/widgets/buttons.py:583
+msgid "More"
+msgstr "기타"
+
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:88
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:94
+msgid "Our star apps"
+msgstr "개발자 추천 프로그램"
+
+#: ../softwarecenter/ui/gtk3/widgets/exhibits.py:95
+msgid "Come and explore our favourites"
+msgstr "개발자가 추천하는 프로그램입니다"
+
+#. TRANSLATORS: this is a substring that used to build the
+#. "hardware-supported" string, where sym is
+#. either a unicode checkmark or a cross
+#. and hardware is the short hardware description
+#. Note that this is the last substr, no trailing ","
+#: ../softwarecenter/ui/gtk3/widgets/labels.py:40
+#, python-format
+msgid "%(sym)s%(hardware)s"
+msgstr "%(sym)s%(hardware)s"
+
+#. TRANSLATORS: this is a substring that used to build the
+#. "hardware-supported" string, where sym is
+#. either a unicode checkmark or a cross
+#. and hardware is the short hardware description
+#. Note that the trailing ","
+#: ../softwarecenter/ui/gtk3/widgets/labels.py:47
+#, python-format
+msgid "%(sym)s%(hardware)s,"
+msgstr "%(sym)s%(hardware)s,"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:110
+msgid "Reviews"
+msgstr "평가"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:137
+msgid "Any language"
+msgstr "모든 언어"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:146
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:288
+msgid "Write your own review"
+msgstr "평가를 작성하세요"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:210
+msgid "Be the first to review it"
+msgstr "첫 번째로 평가를 작성해 보세요."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:217
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:929
+msgid "You need to install this before you can review it"
+msgstr "프로그램을 설치해야만 평가를 작성할 수 있습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:234
+msgid "No network connection"
+msgstr "네트워크 연결 없음"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:235
+msgid "Connect to the Internet to see more reviews."
+msgstr "더 많은 평가를 보려면 인터넷에 연결하십시오."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:306
+msgid "Check for more reviews"
+msgstr "더 많은 평가 확인"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:498
+msgid "Submitting now…"
+msgstr "지금 전송 중…"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:510
+msgid "Error submitting usefulness"
+msgstr "유용한 정도를 보내던 중 오류가 발생했습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:548
+msgid "Deleting now…"
+msgstr "지금 삭제합니다…"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:560
+msgid "Error deleting review"
+msgstr "평가 삭제 오류"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:562
+msgid "Error modifying review"
+msgstr "평가 수정 오류"
+
+#. default string
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:624
+#, python-format
+msgid "For version %(version)s"
+msgstr "버전 %(version)s"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:631
+#, python-format
+msgid "For this version (%(version)s)"
+msgstr "이 버전 (%(version)s)"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:723
+msgid "/"
+msgstr "/"
+
+#. no votes for the review yet
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:760
+msgid "Was this review helpful?"
+msgstr "이 평가가 도움이 되셨습니까?"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:764
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful."
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful."
+msgstr[0] ""
+"전체 %(useful_total)s명 중 %(useful_favorable)s명의 사람에게 이 평가가 도움이 되었습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:775
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful. "
+"Did you?"
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful. "
+"Did you?"
+msgstr[0] ""
+"전체 %(useful_total)s명 중 %(useful_favorable)s명의 사람에게 이 평가가 도움이 되었습니다. 당신에게도 "
+"도움이 되었습니까?"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:787
+msgid "You found this review helpful."
+msgstr "이 평가가 도움이 되었습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:790
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful, "
+"including you"
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful, "
+"including you."
+msgstr[0] ""
+"사용자를 포함하여 전체 %(useful_total)s명 중 %(useful_favorable)s명의 사람에게 이 평가가 도움이 되었습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:800
+msgid "You found this review unhelpful."
+msgstr "이 평가가 도움이 되지 않았습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:803
+#, python-format
+msgid ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful; "
+"you did not."
+msgid_plural ""
+"%(useful_favorable)s of %(useful_total)s people found this review helpful; "
+"you did not."
+msgstr[0] ""
+"전체 %(useful_total)s 명 중 사용자를 제외한 %(useful_favorable)s명의 사람에게 이 평가가 도움이 되었습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:827
+msgid "Edit"
+msgstr "편집"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:829
+msgid "Delete"
+msgstr "삭제"
+
+#. Translators: This link is for flagging a review as
+#. inappropriate.  To minimize repetition, if at all possible,
+#. keep it to a single word.  If your language has an obvious
+#. verb, it won't need a question mark.
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:840
+msgid "Inappropriate?"
+msgstr "부적절?"
+
+#. TRANSLATORS: displayed in a review after the persons name,
+#. e.g. "Jane Smith (that's you), 2011-02-11"
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:858
+msgid "that’s you"
+msgstr "당신입니다"
+
+#. TRANSLATORS: displayed if there are no reviews for the app in
+#. the current language, but there are some in other
+#. languages
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:917
+msgid "This app has not been reviewed yet in your language"
+msgstr "사용자가 사용하는 언어로 작성한 평가가 없습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:918
+msgid ""
+"Try selecting a different language, or even \"Any language\" in the language "
+"dropdown"
+msgstr "다른 언어를 선택하시거나 언어 메뉴에서 \"모든 언어\"를 선택해주십시오."
+
+#. TRANSLATORS: displayed if there are no reviews for the app yet
+#. and the user does not have it installed
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:928
+msgid "This app has not been reviewed yet"
+msgstr "프로그램에 대한 평가가 아직 없습니다."
+
+#. TRANSLATORS: displayed if there are no reviews yet and the user
+#. has the app installed
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:939
+msgid "Got an opinion?"
+msgstr "의견이 있으신가요?"
+
+#: ../softwarecenter/ui/gtk3/widgets/reviews.py:940
+msgid "Be the first to contribute a review for this application"
+msgstr "이 프로그램에 대한 첫 번째 평가를 작성해 보세요!"
+
+#. TRANSLATORS: this is the layout of an indented
+#. line starting with a bullet point
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:87
+#, python-format
+msgid "\t• %s"
+msgstr "\t• %s"
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:109
+#, python-format
+msgid "%(category_name)s → %(subcategory_name)s"
+msgstr "%(category_name)s → %(subcategory_name)s"
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:115
+#, python-format
+msgid "No items match “%s”"
+msgstr "“%s”와(과) 일치하는 항목이 없습니다"
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:117
+#, python-format
+msgid "No items in %s match “%s”"
+msgstr "%s 내에 %s와(과) 일치하는 항목이 없습니다"
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:144
+msgid ""
+"Try searching across <a href=\"search-all/\">all categories</a> instead"
+msgstr "대신 <a href=\"search-all/\">모든 분류</a>에서 검색해보십시오."
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:153
+#, python-format
+msgid "Check that your spelling is correct.  Did you mean: %s?"
+msgstr "철자가 올바른지 확인하십시오. %s을(를) 입력하셨습니까?"
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:162
+msgid "Suggestions:"
+msgstr "제안:"
+
+#. else, say sorry if we cannot offer any suggestions
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:164
+msgid ""
+"Software Center was unable to come up with any suggestions that may aid you "
+"in your search"
+msgstr "소프트웨어 센터가 검색을 도울 수 있는 제안을 찾을 수 없습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:184
+#, python-format
+msgid ""
+"Try <a href=\"search-parent/\">the item in %(category)s</a> that matches"
+msgid_plural ""
+"Try <a href=\"search-parent/\">the %(n)d items in %(category)s</a> that match"
+msgstr[0] ""
+"<a href=\"search-parent/\">%(category)s에 일치하는 %(n)d개의 일치하는 항목</a>을 추천합니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:218
+#, python-format
+msgid ""
+"Try <a href=\"search-unsupported:\">the %(amount)d item that matches</a> in "
+"software not maintained by Canonical"
+msgid_plural ""
+"Try <a href=\"search-unsupported:\">the %(amount)d items that match</a> in "
+"software not maintained by Canonical"
+msgstr[0] ""
+"캐노니컬이 관리하지 않는 소프트웨어에서  <a href=\"search-unsupported:\">%(amount)d개의 항목을</a> "
+"사용해보십시오."
+
+#: ../softwarecenter/ui/gtk3/widgets/searchaid.py:307
+msgid "Trying suggestion ..."
+msgstr "제안하는 중 ..."
+
+#: ../softwarecenter/ui/gtk3/widgets/searchentry.py:61
+msgid "Search"
+msgstr "검색"
+
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:418
+#, python-format
+msgid "%(nr_ratings)i rating"
+msgid_plural "%(nr_ratings)i ratings"
+msgstr[0] "%(nr_ratings)i명이 평점 메김"
+
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:513
+msgid "Hint: Click a star to rate this app"
+msgstr "도움말: 별을 클릭해 이 프로그램에 평점을 메길 수 있습니다."
+
+#. unrated
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:514
+msgid "Awful"
+msgstr "끔직함"
+
+#. 1 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:515
+msgid "Poor"
+msgstr "나쁨"
+
+#. 2 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:516
+msgid "Adequate"
+msgstr "적당함"
+
+#. 3 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:517
+msgid "Good"
+msgstr "좋음"
+
+#. 4 star rating
+#: ../softwarecenter/ui/gtk3/widgets/stars.py:518
+msgid "Excellent"
+msgstr "훌륭함"
+
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:111
+msgid "No screenshot available"
+msgstr "스크린샷이 없습니다"
+
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:257
+#, python-format
+msgid "%s - Screenshot"
+msgstr "%s - 미리보기"
+
+#: ../softwarecenter/ui/gtk3/widgets/thumbnail.py:368
+msgid "Fetching screenshot ..."
+msgstr "미리보기를 가져오고 있습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:106
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:123
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:130
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:140
+#: ../softwarecenter/ui/gtk3/widgets/videoplayer.py:145
+msgid "Play"
+msgstr "연주"
+
+#: ../softwarecenter/ui/gtk3/widgets/weblivedialog.py:99
+msgid "Choose your distribution"
+msgstr "배포판 선택"
+
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:153
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:439
+msgid "Receiving recommendations…"
+msgstr "추천 항목을 가져오는 중…"
+
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:205
+msgid "Turn On Recommendations"
+msgstr "추천 기능 사용하기"
+
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:206
+msgid ""
+"To make recommendations, Ubuntu Software Center will occasionally send to "
+"Canonical a list of software currently installed."
+msgstr "추천 기능을 사용하면 우분투 소프트웨어 센터는 가끔 캐노니컬로 현재 설치한 소프트웨어 목록을 보낼 것입니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:210
+msgid "Recommendations will appear when next online."
+msgstr "다음 인터넷을 연결하면 추천 기능을 사용할 수 있습니다."
+
+#: ../softwarecenter/ui/gtk3/widgets/recommendations.py:380
+msgid "Submitting inventory…"
+msgstr "목록을 제출하는 중…"
+
+#: ../utils/delete_review_gtk3.py:102 ../utils/modify_review_gtk3.py:102
+#: ../utils/report_review_gtk3.py:102 ../utils/submit_review_gtk3.py:102
+#: ../utils/submit_usefulness_gtk3.py:102
+msgid "Missing arguments"
+msgstr "인수가 없습니다"
+
+#: ../utils/delete_review_gtk3.py:132 ../utils/delete_review_gtk3.py:158
+#: ../utils/modify_review_gtk3.py:132 ../utils/modify_review_gtk3.py:158
+#: ../utils/report_review_gtk3.py:132 ../utils/report_review_gtk3.py:158
+#: ../utils/submit_review_gtk3.py:132 ../utils/submit_review_gtk3.py:158
+#: ../utils/submit_usefulness_gtk3.py:132
+#: ../utils/submit_usefulness_gtk3.py:158
+msgid "Missing review-id arguments"
+msgstr "평가 ID 인수가 없습니다"
+
+#: ../utils/delete_review_gtk3.py:184 ../utils/delete_review_gtk3.py:208
+#: ../utils/modify_review_gtk3.py:184 ../utils/modify_review_gtk3.py:208
+#: ../utils/report_review_gtk3.py:184 ../utils/report_review_gtk3.py:208
+#: ../utils/submit_review_gtk3.py:184 ../utils/submit_review_gtk3.py:208
+#: ../utils/submit_usefulness_gtk3.py:184
+#: ../utils/submit_usefulness_gtk3.py:208
+msgid "Missing review-id argument"
+msgstr "평가 ID를 입력해 주세요."

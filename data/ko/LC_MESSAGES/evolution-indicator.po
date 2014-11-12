@@ -1,0 +1,95 @@
+# Korean translation for evolution-indicator
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the evolution-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-02-17 15:02+0000\n"
+"PO-Revision-Date: 2013-09-22 07:04+0000\n"
+"Last-Translator: Jaesung <jaesung@liberotown.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-04-10 14:51+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../data/evolution-indicator.schemas.in.h:1
+msgid "Only create notifications for new mail in an Inbox."
+msgstr "받은 편지함의 새 메일만 알려줍니다."
+
+#: ../data/evolution-indicator.schemas.in.h:2
+msgid "Play a sound for new mail."
+msgstr "새 메일을 받으면 소리를 들려줍니다."
+
+#: ../data/evolution-indicator.schemas.in.h:3
+msgid "Show a notification bubble."
+msgstr "알림을 보여줍니다."
+
+#: ../data/evolution-indicator.schemas.in.h:4
+msgid "Show new message count in the message indicator applet."
+msgstr "메시지 알리미 애플릿에 새로운 메일 개수를 보여줍니다."
+
+#: ../src/evolution-indicator.c:235
+#, c-format
+msgid "%d New Message"
+msgid_plural "%d New Messages"
+msgstr[0] "새 메시지 %d개"
+
+#: ../src/evolution-indicator.c:467 ../src/evolution-indicator.c:744
+#: ../src/evolution-indicator.c:749
+msgid "Inbox"
+msgstr "받은 편지함"
+
+#: ../src/evolution-indicator.c:582
+msgid "Compose New Message"
+msgstr "새 메시지 쓰기"
+
+#: ../src/evolution-indicator.c:587
+msgid "Contacts"
+msgstr "연락처"
+
+#: ../src/evolution-indicator.c:735
+msgid "When new mail arri_ves in"
+msgstr "새 메일을 받았을 때(_V)"
+
+#: ../src/evolution-indicator.c:744 ../src/evolution-indicator.c:749
+msgid "any Inbox"
+msgstr "모든 받은 편지함"
+
+#: ../src/evolution-indicator.c:745 ../src/evolution-indicator.c:750
+msgid "any Folder"
+msgstr "모든 폴더"
+
+#. i18n: ':' is used in the end of the above line (When New Mail Arrives:)
+#: ../src/evolution-indicator.c:758
+msgid ":"
+msgstr ":"
+
+#: ../src/evolution-indicator.c:787
+msgid "Pla_y a sound"
+msgstr "소리 연주(_Y)"
+
+#: ../src/evolution-indicator.c:792
+msgid "_Display a notification"
+msgstr "알림 표시(_D)"
+
+#: ../src/evolution-indicator.c:797
+msgid "_Indicate new messages in the panel"
+msgstr "패널에 새 메시지 알려주기(_I)"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:1
+msgid "Evolution Indicator"
+msgstr "에볼루션 알리미"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:2
+msgid "When New Mail Arrives"
+msgstr "새 메일을 받았을 때"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:3
+msgid "Shows new mail count in a message indicator."
+msgstr "메시지 알리미에 새 메일 개수 보이기"

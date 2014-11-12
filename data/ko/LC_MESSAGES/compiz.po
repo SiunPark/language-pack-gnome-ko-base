@@ -1,0 +1,3757 @@
+# Korean compiz translation.
+# Copyright (C) 2007 compiz-fusion.org
+# Copyright (C) 2005 SUSE Linux Products GmbH.
+# Copyright (C) 2002 SuSE Linux AG.
+# Copyright (C) 1999, 2000, 2001 SuSE GmbH.
+# This file is distributed under the same license as the compiz package.
+# Lee June Hee <bugbear5@gmail.com>, 2007.
+# Hwang, Sang-Jin <violiet@suse.de>
+msgid ""
+msgstr ""
+"Project-Id-Version: Compiz 0.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-08 14:13+0000\n"
+"PO-Revision-Date: 2014-04-09 15:41+0000\n"
+"Last-Translator: Bugbear5 <Unknown>\n"
+"Language-Team: Korean <bugbear5@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 13:53+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../gtk/gnome/compiz.desktop.in.h:1
+msgid "Compiz"
+msgstr "컴피즈"
+
+#: ../gtk/window-decorator/events.c:141 ../metadata/core.xml.in.h:48
+msgid "Close Window"
+msgstr "창 닫기"
+
+#: ../gtk/window-decorator/events.c:169 ../metadata/core.xml.in.h:58
+msgid "Unmaximize Window"
+msgstr "창 최대화 취소"
+
+#: ../gtk/window-decorator/events.c:172 ../metadata/core.xml.in.h:56
+msgid "Maximize Window"
+msgstr "창 최대화"
+
+#: ../gtk/window-decorator/events.c:227 ../metadata/core.xml.in.h:54
+msgid "Minimize Window"
+msgstr "창 최소화"
+
+#: ../gtk/window-decorator/events.c:247 ../metadata/core.xml.in.h:66
+msgid "Window Menu"
+msgstr "창 메뉴"
+
+#: ../gtk/window-decorator/events.c:270
+msgid "Shade"
+msgstr "말아 올리기"
+
+#: ../gtk/window-decorator/events.c:294
+msgid "Make Above"
+msgstr "항상 위"
+
+#: ../gtk/window-decorator/events.c:318
+msgid "Stick"
+msgstr "끈적이는 창 설정"
+
+#: ../gtk/window-decorator/events.c:340
+msgid "Unshade"
+msgstr "말아 올리기 취소"
+
+#: ../gtk/window-decorator/events.c:362
+msgid "Unmake Above"
+msgstr "항상 위 취소"
+
+#: ../gtk/window-decorator/events.c:386
+msgid "Unstick"
+msgstr "끈적이는 창 취소"
+
+#: ../gtk/window-decorator/forcequit.c:142
+#, c-format
+msgid "The window \"%s\" is not responding."
+msgstr "창 \"%s\"이(가) 응답하지 않습니다."
+
+#: ../gtk/window-decorator/forcequit.c:151
+msgid ""
+"Forcing this application to quit will cause you to lose any unsaved changes."
+msgstr "이 응용프로그램을 강제로 끝내면 저장하지 않은 데이터를 잃게 됩니다."
+
+#: ../gtk/window-decorator/forcequit.c:166
+msgid "_Force Quit"
+msgstr "강제로 끝내기(_F)"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:1
+msgid "Blur type"
+msgstr "흐림 형태"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:2
+msgid "Type of blur used for window decorations"
+msgstr "창 장식에서 사용할 흐림 효과의 형태"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:3
+msgid "Use metacity theme"
+msgstr "메타시티 테마를 사용합니다."
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:4
+msgid "Use metacity theme when drawing window decorations"
+msgstr "창 장식을 그릴 때 메타시티 테마를 사용합니다."
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:5
+msgid "Title bar mouse wheel action"
+msgstr "제목 표시줄에서 마우스 휠을 사용할 때의 행동"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:6
+msgid "Action to take when scrolling the mouse wheel on a window title bar."
+msgstr "창 제목 표시줄에서 마우스 휠 스크롤할 때의 행동을 설정합니다."
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:7
+msgid "Metacity theme opacity"
+msgstr "메타시티 테마 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:8
+msgid "Opacity to use for metacity theme decorations"
+msgstr "메타시티 테마에 사용할 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:9
+msgid "Metacity theme opacity shade"
+msgstr "메타시티 테마 그림자 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:10
+msgid ""
+"Shade windows with metacity theme decorations from opaque to translucent"
+msgstr "메타시티 테마를 사용하는 창의 그림자 투명도를 설정합니다."
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:11
+msgid "Metacity theme active window opacity"
+msgstr "사용 중인 창의 메타시티 테마 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:12
+msgid "Opacity to use for active windows with metacity theme decorations"
+msgstr "메타시티 테마를 가진 사용 중인 창에서 사용할 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:13
+msgid "Metacity theme active window opacity shade"
+msgstr "사용 중인 창의 메타시티 테마 그림자 투명도"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:14
+msgid ""
+"Shade active windows with metacity theme decorations from opaque to "
+"translucent"
+msgstr "메타시티 테마를 사용하는 사용 중인 창의 그림자 투명도를 설정합니다."
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:15
+msgid "Use tooltips"
+msgstr "툴팁 사용"
+
+#: ../gtk/window-decorator/gwd.schemas.in.h:16
+msgid "Show tooltip windows on decorator functions"
+msgstr "창 장식 기능에 툴팁 보이기"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:1
+msgid "Navigation"
+msgstr "내비게이션"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:2
+msgid "Move window to workspace 1"
+msgstr "창을 작업 공간 1로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:3
+msgid "Move window to workspace 2"
+msgstr "창을 작업 공간 2로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:4
+msgid "Move window to workspace 3"
+msgstr "창을 작업 공간 3으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:5
+msgid "Move window to workspace 4"
+msgstr "창을 작업 공간 4로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:6
+msgid "Move window to workspace 5"
+msgstr "창을 작업 공간 5로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:7
+msgid "Move window to workspace 6"
+msgstr "창을 작업 공간 6으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:8
+msgid "Move window to workspace 7"
+msgstr "창을 작업 공간 7로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:9
+msgid "Move window to workspace 8"
+msgstr "창을 작업 공간 8로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:10
+msgid "Move window to workspace 9"
+msgstr "창을 작업 공간 9로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:11
+msgid "Move window to workspace 10"
+msgstr "창을 작업 공간 10으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:12
+msgid "Move window to workspace 11"
+msgstr "창을 작업 공간 11로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:13
+msgid "Move window to workspace 12"
+msgstr "창을 작업 공간 12로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:14
+msgid "Move window one workspace to the left"
+msgstr "창을 작업 공간에서 왼쪽으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:15
+msgid "Move window one workspace to the right"
+msgstr "창을 작업 공간에서 오른쪽으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:16
+msgid "Move window one workspace up"
+msgstr "창을 작업 공간에서 위쪽으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:17
+msgid "Move window one workspace down"
+msgstr "창을 작업 공간에서 아래쪽으로 이동"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:18
+msgid "Switch applications"
+msgstr "프로그램 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:19
+msgid "Switch windows of an app directly"
+msgstr "프로그램 창 바로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:20
+msgid "Hide all normal windows"
+msgstr "모든 보통 창 숨기기"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:21
+msgid "Switch to workspace 1"
+msgstr "작업 공간 1로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:22
+msgid "Switch to workspace 2"
+msgstr "작업 공간 2로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:23
+msgid "Switch to workspace 3"
+msgstr "작업 공간 3으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:24
+msgid "Switch to workspace 4"
+msgstr "작업 공간 4로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:25
+msgid "Switch to workspace 5"
+msgstr "작업 공간 5로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:26
+msgid "Switch to workspace 6"
+msgstr "작업 공간 6으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:27
+msgid "Switch to workspace 7"
+msgstr "작업 공간 7로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:28
+msgid "Switch to workspace 8"
+msgstr "작업 공간 8로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:29
+msgid "Switch to workspace 9"
+msgstr "작업 공간 9로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:30
+msgid "Switch to workspace 10"
+msgstr "작업 공간 10으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:31
+msgid "Switch to workspace 11"
+msgstr "작업 공간 11로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:32
+msgid "Switch to workspace 12"
+msgstr "작업 공간 12로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:33
+msgid "Switch to workspace left"
+msgstr "왼쪽 작업 공간으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:34
+msgid "Switch to workspace right"
+msgstr "오른쪽 작업 공간으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:35
+msgid "Switch to workspace above"
+msgstr "위쪽 작업 공간으로 전환"
+
+#: ../gtk/gnome/50-compiz-navigation.xml.in.h:36
+msgid "Switch to workspace below"
+msgstr "아래쪽 작업 공간으로 전환"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:1 ../plugins/obs/obs.xml.in.h:15
+#: ../plugins/place/place.xml.in.h:32
+msgid "Windows"
+msgstr "창"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:2
+msgid "Activate the window menu"
+msgstr "창 메뉴 활성화"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:3
+msgid "Toggle fullscreen mode"
+msgstr "전체 화면 모드 켜고 끄기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:4
+msgid "Toggle maximization state"
+msgstr "최대화 상태 켜고 끄기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:5
+msgid "Maximize window"
+msgstr "창 최대화"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:6
+msgid "Restore window"
+msgstr "창 복구"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:7
+msgid "Toggle shaded state"
+msgstr "말아 올리기 상태 켜고 끄기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:8
+msgid "Close window"
+msgstr "창 닫기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:9
+msgid "Minimize window"
+msgstr "창 최소화"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:10
+msgid "Move window"
+msgstr "창 이동"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:11
+#: ../plugins/resize/resize.xml.in.h:2
+msgid "Resize window"
+msgstr "창 크기 조절"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:12 ../metadata/core.xml.in.h:51
+msgid "Raise window above other windows"
+msgstr "다른 창 위에 창을 띄우기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:13
+msgid "Lower window below other windows"
+msgstr "다츤 창의 아래로 창 낮추기"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:14
+msgid "Maximize window vertically"
+msgstr "수직으로 창 최대화"
+
+#: ../gtk/gnome/50-compiz-windows.xml.in.h:15
+msgid "Maximize window horizontally"
+msgstr "수평으로 창 최대화"
+
+#: ../metadata/core.xml.in.h:1
+msgid "General Options"
+msgstr "일반 옵션"
+
+#: ../metadata/core.xml.in.h:2
+msgid "General compiz options"
+msgstr "일반적인 컴피즈 옵션을 설정합니다."
+
+#: ../metadata/core.xml.in.h:3
+msgid "Active Plugins"
+msgstr "사용 중인 플러그인 목록"
+
+#: ../metadata/core.xml.in.h:4
+msgid "List of currently active plugins"
+msgstr "현재 사용 중인 플러그인 목록"
+
+#: ../metadata/core.xml.in.h:5
+msgid "Audible Bell"
+msgstr "경고 소리로 듣기"
+
+#: ../metadata/core.xml.in.h:6
+msgid "Audible system beep"
+msgstr "시스템 경고를 소리로 듣습니다."
+
+#: ../metadata/core.xml.in.h:7
+msgid "Ignore Hints When Maximized"
+msgstr "최대화 시 힌트 무시"
+
+#: ../metadata/core.xml.in.h:8
+msgid "Ignore size increment and aspect hints when window is maximized"
+msgstr "최대화 시 크기 증가 정도와 방향 힌트 무시"
+
+#: ../metadata/core.xml.in.h:9
+msgid "Hide Skip Taskbar Windows"
+msgstr "작업 표시줄에 나타나지 않는 창 숨기기"
+
+#: ../metadata/core.xml.in.h:10
+msgid "Hide windows not in taskbar when entering show desktop mode"
+msgstr "배경 보기 상태일 때 작업 표시줄에 없는 창을 숨기기"
+
+#: ../metadata/core.xml.in.h:11
+msgid "Edge Trigger Delay"
+msgstr "모서리 실행 지연 시간"
+
+#: ../metadata/core.xml.in.h:12
+msgid ""
+"Duration the pointer must rest in a screen edge before an edge action is "
+"taken."
+msgstr "모서리 명령을 실행하기 전에 포인터가 모서리에 머물러 있어야 하는 시간입니다."
+
+#: ../metadata/core.xml.in.h:13
+msgid "Ping Delay"
+msgstr "핑 지연"
+
+#: ../metadata/core.xml.in.h:14
+msgid "Interval between ping messages"
+msgstr "핑 메시지 간격"
+
+#: ../metadata/core.xml.in.h:15
+msgid "Default Icon"
+msgstr "기본 아이콘"
+
+#: ../metadata/core.xml.in.h:16
+msgid "Default window icon image"
+msgstr "기본 창 아이콘 그림"
+
+#: ../metadata/core.xml.in.h:17
+msgid "Save plugin states on unload"
+msgstr "불러온 플러그인을 해제할 때 상태 저장"
+
+#: ../metadata/core.xml.in.h:18
+msgid ""
+"Save the state of plugins when they are unloaded such they will resume their "
+"past internal state when reloaded"
+msgstr "불러온 플러그인을 해제할 때 상태를 저장하여 다시 사용할 때 이전 상태를 계속 이용할 수 있게 합니다."
+
+#: ../metadata/core.xml.in.h:19
+msgid "Display Settings"
+msgstr "디스플레이 설정"
+
+#: ../metadata/core.xml.in.h:20
+msgid "Overlapping Output Handling"
+msgstr "화면 오버래핑 조절"
+
+#: ../metadata/core.xml.in.h:21
+msgid "Which one of overlapping output devices should be preferred"
+msgstr "오버래핑 된 모니터 중 선호하는 모니터"
+
+#: ../metadata/core.xml.in.h:22
+msgid "Smart mode"
+msgstr "스마트 모드"
+
+#: ../metadata/core.xml.in.h:23
+msgid "Prefer larger output"
+msgstr "더 큰 화면을 선호함"
+
+#: ../metadata/core.xml.in.h:24
+msgid "Prefer smaller output"
+msgstr "더 작은 화면을 선호함"
+
+#: ../metadata/core.xml.in.h:25
+msgid "Detect Outputs"
+msgstr "화면 감지"
+
+#: ../metadata/core.xml.in.h:26
+msgid "Automatic detection of output devices"
+msgstr "모니터 자동 감지"
+
+#: ../metadata/core.xml.in.h:27
+msgid "Outputs"
+msgstr "화면"
+
+#: ../metadata/core.xml.in.h:28
+msgid "List of strings describing output devices"
+msgstr "설정된 모니터 목록"
+
+#: ../metadata/core.xml.in.h:29
+msgid "Focus &amp; Raise Behaviour"
+msgstr "포커스 & 띄우기 동작"
+
+#: ../metadata/core.xml.in.h:30
+msgid "Click To Focus"
+msgstr "클릭하면 포커스를 이동"
+
+#: ../metadata/core.xml.in.h:31
+msgid "Click on window moves input focus to it"
+msgstr "창을 클릭하면 포커스를 변경함"
+
+#: ../metadata/core.xml.in.h:32
+msgid "Raise On Click"
+msgstr "클릭으로 띄우기"
+
+#: ../metadata/core.xml.in.h:33
+msgid "Raise windows when clicked"
+msgstr "클릭했을 때 창 띄우기"
+
+#: ../metadata/core.xml.in.h:34
+msgid "Auto-Raise"
+msgstr "자동으로 떠오름"
+
+#: ../metadata/core.xml.in.h:35
+msgid "Raise selected windows after interval"
+msgstr "선택된 창을 일정 시간 후에 띄우기"
+
+#: ../metadata/core.xml.in.h:36
+msgid "Auto-Raise Delay"
+msgstr "자동으로 떠오르게 하는 지연 시간"
+
+#: ../metadata/core.xml.in.h:37
+msgid "Interval before raising selected windows"
+msgstr "선택된 창을 띄우는 시간 간격"
+
+#: ../metadata/core.xml.in.h:38
+msgid "Focus Prevention Level"
+msgstr "포커스 막기 정도"
+
+#: ../metadata/core.xml.in.h:39
+msgid "Level of focus stealing prevention"
+msgstr "포커스 뺏기를 막는 정도"
+
+#: ../metadata/core.xml.in.h:40
+msgid "Off"
+msgstr "끄기"
+
+#: ../metadata/core.xml.in.h:41
+msgid "Low"
+msgstr "낮음"
+
+#: ../metadata/core.xml.in.h:42 ../plugins/resize/resize.xml.in.h:8
+msgid "Normal"
+msgstr "기본"
+
+#: ../metadata/core.xml.in.h:43
+msgid "High"
+msgstr "높음"
+
+#: ../metadata/core.xml.in.h:44
+msgid "Very High"
+msgstr "매우 높음"
+
+#: ../metadata/core.xml.in.h:45
+msgid "Focus Prevention Windows"
+msgstr "포커스를 막을 창"
+
+#: ../metadata/core.xml.in.h:46
+msgid "Focus prevention windows"
+msgstr "포커스를 막을 창"
+
+#: ../metadata/core.xml.in.h:47
+msgid "Key bindings"
+msgstr "키보드 바로 가기"
+
+#: ../metadata/core.xml.in.h:49
+msgid "Close active window"
+msgstr "사용 중인 창을 닫습니다."
+
+#: ../metadata/core.xml.in.h:50
+msgid "Raise Window"
+msgstr "창 띄우기"
+
+#: ../metadata/core.xml.in.h:52
+msgid "Lower Window"
+msgstr "창을 내리기"
+
+#: ../metadata/core.xml.in.h:53
+msgid "Lower window beneath other windows"
+msgstr "다른 창들 밑으로 창을 내림"
+
+#: ../metadata/core.xml.in.h:55
+msgid "Minimize active window"
+msgstr "사용 중인 창 최소화"
+
+#: ../metadata/core.xml.in.h:57
+msgid "Maximize active window"
+msgstr "사용 중인 창 최대화"
+
+#: ../metadata/core.xml.in.h:59
+msgid "Unmaximize active window"
+msgstr "사용 중인 창 최대화 취소"
+
+#: ../metadata/core.xml.in.h:60
+msgid "Unmaximize or Minimize Window"
+msgstr ""
+
+#: ../metadata/core.xml.in.h:61
+msgid "Unmaximize or minimize active window"
+msgstr ""
+
+#: ../metadata/core.xml.in.h:62
+msgid "Maximize Window Horizontally"
+msgstr "가로로 창 최대화"
+
+#: ../metadata/core.xml.in.h:63
+msgid "Maximize active window horizontally"
+msgstr "사용 중인 창 가로로 최대화"
+
+#: ../metadata/core.xml.in.h:64
+msgid "Maximize Window Vertically"
+msgstr "세로로 창 최대화"
+
+#: ../metadata/core.xml.in.h:65
+msgid "Maximize active window vertically"
+msgstr "사용 중인 창 세로로 최대화"
+
+#: ../metadata/core.xml.in.h:67
+msgid "Window menu key binding"
+msgstr "창 메뉴 키보드 바로 가기"
+
+#: ../metadata/core.xml.in.h:68
+msgid "Window menu button binding"
+msgstr "창 메뉴 단추 바로 가기"
+
+#: ../metadata/core.xml.in.h:69
+msgid "Show Desktop"
+msgstr "데스크톱 보이기"
+
+#: ../metadata/core.xml.in.h:70
+msgid "Hide all windows and focus desktop"
+msgstr "모든 창을 숨기고 배경에 포커스"
+
+#: ../metadata/core.xml.in.h:71
+msgid "Toggle Window Maximized"
+msgstr "창 최대화"
+
+#: ../metadata/core.xml.in.h:72
+msgid "Toggle active window maximized"
+msgstr "사용 중인 창을 최대화 하기"
+
+#: ../metadata/core.xml.in.h:73
+msgid "Toggle Window Maximized Horizontally"
+msgstr "수평으로 창 최대화"
+
+#: ../metadata/core.xml.in.h:74
+msgid "Toggle active window maximized horizontally"
+msgstr "사용 중인 창을 수평으로 최대화합니다"
+
+#: ../metadata/core.xml.in.h:75
+msgid "Toggle Window Maximized Vertically"
+msgstr "수직으로 창 최대화"
+
+#: ../metadata/core.xml.in.h:76
+msgid "Toggle active window maximized vertically"
+msgstr "사용 중인 창을 수직으로 최대화"
+
+#: ../metadata/core.xml.in.h:77
+msgid "Toggle Window Shaded"
+msgstr "창 말아 올리기"
+
+#: ../metadata/core.xml.in.h:78
+msgid "Toggle active window shaded"
+msgstr "사용 중인 창 말아 올리기"
+
+#: ../metadata/core.xml.in.h:79
+msgid "Desktop Size"
+msgstr "데스크톱 크기"
+
+#: ../metadata/core.xml.in.h:80
+msgid "Horizontal Virtual Size"
+msgstr "가로 가상 크기"
+
+#: ../metadata/core.xml.in.h:81
+msgid "Screen size multiplier for horizontal virtual size"
+msgstr "가로 화면 크기 배수"
+
+#: ../metadata/core.xml.in.h:82
+msgid "Vertical Virtual Size"
+msgstr "세로 가상 크기"
+
+#: ../metadata/core.xml.in.h:83
+msgid "Screen size multiplier for vertical virtual size"
+msgstr "세로 화면 크기 배수"
+
+#: ../metadata/core.xml.in.h:84
+msgid "Number of Desktops"
+msgstr "작업 공간의 숫자"
+
+#: ../metadata/core.xml.in.h:85
+msgid "Number of virtual desktops"
+msgstr "가상 데스크톱의 숫자"
+
+#: ../plugins/annotate/annotate.xml.in.h:1
+msgid "Annotate"
+msgstr "주석"
+
+#: ../plugins/annotate/annotate.xml.in.h:2
+msgid "Annotate plugin"
+msgstr "주석 플러그인"
+
+#: ../plugins/annotate/annotate.xml.in.h:3
+msgid "Initiate Free Draw"
+msgstr "자유롭게 그리기 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:4
+msgid "Initiate freehand drawing"
+msgstr "자유화를  시작합니다."
+
+#: ../plugins/annotate/annotate.xml.in.h:5
+msgid "Initiate Line"
+msgstr "선 그리기 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:6
+msgid "Initiate line drawing"
+msgstr "선 그리기를 시작합니다"
+
+#: ../plugins/annotate/annotate.xml.in.h:7
+msgid "Initiate Rectangle"
+msgstr "직사각형 그리기 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:8
+msgid "Initiate rectangle drawing"
+msgstr "직사각형 그리기를 시작합니다"
+
+#: ../plugins/annotate/annotate.xml.in.h:9
+msgid "Initiate Ellipse"
+msgstr "타원 그리기 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:10
+msgid "Initiate ellipse drawing"
+msgstr "타원 그리기를 시작합니다"
+
+#: ../plugins/annotate/annotate.xml.in.h:11
+msgid "Draw"
+msgstr "그리기"
+
+#: ../plugins/annotate/annotate.xml.in.h:12
+msgid "Draw using tool"
+msgstr "도구를 사용하여 그림을 그림"
+
+#: ../plugins/annotate/annotate.xml.in.h:13
+msgid "Initiate Erase"
+msgstr "지우개 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:14
+msgid "Initiate annotate erasing"
+msgstr "주석 지우기를 시작"
+
+#: ../plugins/annotate/annotate.xml.in.h:15
+msgid "Clear"
+msgstr "지우기"
+
+#: ../plugins/annotate/annotate.xml.in.h:16
+msgid "Draw shapes from center"
+msgstr "포인터의 가운데에서 도형 그리기"
+
+#: ../plugins/annotate/annotate.xml.in.h:17
+msgid "Uses the initial click point as the center of shapes."
+msgstr "마우스 포인터가 위치한 곳을 중심으로 도형을 그립니다."
+
+#: ../plugins/annotate/annotate.xml.in.h:18
+msgid "Annotate Fill Color"
+msgstr "주석의 채우기 색"
+
+#: ../plugins/annotate/annotate.xml.in.h:19
+msgid "Fill color for annotations"
+msgstr "주석의 채우기 색"
+
+#: ../plugins/annotate/annotate.xml.in.h:20
+msgid "Annotate Stroke Color"
+msgstr "주석의 외곽선 색"
+
+#: ../plugins/annotate/annotate.xml.in.h:21
+msgid "Stroke color for annotations"
+msgstr "주석의 외곽선 색"
+
+#: ../plugins/annotate/annotate.xml.in.h:22
+msgid "Erase width"
+msgstr "지우개 너비"
+
+#: ../plugins/annotate/annotate.xml.in.h:23
+msgid "Erase size"
+msgstr "지우개 크기"
+
+#: ../plugins/annotate/annotate.xml.in.h:24
+msgid "Stroke width"
+msgstr "테두리 너비"
+
+#: ../plugins/annotate/annotate.xml.in.h:25
+msgid "Stroke width for annotations"
+msgstr "주석의 테두리 너비"
+
+#: ../plugins/blur/blur.xml.in.h:1
+msgid "Blur Windows"
+msgstr "창 흐림 효과"
+
+#: ../plugins/blur/blur.xml.in.h:2
+msgid "Blur windows"
+msgstr "창 흐림 효과"
+
+#: ../plugins/blur/blur.xml.in.h:3
+msgid "Pulse"
+msgstr "진동"
+
+#: ../plugins/blur/blur.xml.in.h:4
+msgid "Pulse effect"
+msgstr "진동 효과"
+
+#: ../plugins/blur/blur.xml.in.h:5
+msgid "Blur Speed"
+msgstr "흐림 효과 속도"
+
+#: ../plugins/blur/blur.xml.in.h:6
+msgid "Window blur speed"
+msgstr "창 흐림 속도"
+
+#: ../plugins/blur/blur.xml.in.h:7
+msgid "Focus blur windows"
+msgstr "포커스를 가진 창을 흐리게 합니다."
+
+#: ../plugins/blur/blur.xml.in.h:8
+msgid "Windows that should be affected by focus blur"
+msgstr "포커스 흐림 효과를 적용할 창"
+
+#: ../plugins/blur/blur.xml.in.h:9
+msgid "Focus Blur"
+msgstr "포커스 흐림 효과"
+
+#: ../plugins/blur/blur.xml.in.h:10
+msgid "Blur windows that doesn't have focus"
+msgstr "포커스를 잃은 창을 흐리게 합니다."
+
+#: ../plugins/blur/blur.xml.in.h:11
+msgid "Alpha blur windows"
+msgstr "투명 창 흐림 효과"
+
+#: ../plugins/blur/blur.xml.in.h:12
+msgid "Windows that should be use alpha blur by default"
+msgstr "투명 흐림 효과를 기본적으로 사용할 창"
+
+#: ../plugins/blur/blur.xml.in.h:13
+msgid "Alpha Blur"
+msgstr "투명 흐림 효과"
+
+#: ../plugins/blur/blur.xml.in.h:14
+msgid "Blur behind translucent parts of windows"
+msgstr "창의 투명한 부분 뒷면을 흐리게 합니다."
+
+#: ../plugins/blur/blur.xml.in.h:15
+msgid "Blur Filter"
+msgstr "흐림 효과 필터"
+
+#: ../plugins/blur/blur.xml.in.h:16
+msgid "Filter method used for blurring"
+msgstr "흐림 효과에 사용할 필터"
+
+#: ../plugins/blur/blur.xml.in.h:17
+msgid "4xBilinear"
+msgstr "4x 양선형"
+
+#: ../plugins/blur/blur.xml.in.h:18
+msgid "Gaussian"
+msgstr "가우시안"
+
+#: ../plugins/blur/blur.xml.in.h:19 ../plugins/cube/cube.xml.in.h:5
+#: ../plugins/decor/decor.xml.in.h:17 ../plugins/switcher/switcher.xml.in.h:25
+msgid "Mipmap"
+msgstr "Mipmap"
+
+#: ../plugins/blur/blur.xml.in.h:20
+msgid "Gaussian Radius"
+msgstr "가우시안 반경"
+
+#: ../plugins/blur/blur.xml.in.h:21
+msgid "Gaussian radius"
+msgstr "가우시안 반경"
+
+#: ../plugins/blur/blur.xml.in.h:22
+msgid "Gaussian Strength"
+msgstr "가우시안 강도"
+
+#: ../plugins/blur/blur.xml.in.h:23
+msgid "Gaussian strength"
+msgstr "가우시안 강도"
+
+#: ../plugins/blur/blur.xml.in.h:24
+msgid "Mipmap LOD"
+msgstr "Mipmap의 상세도"
+
+#: ../plugins/blur/blur.xml.in.h:25
+msgid "Mipmap level-of-detail"
+msgstr "Mipmap의 상세도"
+
+#: ../plugins/blur/blur.xml.in.h:26
+msgid "Blur Saturation"
+msgstr "흐림 효과 채도"
+
+#: ../plugins/blur/blur.xml.in.h:27
+msgid "Blur saturation"
+msgstr "흐림 효과 채도"
+
+#: ../plugins/blur/blur.xml.in.h:28
+msgid "Blur Occlusion"
+msgstr "흐림 효과 폐색"
+
+#: ../plugins/blur/blur.xml.in.h:29
+msgid "Disable blurring of screen regions obscured by other windows."
+msgstr "다른 창에 가려 보이지 않는 영역의 흐림 효과를 비활성화 합니다."
+
+#: ../plugins/blur/blur.xml.in.h:30
+msgid "Independent texture fetch"
+msgstr "독립적인 텍스처 호출"
+
+#: ../plugins/blur/blur.xml.in.h:31
+msgid ""
+"Use the available texture units to do as many as possible independent "
+"texture fetches."
+msgstr "최대한 독립 텍스처 호출을 할 수 있도록 가능한 텍스처 단위를 사용합니다."
+
+#: ../plugins/clone/clone.xml.in.h:1
+msgid "Clone Output"
+msgstr "화면 복제"
+
+#: ../plugins/clone/clone.xml.in.h:2
+msgid "Output clone handler"
+msgstr "화면 복제 관리자"
+
+#: ../plugins/clone/clone.xml.in.h:3 ../plugins/rotate/rotate.xml.in.h:32
+#: ../plugins/screenshot/screenshot.xml.in.h:3
+#: ../plugins/water/water.xml.in.h:3
+msgid "Initiate"
+msgstr "시작"
+
+#: ../plugins/clone/clone.xml.in.h:4
+msgid "Initiate clone selection"
+msgstr "복제 화면 선택 시작"
+
+#: ../plugins/commands/commands.xml.in.h:1
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:7
+msgid "Commands"
+msgstr "명령"
+
+#: ../plugins/commands/commands.xml.in.h:2
+msgid "Assigns bindings to arbitrary commands"
+msgstr "임의의 명령을 바로 가기에 지정"
+
+#: ../plugins/commands/commands.xml.in.h:3
+msgid "Command line 0"
+msgstr "명령 0"
+
+#: ../plugins/commands/commands.xml.in.h:4
+msgid "Command line to be executed in shell when run_command0 is invoked"
+msgstr "명령 0을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:5
+msgid "Command line 1"
+msgstr "명령 1"
+
+#: ../plugins/commands/commands.xml.in.h:6
+msgid "Command line to be executed in shell when run_command1 is invoked"
+msgstr "명령 1을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:7
+msgid "Command line 2"
+msgstr "명령 2"
+
+#: ../plugins/commands/commands.xml.in.h:8
+msgid "Command line to be executed in shell when run_command2 is invoked"
+msgstr "명령 2를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:9
+msgid "Command line 3"
+msgstr "명령 3"
+
+#: ../plugins/commands/commands.xml.in.h:10
+msgid "Command line to be executed in shell when run_command3 is invoked"
+msgstr "명령 3을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:11
+msgid "Command line 4"
+msgstr "명령 4"
+
+#: ../plugins/commands/commands.xml.in.h:12
+msgid "Command line to be executed in shell when run_command4 is invoked"
+msgstr "명령 4를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:13
+msgid "Command line 5"
+msgstr "명령 5"
+
+#: ../plugins/commands/commands.xml.in.h:14
+msgid "Command line to be executed in shell when run_command5 is invoked"
+msgstr "명령 5를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:15
+msgid "Command line 6"
+msgstr "명령 6"
+
+#: ../plugins/commands/commands.xml.in.h:16
+msgid "Command line to be executed in shell when run_command6 is invoked"
+msgstr "명령 6을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:17
+msgid "Command line 7"
+msgstr "명령 7"
+
+#: ../plugins/commands/commands.xml.in.h:18
+msgid "Command line to be executed in shell when run_command7 is invoked"
+msgstr "명령 7을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:19
+msgid "Command line 8"
+msgstr "명령 8"
+
+#: ../plugins/commands/commands.xml.in.h:20
+msgid "Command line to be executed in shell when run_command8 is invoked"
+msgstr "명령 8을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:21
+msgid "Command line 9"
+msgstr "명령 9"
+
+#: ../plugins/commands/commands.xml.in.h:22
+msgid "Command line to be executed in shell when run_command9 is invoked"
+msgstr "명령 9를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:23
+msgid "Command line 10"
+msgstr "명령 10"
+
+#: ../plugins/commands/commands.xml.in.h:24
+msgid "Command line to be executed in shell when run_command10 is invoked"
+msgstr "명령 10을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:25
+msgid "Command line 11"
+msgstr "명령 11"
+
+#: ../plugins/commands/commands.xml.in.h:26
+msgid "Command line to be executed in shell when run_command11 is invoked"
+msgstr "명령 11을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:27
+msgid "Command line 12"
+msgstr "명령 12"
+
+#: ../plugins/commands/commands.xml.in.h:28
+msgid "Command line to be executed in shell when run_command12 is invoked"
+msgstr "명령 12를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:29
+msgid "Command line 13"
+msgstr "명령 13"
+
+#: ../plugins/commands/commands.xml.in.h:30
+msgid "Command line to be executed in shell when run_command13 is invoked"
+msgstr "명령 13을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:31
+msgid "Command line 14"
+msgstr "명령 14"
+
+#: ../plugins/commands/commands.xml.in.h:32
+msgid "Command line to be executed in shell when run_command14 is invoked"
+msgstr "명령 14를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:33
+msgid "Command line 15"
+msgstr "명령 15"
+
+#: ../plugins/commands/commands.xml.in.h:34
+msgid "Command line to be executed in shell when run_command15 is invoked"
+msgstr "명령 15를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:35
+msgid "Command line 16"
+msgstr "명령 16"
+
+#: ../plugins/commands/commands.xml.in.h:36
+msgid "Command line to be executed in shell when run_command16 is invoked"
+msgstr "명령 16을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:37
+msgid "Command line 17"
+msgstr "명령 17"
+
+#: ../plugins/commands/commands.xml.in.h:38
+msgid "Command line to be executed in shell when run_command17 is invoked"
+msgstr "명령 17을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:39
+msgid "Command line 18"
+msgstr "명령 18"
+
+#: ../plugins/commands/commands.xml.in.h:40
+msgid "Command line to be executed in shell when run_command18 is invoked"
+msgstr "명령 18을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:41
+msgid "Command line 19"
+msgstr "명령 19"
+
+#: ../plugins/commands/commands.xml.in.h:42
+msgid "Command line to be executed in shell when run_command19 is invoked"
+msgstr "명령 19를 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:43
+msgid "Command line 20"
+msgstr "명령 20"
+
+#: ../plugins/commands/commands.xml.in.h:44
+msgid "Command line to be executed in shell when run_command20 is invoked"
+msgstr "명령 20을 선택했을 때 실행할 쉘 명령"
+
+#: ../plugins/commands/commands.xml.in.h:45
+msgid "Key Bindings"
+msgstr "키 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:46
+msgid "Run command 0"
+msgstr "명령 0 실행"
+
+#: ../plugins/commands/commands.xml.in.h:47
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command0"
+msgstr "명령 0에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:48
+msgid "Run command 1"
+msgstr "명령 1 실행"
+
+#: ../plugins/commands/commands.xml.in.h:49
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command1"
+msgstr "명령 1에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:50
+msgid "Run command 2"
+msgstr "명령 2 실행"
+
+#: ../plugins/commands/commands.xml.in.h:51
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command2"
+msgstr "명령 2에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:52
+msgid "Run command 3"
+msgstr "명령 3 실행"
+
+#: ../plugins/commands/commands.xml.in.h:53
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command3"
+msgstr "명령 3에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:54
+msgid "Run command 4"
+msgstr "명령 4 실행"
+
+#: ../plugins/commands/commands.xml.in.h:55
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command4"
+msgstr "명령 4에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:56
+msgid "Run command 5"
+msgstr "명령 5 실행"
+
+#: ../plugins/commands/commands.xml.in.h:57
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command5"
+msgstr "명령 5에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:58
+msgid "Run command 6"
+msgstr "명령 6 실행"
+
+#: ../plugins/commands/commands.xml.in.h:59
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command6"
+msgstr "명령 6에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:60
+msgid "Run command 7"
+msgstr "명령 7 실행"
+
+#: ../plugins/commands/commands.xml.in.h:61
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command7"
+msgstr "명령 7에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:62
+msgid "Run command 8"
+msgstr "명령 8 실행"
+
+#: ../plugins/commands/commands.xml.in.h:63
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command8"
+msgstr "명령 8에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:64
+msgid "Run command 9"
+msgstr "명령 9 실행"
+
+#: ../plugins/commands/commands.xml.in.h:65
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command9"
+msgstr "명령 9에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:66
+msgid "Run command 10"
+msgstr "명령 10 실행"
+
+#: ../plugins/commands/commands.xml.in.h:67
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command10"
+msgstr "명령 10에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:68
+msgid "Run command 11"
+msgstr "명령 11 실행"
+
+#: ../plugins/commands/commands.xml.in.h:69
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command11"
+msgstr "명령 11에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:70
+msgid "Run command 12"
+msgstr "명령 12 실행"
+
+#: ../plugins/commands/commands.xml.in.h:71
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command12"
+msgstr "명령 12에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:72
+msgid "Run command 13"
+msgstr "명령 13 실행"
+
+#: ../plugins/commands/commands.xml.in.h:73
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command13"
+msgstr "명령 13에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:74
+msgid "Run command 14"
+msgstr "명령 14 실행"
+
+#: ../plugins/commands/commands.xml.in.h:75
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command14"
+msgstr "명령 14에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:76
+msgid "Run command 15"
+msgstr "명령 15 실행"
+
+#: ../plugins/commands/commands.xml.in.h:77
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command15"
+msgstr "명령 15에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:78
+msgid "Run command 16"
+msgstr "명령 16 실행"
+
+#: ../plugins/commands/commands.xml.in.h:79
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command16"
+msgstr "명령 16에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:80
+msgid "Run command 17"
+msgstr "명령 17 실행"
+
+#: ../plugins/commands/commands.xml.in.h:81
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command17"
+msgstr "명령 17에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:82
+msgid "Run command 18"
+msgstr "명령 18 실행"
+
+#: ../plugins/commands/commands.xml.in.h:83
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command18"
+msgstr "명령 18에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:84
+msgid "Run command 19"
+msgstr "명령 19 실행"
+
+#: ../plugins/commands/commands.xml.in.h:85
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command19"
+msgstr "명령 19에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:86
+msgid "Run command 20"
+msgstr "명령 20 실행"
+
+#: ../plugins/commands/commands.xml.in.h:87
+msgid ""
+"A keybinding that when invoked, will run the shell command identified by "
+"command20"
+msgstr "명령 20에 지정한 명령을 실행할 키보드 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:88
+msgid "Button Bindings"
+msgstr "단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:89
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr "명령 0에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:90
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr "명령 1에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:91
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr "명령 2에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:92
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr "명령 3에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:93
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr "명령 4에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:94
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr "명령 5에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:95
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr "명령 6에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:96
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr "명령 7에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:97
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr "명령 8에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:98
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr "명령 9에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:99
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr "명령 10에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:100
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr "명령 11에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:101
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr "명령 12에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:102
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr "명령 13에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:103
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr "명령 14에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:104
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr "명령 15에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:105
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr "명령 16에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:106
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr "명령 17에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:107
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr "명령 18에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:108
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr "명령 19에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:109
+msgid ""
+"A button binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr "명령 20에 지정한 명령을 실행할 단추 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:110
+msgid "Edge Bindings"
+msgstr "모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:111
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command0"
+msgstr "명령 0에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:112
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command1"
+msgstr "명령 1에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:113
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command2"
+msgstr "명령 2에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:114
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command3"
+msgstr "명령 3에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:115
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command4"
+msgstr "명령 4에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:116
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command5"
+msgstr "명령 5에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:117
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command6"
+msgstr "명령 6에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:118
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command7"
+msgstr "명령 7에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:119
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command8"
+msgstr "명령 8에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:120
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command9"
+msgstr "명령 9에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:121
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command10"
+msgstr "명령 10에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:122
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command11"
+msgstr "명령 11에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:123
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command12"
+msgstr "명령 12에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:124
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command13"
+msgstr "명령 13에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:125
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command14"
+msgstr "명령 14에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:126
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command15"
+msgstr "명령 15에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:127
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command16"
+msgstr "명령 16에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:128
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command17"
+msgstr "명령 17에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:129
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command18"
+msgstr "명령 18에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:130
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command19"
+msgstr "명령 19에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/commands/commands.xml.in.h:131
+msgid ""
+"An edge binding that when invoked, will run the shell command identified by "
+"command20"
+msgstr "명령 20에 지정한 명령을 실행할 모서리 바로 가기"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:1
+msgid "Compiz Library Toolbox"
+msgstr "컴피즈 라이브러리 도구 상자"
+
+#: ../plugins/compiztoolbox/compiztoolbox.xml.in.h:2
+msgid "Commonly used routines by plugins separated into a separate library"
+msgstr "별도의 라이브러리로 구분된 플러그인이 제공하는 일상적으로 사용되는 루틴"
+
+#: ../plugins/composite/composite.xml.in.h:1
+msgid "Composite"
+msgstr "컴포지트"
+
+#: ../plugins/composite/composite.xml.in.h:2
+msgid "Composite plugin"
+msgstr "컴포지트 플러그인"
+
+#: ../plugins/composite/composite.xml.in.h:3
+msgid "Slow Animations"
+msgstr "느린 애니메이션"
+
+#: ../plugins/composite/composite.xml.in.h:4
+msgid "Toggle use of slow animations"
+msgstr "느린 애니메이션 사용"
+
+#: ../plugins/composite/composite.xml.in.h:5
+msgid "Detect Refresh Rate"
+msgstr "갱신 주기 감지"
+
+#: ../plugins/composite/composite.xml.in.h:6
+msgid "Automatic detection of refresh rate"
+msgstr "갱신 주기를 자동으로 감지"
+
+#: ../plugins/composite/composite.xml.in.h:7
+msgid "Refresh Rate"
+msgstr "갱신 주기"
+
+#: ../plugins/composite/composite.xml.in.h:8
+msgid "The rate at which the screen is redrawn (times/second)"
+msgstr "화면이 다시 그려지는 비율(횟수/초)"
+
+#: ../plugins/composite/composite.xml.in.h:9
+msgid "Unredirect Fullscreen Windows"
+msgstr "전체 화면 창의 포커스 변경 방지"
+
+#: ../plugins/composite/composite.xml.in.h:10
+msgid ""
+"Allow drawing of fullscreen windows to not be redirected to offscreen pixmaps"
+msgstr "전체 화면 창을 그릴 때, 화면 밖의 픽스맵으로 포커스가 변경되지 않도록 허용함"
+
+#: ../plugins/composite/composite.xml.in.h:11
+msgid "Unredirect Match"
+msgstr ""
+
+#: ../plugins/composite/composite.xml.in.h:12
+msgid ""
+"Specifies which windows will be unredirected when they are fullscreen. You "
+"might want to exclude video players for example, to avoid tearing. But this "
+"will be at the expense of performance/frame rate. Note: \"class=\" matching "
+"requires the regex plugin to work."
+msgstr ""
+
+#: ../plugins/composite/composite.xml.in.h:13
+msgid "Force independent output painting."
+msgstr "독립된 화면 그리기를 강제합니다."
+
+#: ../plugins/composite/composite.xml.in.h:14
+msgid ""
+"Paint each output device independly, even if the output devices overlap"
+msgstr "모니터가 오버랩 되어있어도 각 모니터를 독립적으로 그립니다."
+
+#: ../plugins/copytex/copytex.xml.in.h:1
+msgid "Copy to texture"
+msgstr "텍스처로 복사"
+
+#: ../plugins/copytex/copytex.xml.in.h:2
+msgid "Copy pixmap content to texture"
+msgstr "픽스맵 항목을 텍스처로 복사합니다"
+
+#: ../plugins/cube/cube.xml.in.h:1
+msgid "Desktop Cube"
+msgstr "데스크톱 큐브"
+
+#: ../plugins/cube/cube.xml.in.h:2
+msgid "Place windows and viewports on a cube"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:3
+msgid "Unfold Cube Key"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:4
+msgid "Keyboard shortcut to unfold the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:6
+msgid "Generate mipmaps for higher quality scaling."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:7 ../plugins/place/place.xml.in.h:13
+#: ../plugins/scale/scale.xml.in.h:30
+msgid "Multi Output Mode"
+msgstr "다중 화면 모드"
+
+#: ../plugins/cube/cube.xml.in.h:8
+msgid ""
+"Select how the cube is displayed, if multiple output devices are used."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:9
+msgid "Automatic"
+msgstr "자동"
+
+#: ../plugins/cube/cube.xml.in.h:10
+msgid "Multiple cubes"
+msgstr "복수 큐브"
+
+#: ../plugins/cube/cube.xml.in.h:11
+msgid "One big cube"
+msgstr "커다란 단일 큐브"
+
+#: ../plugins/cube/cube.xml.in.h:12 ../plugins/scale/scale.xml.in.h:23
+msgid "Behaviour"
+msgstr "동작"
+
+#: ../plugins/cube/cube.xml.in.h:13
+msgid "Inside Cube"
+msgstr "큐브 내부"
+
+#: ../plugins/cube/cube.xml.in.h:14
+msgid "Place the camera inside the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:15
+msgid "Fold Acceleration"
+msgstr "접기 가속"
+
+#: ../plugins/cube/cube.xml.in.h:16
+msgid "The acceleration of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:17
+msgid "Fold Speed"
+msgstr "접는 속도"
+
+#: ../plugins/cube/cube.xml.in.h:18
+msgid "The speed of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:19 ../plugins/rotate/rotate.xml.in.h:28
+#: ../plugins/scale/scale.xml.in.h:12 ../plugins/switcher/switcher.xml.in.h:21
+msgid "Timestep"
+msgstr "시간 간격"
+
+#: ../plugins/cube/cube.xml.in.h:20
+msgid "The timestep of folding and unfolding."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:21 ../plugins/scale/scale.xml.in.h:3
+msgid "Appearance"
+msgstr "모양"
+
+#: ../plugins/cube/cube.xml.in.h:22
+msgid "Cube Cap Colors"
+msgstr "큐브 뚜껑 색"
+
+#: ../plugins/cube/cube.xml.in.h:23
+msgid "Top"
+msgstr "위"
+
+#: ../plugins/cube/cube.xml.in.h:24
+msgid "Color and opacity of top face of the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:25
+msgid "Bottom"
+msgstr "아래"
+
+#: ../plugins/cube/cube.xml.in.h:26
+msgid "Color and opacity of bottom face of the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:27
+msgid "Skydome"
+msgstr "스카이 돔"
+
+#: ../plugins/cube/cube.xml.in.h:28
+msgid "Render a specified skydome texture."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:29
+msgid "Skydome Image"
+msgstr "스카이 돔 그림"
+
+#: ../plugins/cube/cube.xml.in.h:30
+msgid "Image to use as texture for the skydome."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:31
+msgid "Animate Skydome"
+msgstr "스카이 돔 움직이기"
+
+#: ../plugins/cube/cube.xml.in.h:32
+msgid "Animate the skydome when rotating the cube."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:33
+msgid "Skydome Gradient Start Color"
+msgstr "스카이 돔 그라디언트 시작 색상"
+
+#: ../plugins/cube/cube.xml.in.h:34
+msgid ""
+"Color and opacity to use for the top color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:35
+msgid "Skydome Gradient End Color"
+msgstr "스카이 돔 그라디언트 최종 색상"
+
+#: ../plugins/cube/cube.xml.in.h:36
+msgid ""
+"Color and opacity to use for the bottom color-stop of the skydome-fallback "
+"gradient."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:37
+msgid "Transparent Cube"
+msgstr "투명 큐브"
+
+#: ../plugins/cube/cube.xml.in.h:38
+msgid "Opacity During Rotation"
+msgstr "회전할 때의 투명도"
+
+#: ../plugins/cube/cube.xml.in.h:39
+msgid "Opacity of the desktop during cube rotation (in percent)."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:40
+msgid "Non Rotating Opacity"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:41
+msgid "Opacity of the desktop when not rotating the cube (in percent)."
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:42
+msgid "Transparency Only On Mouse Rotate"
+msgstr ""
+
+#: ../plugins/cube/cube.xml.in.h:43
+msgid "Initiates cube transparency only, if the rotation is mouse driven."
+msgstr ""
+
+#: ../plugins/dbus/dbus.xml.in.h:1
+msgid "D-Bus"
+msgstr "디버스"
+
+#: ../plugins/dbus/dbus.xml.in.h:2
+msgid "D-Bus Control Backend"
+msgstr "디버스 조정 백엔드"
+
+#: ../plugins/decor/decor.xml.in.h:1
+msgid "Window Decoration"
+msgstr "창 장식"
+
+#: ../plugins/decor/decor.xml.in.h:2
+msgid "Window decorations"
+msgstr "창 장식"
+
+#: ../plugins/decor/decor.xml.in.h:3
+msgid "Active Shadow"
+msgstr "사용 중인 창 그림자"
+
+#: ../plugins/decor/decor.xml.in.h:4
+msgid "Shadow Radius"
+msgstr "그림자 반경"
+
+#: ../plugins/decor/decor.xml.in.h:5
+msgid "Drop shadow radius"
+msgstr "그림자 반경"
+
+#: ../plugins/decor/decor.xml.in.h:6
+msgid "Shadow Opacity"
+msgstr "그림자 투명도"
+
+#: ../plugins/decor/decor.xml.in.h:7
+msgid "Drop shadow opacity"
+msgstr "그림자 투명도"
+
+#: ../plugins/decor/decor.xml.in.h:8
+msgid "Shadow Color"
+msgstr "그림자 색"
+
+#: ../plugins/decor/decor.xml.in.h:9
+msgid "Drop shadow color"
+msgstr "그림자 색"
+
+#: ../plugins/decor/decor.xml.in.h:10
+msgid "Shadow Offset X"
+msgstr "그림자 가로축 여백"
+
+#: ../plugins/decor/decor.xml.in.h:11
+msgid "Drop shadow X offset"
+msgstr "그림자 가로축 여백"
+
+#: ../plugins/decor/decor.xml.in.h:12
+msgid "Shadow Offset Y"
+msgstr "그림자 세로축 여백"
+
+#: ../plugins/decor/decor.xml.in.h:13
+msgid "Drop shadow Y offset"
+msgstr "그림자 세로축 여백"
+
+#: ../plugins/decor/decor.xml.in.h:14
+msgid "Inactive Shadow"
+msgstr "비사용 중인 창 그림자"
+
+#: ../plugins/decor/decor.xml.in.h:15
+msgid "Command"
+msgstr "명령"
+
+#: ../plugins/decor/decor.xml.in.h:16
+msgid ""
+"Decorator command line that is executed if no decorator is already running."
+msgstr "사용하고 있는 창 장식 프로그램이 없을 때 실행할 창 장식 프로그램 명령을 설정합니다."
+
+#: ../plugins/decor/decor.xml.in.h:18
+msgid "Allow mipmaps to be generated for decoration textures"
+msgstr "창 장식 텍스처에 mipmap 생성 허용"
+
+#: ../plugins/decor/decor.xml.in.h:19
+msgid "Decoration windows"
+msgstr "창 장식"
+
+#: ../plugins/decor/decor.xml.in.h:20
+msgid "Windows that should be decorated"
+msgstr "창 장식을 사용할 창"
+
+#: ../plugins/decor/decor.xml.in.h:21
+msgid "Shadow windows"
+msgstr "창 그림자"
+
+#: ../plugins/decor/decor.xml.in.h:22
+msgid "Windows that should have a shadow"
+msgstr "그림자가 있어야 하는 창"
+
+#: ../plugins/fade/fade.xml.in.h:1
+msgid "Fading Windows"
+msgstr "창 페이드 효과"
+
+#: ../plugins/fade/fade.xml.in.h:2
+msgid "Fade in windows when mapped and fade out windows when unmapped"
+msgstr "창이 생성될 때는 페이드 인, 종료될 때는 페이드 아웃"
+
+#: ../plugins/fade/fade.xml.in.h:3
+msgid "Fade Mode"
+msgstr "페이드 모드"
+
+#: ../plugins/fade/fade.xml.in.h:4
+msgid "Window fade mode"
+msgstr "창 페이드 모드"
+
+#: ../plugins/fade/fade.xml.in.h:5
+msgid "Constant speed"
+msgstr "일정한 속도"
+
+#: ../plugins/fade/fade.xml.in.h:6
+msgid "Constant time"
+msgstr "일정한 시간"
+
+#: ../plugins/fade/fade.xml.in.h:7
+msgid "Fade Speed"
+msgstr "페이드 속도"
+
+#: ../plugins/fade/fade.xml.in.h:8
+msgid "Window fade speed"
+msgstr "창 페이드 속도"
+
+#: ../plugins/fade/fade.xml.in.h:9
+msgid "Fade Time"
+msgstr "페이드 시간"
+
+#: ../plugins/fade/fade.xml.in.h:10
+msgid "Window fade time (in ms) in \"Constant time\" mode"
+msgstr "\"일정한 시간\" 모드에서 창 사라짐 속도(ms)"
+
+#: ../plugins/fade/fade.xml.in.h:11
+msgid "Fade windows"
+msgstr "창 페이드 효과"
+
+#: ../plugins/fade/fade.xml.in.h:12
+msgid "Windows that should be fading"
+msgstr "페이드 효과가 적용되는 창"
+
+#: ../plugins/fade/fade.xml.in.h:13
+msgid "Visual Bell"
+msgstr "시각 경고음"
+
+#: ../plugins/fade/fade.xml.in.h:14
+msgid "Fade effect on system beep"
+msgstr "시스템 경고음 대신 페이드 효과"
+
+#: ../plugins/fade/fade.xml.in.h:15
+msgid "Fullscreen Visual Bell"
+msgstr "전체 화면 시각 경고음"
+
+#: ../plugins/fade/fade.xml.in.h:16
+msgid "Fullscreen fade effect on system beep"
+msgstr "시스템 경고음 대신 전체 화면 페이드 효과"
+
+#: ../plugins/fade/fade.xml.in.h:17
+msgid "Dim Unresponsive Windows"
+msgstr "응답하지 않는 창을 흐리게 함"
+
+#: ../plugins/fade/fade.xml.in.h:18
+msgid "Dim windows that are not responding to window manager requests"
+msgstr "창 관리자의 요청에 응답하지 않는 창을 흐리게 함"
+
+#: ../plugins/fade/fade.xml.in.h:19
+msgid "Unresponsive Window Brightness"
+msgstr "응답하지 않는 창 밝기"
+
+#: ../plugins/fade/fade.xml.in.h:21
+#, no-c-format
+msgid "Brightness (in %) of unresponsive windows"
+msgstr "반응하지 않는 창의 밝기(%)"
+
+#: ../plugins/fade/fade.xml.in.h:22
+msgid "Unresponsive Window Saturation"
+msgstr "응답하지 않는 창 채도"
+
+#: ../plugins/fade/fade.xml.in.h:24
+#, no-c-format
+msgid "Saturation (in %) of unresponsive windows"
+msgstr "응답하지 않는 창의 채도(%)"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:1
+msgid "Gnome Compatibility"
+msgstr "그놈 호환성"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:2
+msgid "Options that keep Compiz compatible to the Gnome desktop environment"
+msgstr "컴피즈가 그놈 데스크톱 환경과 호환될 수 있게 하는 옵션입니다."
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:3
+msgid "Show Main Menu"
+msgstr "주 메뉴 보이기"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:4
+msgid "Show the main menu"
+msgstr "주 메뉴 보이기"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:5
+msgid "Run Dialog"
+msgstr "프로그램 실행 대화 상자"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:6
+msgid "Show Run Application dialog"
+msgstr "프로그램 실행 대화 상자 보이기"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:8
+msgid "Screenshot command line"
+msgstr "스크린샷 명령"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:9
+msgid "Take a screenshot"
+msgstr "스크린샷 찍기"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:10
+msgid "Window screenshot command line"
+msgstr "창 스크린샷 명령"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:11
+msgid "Take a screenshot of a window"
+msgstr "창 스크린샷 찍기"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:12
+msgid "Run terminal command"
+msgstr "터미널 실행 명령"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:13
+msgid "Terminal command line"
+msgstr "터미널 명령"
+
+#: ../plugins/gnomecompat/gnomecompat.xml.in.h:14
+msgid "Open a terminal"
+msgstr "터미널 열기"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:1
+msgid "PNG"
+msgstr "PNG"
+
+#: ../plugins/imgpng/imgpng.xml.in.h:2
+msgid "PNG image loader"
+msgstr "PNG 그림 불러오기 도구"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:1
+msgid "SVG"
+msgstr "SVN"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:2
+msgid "SVG image loader"
+msgstr "SVN 그림 불러오기 도구"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:3
+msgid "Set overlay"
+msgstr "오버레이 설정"
+
+#: ../plugins/imgsvg/imgsvg.xml.in.h:4
+msgid "Set window overlay"
+msgstr "창 오버레이 설정"
+
+#: ../plugins/inotify/inotify.xml.in.h:1
+msgid "File Watcher"
+msgstr "파일 감시"
+
+#: ../plugins/inotify/inotify.xml.in.h:2
+msgid "File change notification plugin"
+msgstr "파일 변화 알림 플러그인"
+
+#: ../plugins/kde/kde.xml.in.h:1
+msgid "KDE/Qt Event Loop"
+msgstr "KDE/Qt 이벤트 루프"
+
+#: ../plugins/kde/kde.xml.in.h:2
+msgid "Integrates the KDE/Qt event loop into Compiz"
+msgstr "KDE/Qt 이벤트 루프와 컴피즈를 통합합니다"
+
+#: ../plugins/move/move.xml.in.h:1
+msgid "Move Window"
+msgstr "창 이동"
+
+#: ../plugins/move/move.xml.in.h:2
+msgid "Move your windows around"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:3
+msgid "Initiate Window Move"
+msgstr "창 이동 시작"
+
+#: ../plugins/move/move.xml.in.h:4
+msgid "Start moving window"
+msgstr "창 이동 시작"
+
+#: ../plugins/move/move.xml.in.h:5
+msgid "Moving Window Opacity"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:6
+msgid "Opacity level of moving windows (in percent)."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:7
+msgid "Keyboard Move Increment"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:8
+msgid ""
+"Move the window by this amount of pixels for every press on one of the "
+"cursor keys."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:9
+msgid "Constrain Y"
+msgstr "세로축 움직임 제한"
+
+#: ../plugins/move/move.xml.in.h:10
+msgid "Constrain y-coordinate to workspace area."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:11
+msgid "Snapoff Semimaximized Windows"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:12
+msgid "Snapoff and auto-restore semimaximized windows when dragging them."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:13
+msgid "Snapoff Distance"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:14
+msgid ""
+"Distance of pixels you have to drag a snapped semimaximized window to unsnap "
+"it."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:15
+msgid "Snapback Semimaximized Windows"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:16
+msgid ""
+"Snapback and re-maximize semimaximized windows when dragging them back."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:17
+msgid "Snapback Distance"
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:18
+msgid ""
+"Number of pixels from top or sides to snap back semimaximized windows."
+msgstr ""
+
+#: ../plugins/move/move.xml.in.h:19
+msgid "Lazy Positioning"
+msgstr "늦은 위치 반영"
+
+#: ../plugins/move/move.xml.in.h:20
+msgid ""
+"Do not update the server-side position of windows until finished moving."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:1
+msgid "Opacity, Brightness and Saturation"
+msgstr "투명, 밝기, 채도"
+
+#: ../plugins/obs/obs.xml.in.h:2
+msgid "Per window adjustments of opacity, brightness and saturation"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:3 ../plugins/scale/scale.xml.in.h:16
+#: ../plugins/switcher/switcher.xml.in.h:31
+msgid "Opacity"
+msgstr "투명"
+
+#: ../plugins/obs/obs.xml.in.h:4
+msgid "Increase Opacity Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:5
+msgid "Increase the opacity of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:6
+msgid "Increase Opacity Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:7
+msgid "Increase the opacity of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:8
+msgid "Decrease Opacity Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:9
+msgid "Decrease the opacity of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:10
+msgid "Decrease Opacity Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:11
+msgid "Decrease the opacity of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:12
+msgid "Step Size"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:13
+msgid "Opacity increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:14
+msgid "Window Specific Settings"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:16
+msgid "Windows that should have a specific default opacity."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:17
+msgid "Window values"
+msgstr "정도"
+
+#: ../plugins/obs/obs.xml.in.h:18
+msgid "Opacity value for the windows (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:19 ../plugins/switcher/switcher.xml.in.h:29
+msgid "Brightness"
+msgstr "밝기"
+
+#: ../plugins/obs/obs.xml.in.h:20
+msgid "Increase Brightness Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:21
+msgid "Increase the brightness of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:22
+msgid "Increase Brightness Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:23
+msgid "Increase the brightness of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:24
+msgid "Decrease Brightness Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:25
+msgid "Decrease the brightness of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:26
+msgid "Decrease Brightness Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:27
+msgid "Decrease the brightness of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:28
+msgid "Brightness increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:29
+msgid "Windows that should have a specific default brightness."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:30
+msgid "Brightness value for windows (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:31 ../plugins/switcher/switcher.xml.in.h:27
+msgid "Saturation"
+msgstr "채도"
+
+#: ../plugins/obs/obs.xml.in.h:32
+msgid "Increase Saturation Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:33
+msgid "Increase the saturation of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:34
+msgid "Increase Saturation Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:35
+msgid "Increase the saturation of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:36
+msgid "Decrease Saturation Key"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:37
+msgid "Decrease the saturation of the selected window."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:38
+msgid "Decrease Saturation Button"
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:39
+msgid "Decrease the saturation of the window the pointer hovers."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:40
+msgid "Saturation increment and decrement amount (in percent)."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:41
+msgid "Windows that should have a specific default saturation."
+msgstr ""
+
+#: ../plugins/obs/obs.xml.in.h:42
+msgid "Saturation value for the windows (in percent)."
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:1
+msgid "OpenGL"
+msgstr "오픈GL"
+
+#: ../plugins/opengl/opengl.xml.in.h:2
+msgid "OpenGL Plugin"
+msgstr "오픈GL 플러그인"
+
+#: ../plugins/opengl/opengl.xml.in.h:3
+msgid "Texture Filter"
+msgstr "텍스처 필터"
+
+#: ../plugins/opengl/opengl.xml.in.h:4
+msgid "Texture filtering"
+msgstr "텍스처 필터링"
+
+#: ../plugins/opengl/opengl.xml.in.h:5
+msgid "Fast"
+msgstr "빠름"
+
+#: ../plugins/opengl/opengl.xml.in.h:6
+msgid "Good"
+msgstr "좋음"
+
+#: ../plugins/opengl/opengl.xml.in.h:7
+msgid "Best"
+msgstr "최고"
+
+#: ../plugins/opengl/opengl.xml.in.h:8
+msgid "Lighting"
+msgstr "조명 효과"
+
+#: ../plugins/opengl/opengl.xml.in.h:9
+msgid "Use diffuse light when screen is transformed"
+msgstr "화면이 전환될 때 빛이 퍼지는 사용"
+
+#: ../plugins/opengl/opengl.xml.in.h:10
+msgid "Sync To VBlank"
+msgstr "VBlank에 동기화"
+
+#: ../plugins/opengl/opengl.xml.in.h:11
+msgid "Only perform screen updates during vertical blanking period"
+msgstr "수직 공백 주기로만 화면을 업데이트함"
+
+#: ../plugins/opengl/opengl.xml.in.h:12
+msgid "Texture Compression"
+msgstr "텍스처 압축"
+
+#: ../plugins/opengl/opengl.xml.in.h:13
+msgid "If available use compression for textures converted from images"
+msgstr "가능하다면 이미지로부터 변형된 텍스처를 압축합니다."
+
+#: ../plugins/opengl/opengl.xml.in.h:14
+msgid "Framebuffer object"
+msgstr "프레임버퍼 객체"
+
+#: ../plugins/opengl/opengl.xml.in.h:15
+msgid ""
+"Render all frames indirectly using framebuffer objects "
+"(GL_EXT_framebuffer_object), if supported by the driver. Pros: Might be "
+"faster than the default buffer swapping method in some cases. Cons: This "
+"will come at the cost of (1) usually reduced graphics benchmark performance; "
+"(2) increased GPU resource consumption; and (3) possibly higher visible lag. "
+"Note: This feature is always on in OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"드라이버가 지원하는 경우 프레임버퍼 객체(GL_EXT_framebuffer_object)를 사용해 모든 프레임을 간접적으로 렌더링합니다. "
+" 일부 상황에서 기본 버퍼 교체 방식보다 빠륵 수 있습니다. 하지만 그래픽 벤치마크 성능을 줄일 수 있고 GPU 자원 소모를 늘릴 수 "
+"있으며 화면 지연이 심해질 수 있습니다. 주의: 이 기능은 ARM 플래폼과 같은 OpenGL|ES 빌드에서는 항상 사용하게 됩니다."
+
+#: ../plugins/opengl/opengl.xml.in.h:16
+msgid "Vertex buffer object"
+msgstr "버텍스 버퍼 객체"
+
+#: ../plugins/opengl/opengl.xml.in.h:17
+msgid ""
+"Render all graphics primitives using vertex buffer objects "
+"(GL_ARB_vertex_buffer_object), if supported by the driver. Pros: This "
+"provides higher graphics performance for some drivers. Cons: This is a new "
+"feature and may cause graphical problems. Note: This feature is always on in "
+"OpenGL|ES builds such as ARM platforms."
+msgstr ""
+"드라이버가 지원하는 경우 버텍스 객체(GL_ARB_vertex_buffer_object)를 사용해 모든 그래픽 기초 요소를 렌더링합니다. "
+" 일부 드라이버에서 더 나은 성능을 제공하지만 그래픽 문제를 야기할 수 있습니다. 주의: 이 기능은 ARM 플래폼과 같은 "
+"OpenGL|ES 빌드에서는 항상 사용하게 됩니다."
+
+#: ../plugins/opengl/opengl.xml.in.h:18
+msgid "Always use buffer swapping"
+msgstr "버퍼 교체 기능을 항상 사용"
+
+#: ../plugins/opengl/opengl.xml.in.h:19
+msgid ""
+"Use glXSwapBuffers to display every frame. This eliminates visible tearing "
+"with most drivers and dramatically improves visual smoothness. Automatically "
+"enabled when framebuffer_object is on."
+msgstr ""
+"glXSwapBuffers 기능을 사용해 모든 프레임을 표시합니다. 이 기능을 사용하면 대부분의 드라이버에서 티어링 현상을 제거하고 화면 "
+"효과를 상당히 부드럽게 합니다. framebuffer_object 기능을 사용하는 경우에 자동으로 이 기능을 사용합니다."
+
+#: ../plugins/opengl/opengl.xml.in.h:20
+msgid "Unredirect Driver Blacklist"
+msgstr ""
+
+#: ../plugins/opengl/opengl.xml.in.h:21
+msgid ""
+"If non-empty, specifies a POSIX (extended) regular expression to match "
+"against the OpenGL driver strings (newline separated): \"GL_VENDOR\\"
+"nGL_RENDERER\\nGL_VERSION\". If the regular expression matches a substring "
+"of that concatenation then no windows will ever be unredirected while using "
+"that particular graphics driver."
+msgstr ""
+
+#: ../plugins/place/place.xml.in.h:1
+msgid "Place Windows"
+msgstr "창 배치"
+
+#: ../plugins/place/place.xml.in.h:2
+msgid "Place windows at appropriate positions when mapped"
+msgstr "창을 생성할 때 적절한 위치에 배치"
+
+#: ../plugins/place/place.xml.in.h:3
+msgid "Workarounds"
+msgstr "예비 수단"
+
+#: ../plugins/place/place.xml.in.h:4
+msgid "Window placement workarounds"
+msgstr "창 배치 문제의 회피 방법"
+
+#: ../plugins/place/place.xml.in.h:5
+msgid "Placement Mode"
+msgstr "배치 모드"
+
+#: ../plugins/place/place.xml.in.h:6
+msgid "Algorithm to use for window placement"
+msgstr "창 배치에 사용할 알고리즘"
+
+#: ../plugins/place/place.xml.in.h:7
+msgid "Cascade"
+msgstr "계단"
+
+#: ../plugins/place/place.xml.in.h:8
+msgid "Centered"
+msgstr "중앙"
+
+#: ../plugins/place/place.xml.in.h:9
+msgid "Smart"
+msgstr "똑똑하게"
+
+#: ../plugins/place/place.xml.in.h:10
+msgid "Maximize"
+msgstr "최대화"
+
+#: ../plugins/place/place.xml.in.h:11
+msgid "Random"
+msgstr "무작위로"
+
+#: ../plugins/place/place.xml.in.h:12
+msgid "Pointer"
+msgstr "포인터"
+
+#: ../plugins/place/place.xml.in.h:14
+msgid ""
+"Selects how window placement should behave if multiple outputs are selected"
+msgstr "다중 화면 장치 옵션이 활성화 되었을 때 창의 배치를 어떻게 할지 선택하세요."
+
+#: ../plugins/place/place.xml.in.h:15
+msgid "Use active output device"
+msgstr "활성화 되어있는 모니터 사용"
+
+#: ../plugins/place/place.xml.in.h:16
+msgid "Use output device with pointer"
+msgstr "마우스 포인터가 있는 모니터 사용"
+
+#: ../plugins/place/place.xml.in.h:17
+msgid "Use output device of focussed window"
+msgstr "현재 사용 중인 창이 있는 모니터 사용"
+
+#: ../plugins/place/place.xml.in.h:18
+msgid "Place across all outputs"
+msgstr "모든 화면에 위치"
+
+#: ../plugins/place/place.xml.in.h:19
+msgid "Force Placement Windows"
+msgstr "강제로 창을 위치"
+
+#: ../plugins/place/place.xml.in.h:20
+msgid ""
+"Windows that should forcedly be placed, even if they indicate the window "
+"manager should avoid placing them."
+msgstr "창 관리자가 배치하지 않도록 설정했다고 해도, 강제로 배치할 창을 설정합니다."
+
+#: ../plugins/place/place.xml.in.h:21
+msgid "Fixed Window Placement"
+msgstr "고정된 창 배치"
+
+#: ../plugins/place/place.xml.in.h:22
+msgid "Windows with fixed positions"
+msgstr "고정된 위치를 갖는 창"
+
+#: ../plugins/place/place.xml.in.h:23
+msgid "Positioned windows"
+msgstr "배치된 창"
+
+#: ../plugins/place/place.xml.in.h:24
+msgid "Windows that should be positioned by default"
+msgstr "기본으로 배치해야 하는 창"
+
+#: ../plugins/place/place.xml.in.h:25
+msgid "X Positions"
+msgstr "가로축 위치"
+
+#: ../plugins/place/place.xml.in.h:26
+msgid "X position values"
+msgstr "가로축 위치 값"
+
+#: ../plugins/place/place.xml.in.h:27
+msgid "Y Positions"
+msgstr "세로축 위치"
+
+#: ../plugins/place/place.xml.in.h:28
+msgid "Y position values"
+msgstr "세로축 위치 값"
+
+#: ../plugins/place/place.xml.in.h:29
+msgid "Keep In Workarea"
+msgstr "작업 영역에 유지"
+
+#: ../plugins/place/place.xml.in.h:30
+msgid ""
+"Keep placed window in work area, even if that means that the position might "
+"differ from the specified position"
+msgstr "위치 설정에 적용되는 창을 작업 영역에 유지합니다. 그 위치가 특정한 위치와 다를지라도 유지합니다."
+
+#: ../plugins/place/place.xml.in.h:31
+msgid "Windows with fixed placement mode"
+msgstr "고정된 위치 모드가 적용된 창"
+
+#: ../plugins/place/place.xml.in.h:33
+msgid "Windows that should have a certain positioning mo+de"
+msgstr "특정한 위치에 배치해야 하는 창"
+
+#: ../plugins/place/place.xml.in.h:34
+msgid "Mode"
+msgstr "모드"
+
+#: ../plugins/place/place.xml.in.h:35
+msgid "Positioning modes"
+msgstr "위치 모드"
+
+#: ../plugins/place/place.xml.in.h:36
+msgid "Windows with fixed viewport"
+msgstr "고정된 작업 공간을 갖는 창"
+
+#: ../plugins/place/place.xml.in.h:37
+msgid "Viewport positioned windows"
+msgstr "작업 공간에 배치된 창"
+
+#: ../plugins/place/place.xml.in.h:38
+msgid "Windows that should be positioned in specific viewports by default"
+msgstr "기본적으로 특정 작업 공간에 배치해야 하는 창"
+
+#: ../plugins/place/place.xml.in.h:39
+msgid "X Viewport Positions"
+msgstr "작업 공간 가로축 위치"
+
+#: ../plugins/place/place.xml.in.h:40
+msgid "Horizontal viewport positions"
+msgstr "가로 작업 공간 위치"
+
+#: ../plugins/place/place.xml.in.h:41
+msgid "Y Viewport Positions"
+msgstr "작업 공간 세로축 위치"
+
+#: ../plugins/place/place.xml.in.h:42
+msgid "Vertical viewport positions"
+msgstr "세로 작업 공간 위치"
+
+#: ../plugins/regex/regex.xml.in.h:1
+msgid "Regex Matching"
+msgstr "정규 표현식 사용"
+
+#: ../plugins/regex/regex.xml.in.h:2
+msgid "Regex window matching"
+msgstr "정규 표현식 창 매칭"
+
+#: ../plugins/resize/resize.xml.in.h:1
+msgid "Resize Window"
+msgstr "창 크기 조절"
+
+#: ../plugins/resize/resize.xml.in.h:3 ../plugins/rotate/rotate.xml.in.h:30
+#: ../plugins/scale/scale.xml.in.h:34 ../plugins/switcher/switcher.xml.in.h:2
+msgid "Bindings"
+msgstr "바로 가기"
+
+#: ../plugins/resize/resize.xml.in.h:4
+msgid "Initiate Window Resize"
+msgstr "창 크기 조절 시작"
+
+#: ../plugins/resize/resize.xml.in.h:5
+msgid "Start resizing window"
+msgstr "창 크기 조절 시작"
+
+#: ../plugins/resize/resize.xml.in.h:6
+msgid "Default Resize Mode"
+msgstr "기본 방법으로 창 크기 조절"
+
+#: ../plugins/resize/resize.xml.in.h:7
+msgid "Default mode used for window resizing"
+msgstr "창 크기 조절할 때의 기본 방식"
+
+#: ../plugins/resize/resize.xml.in.h:9
+msgid "Outline"
+msgstr "외곽선"
+
+#: ../plugins/resize/resize.xml.in.h:10
+msgid "Rectangle"
+msgstr "사각형"
+
+#: ../plugins/resize/resize.xml.in.h:11
+msgid "Stretch"
+msgstr "잡아당기기"
+
+#: ../plugins/resize/resize.xml.in.h:12
+msgid "Border Color"
+msgstr "테두리 색"
+
+#: ../plugins/resize/resize.xml.in.h:13
+msgid "Border color used for outline and rectangle resize modes"
+msgstr "외곽선으로 창 크기를 조절할 때와 사각형으로 창 크기를 조절할 때 사용할 테두리 색"
+
+#: ../plugins/resize/resize.xml.in.h:14
+msgid "Fill Color"
+msgstr "채우기 색"
+
+#: ../plugins/resize/resize.xml.in.h:15
+msgid "Fill color used for rectangle resize mode"
+msgstr "사각형으로 창 크기를 조절할 때 채울 색"
+
+#: ../plugins/resize/resize.xml.in.h:16
+msgid "Specific Window Matches"
+msgstr "일치하는 특정 창"
+
+#: ../plugins/resize/resize.xml.in.h:17
+msgid "Normal Resize Windows"
+msgstr "기본 방식으로 창 크기 조절"
+
+#: ../plugins/resize/resize.xml.in.h:18
+msgid "Windows that normal resize should be used for"
+msgstr "기본 방식으로 창 크기를 조절할 창"
+
+#: ../plugins/resize/resize.xml.in.h:19
+msgid "Outline Resize Windows"
+msgstr "외곽선 창 크기 조절 모드"
+
+#: ../plugins/resize/resize.xml.in.h:20
+msgid "Windows that outline resize should be used for"
+msgstr "외곽선으로 창 크기를 조절할 창"
+
+#: ../plugins/resize/resize.xml.in.h:21
+msgid "Rectangle Resize Windows"
+msgstr "사각형으로 창 크기 조절"
+
+#: ../plugins/resize/resize.xml.in.h:22
+msgid "Windows that rectangle resize should be used for"
+msgstr "사각형으로 창 크기를 조절할 창"
+
+#: ../plugins/resize/resize.xml.in.h:23
+msgid "Stretch Resize Windows"
+msgstr "잡아당기기로 창 크기 조절"
+
+#: ../plugins/resize/resize.xml.in.h:24
+msgid "Windows that stretch resize should be used for"
+msgstr "잡아당기기로 창 크기를 조절할 창"
+
+#: ../plugins/resize/resize.xml.in.h:25
+msgid "Additional Modifier Keys"
+msgstr "추가 조합 키"
+
+#: ../plugins/resize/resize.xml.in.h:26
+msgid "Outline Modifier"
+msgstr "외곽선 바로 가기"
+
+#: ../plugins/resize/resize.xml.in.h:27
+msgid "Use these bindings to resize with an outline."
+msgstr "외곽선으로 크기를 바꿀 때 사용하는 키보드 바로 가기입니다."
+
+#: ../plugins/resize/resize.xml.in.h:28
+msgid "Shift"
+msgstr "쉬프트"
+
+#: ../plugins/resize/resize.xml.in.h:29
+msgid "Alt"
+msgstr "알트"
+
+#: ../plugins/resize/resize.xml.in.h:30
+msgid "Control"
+msgstr "컨트롤"
+
+#: ../plugins/resize/resize.xml.in.h:31
+msgid "Meta"
+msgstr "윈도 키"
+
+#: ../plugins/resize/resize.xml.in.h:32
+msgid "Rectangle Modifier"
+msgstr "사각형 변경자"
+
+#: ../plugins/resize/resize.xml.in.h:33
+msgid "Use these bindings to resize with an rectangle."
+msgstr "사각형으로 크기를 바꿀 때 사용하는 키보드 바로 가기입니다."
+
+#: ../plugins/resize/resize.xml.in.h:34
+msgid "Stretch Modifier"
+msgstr "잡아당기기 변경자"
+
+#: ../plugins/resize/resize.xml.in.h:35
+msgid "Use these bindings to resize by stretching."
+msgstr "늘이기로 크기를 바꿀 때 사용하는 키보드 바로 가기입니다."
+
+#: ../plugins/resize/resize.xml.in.h:36
+msgid "Centered Modifier"
+msgstr "중앙 변경자"
+
+#: ../plugins/resize/resize.xml.in.h:37
+msgid "Use these bindings to resize from the center."
+msgstr "중앙에서 크기를 바꿀 때 사용하는 키보드 바로 가기입니다."
+
+#: ../plugins/rotate/rotate.xml.in.h:1
+msgid "Rotate Cube"
+msgstr "큐브 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:2
+msgid "Rotate desktop cube"
+msgstr "데스크톱 큐브 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:3
+msgid "Edge Flip Pointer"
+msgstr "마우스 포인터로 모서리에서 작업 공간 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:4
+msgid "Flip to next viewport when moving pointer to screen edge"
+msgstr "마우스 포인터를 화면 모서리로 가져가면 다음 작업 공간으로 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:5
+msgid "Edge Flip Move"
+msgstr "모서리에서 작업 공간 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:6
+msgid "Flip to next viewport when moving window to screen edge"
+msgstr "창을 화면 모서리로 끌어오면 다음 작업 공간으로 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:7
+msgid "Edge Flip DnD"
+msgstr "창을 모서리로 끌어와 작업 공간 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:8
+msgid "Flip to next viewport when dragging object to screen edge"
+msgstr "대상을 화면 모서리로 드래그 하면 다음 작업 공간으로 전환"
+
+#: ../plugins/rotate/rotate.xml.in.h:9
+msgid "Raise on rotate"
+msgstr "작업 공간을 전환할 때 창을 올림"
+
+#: ../plugins/rotate/rotate.xml.in.h:10
+msgid "Raise window when rotating"
+msgstr "작업 공간을 전환할 때 창을 올림"
+
+#: ../plugins/rotate/rotate.xml.in.h:11
+msgid "Pointer Invert Y"
+msgstr "세로축 반전"
+
+#: ../plugins/rotate/rotate.xml.in.h:12
+msgid "Invert Y axis for pointer movement"
+msgstr "포인터의 이동을 가로축으로 반전"
+
+#: ../plugins/rotate/rotate.xml.in.h:13
+msgid "Snap To Top Face"
+msgstr "위쪽 면으로 잡아당김"
+
+#: ../plugins/rotate/rotate.xml.in.h:14
+msgid "Snap Cube Rotation to Top Face"
+msgstr "큐브를 회전할 때 위쪽 면으로 잡아당김"
+
+#: ../plugins/rotate/rotate.xml.in.h:15
+msgid "Snap To Bottom Face"
+msgstr "아래 면으로 잡아당김"
+
+#: ../plugins/rotate/rotate.xml.in.h:16
+msgid "Snap Cube Rotation to Bottom Face"
+msgstr "큐브 회전 시 아래 면으로 잡아당김"
+
+#: ../plugins/rotate/rotate.xml.in.h:17
+#: ../plugins/switcher/switcher.xml.in.h:37
+msgid "Zoom"
+msgstr "확대"
+
+#: ../plugins/rotate/rotate.xml.in.h:18
+msgid "Rotation Zoom"
+msgstr "회전 시 확대"
+
+#: ../plugins/rotate/rotate.xml.in.h:19
+msgid "Additional Settings"
+msgstr "추가 설정"
+
+#: ../plugins/rotate/rotate.xml.in.h:20
+msgid "Flip Time"
+msgstr "전환 시간"
+
+#: ../plugins/rotate/rotate.xml.in.h:21
+msgid "Timeout before flipping viewport"
+msgstr "작업 공간을 전환할 때의 시간 간격"
+
+#: ../plugins/rotate/rotate.xml.in.h:22
+msgid "Pointer Sensitivity"
+msgstr "마우스 포인터 감도"
+
+#: ../plugins/rotate/rotate.xml.in.h:23
+msgid "Sensitivity of pointer movement"
+msgstr "마우스 포인터 감도"
+
+#: ../plugins/rotate/rotate.xml.in.h:24
+msgid "Acceleration"
+msgstr "가속"
+
+#: ../plugins/rotate/rotate.xml.in.h:25
+msgid "Rotation Acceleration"
+msgstr "회전 가속"
+
+#: ../plugins/rotate/rotate.xml.in.h:26 ../plugins/scale/scale.xml.in.h:10
+#: ../plugins/switcher/switcher.xml.in.h:19
+msgid "Speed"
+msgstr "속도"
+
+#: ../plugins/rotate/rotate.xml.in.h:27
+msgid "Rotation Speed"
+msgstr "회전 속도"
+
+#: ../plugins/rotate/rotate.xml.in.h:29
+msgid "Rotation Timestep"
+msgstr "회전 시간 간격"
+
+#: ../plugins/rotate/rotate.xml.in.h:31
+msgid "Rotate cube"
+msgstr "큐브 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:33
+msgid "Start Rotation"
+msgstr "회전 시작"
+
+#: ../plugins/rotate/rotate.xml.in.h:34
+msgid "Rotate Left"
+msgstr "왼쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:35
+msgid "Rotate left"
+msgstr "왼쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:36
+msgid "Rotate Right"
+msgstr "오른쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:37
+msgid "Rotate right"
+msgstr "오른쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:38
+msgid "Rotate Left with Window"
+msgstr "모든 창과 함께 왼쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:39
+msgid "Rotate left and bring active window along"
+msgstr "사용 중인 창과 함께 왼쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:40
+msgid "Rotate Right with Window"
+msgstr "모든 창과 함께 오른쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:41
+msgid "Rotate right and bring active window along"
+msgstr "사용 중인 창과 함께 오른쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:42
+msgid "Rotate To"
+msgstr "회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:43
+msgid "Rotate to viewport"
+msgstr "작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:44
+msgid "Rotate window"
+msgstr "창 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:45
+msgid "Rotate with window"
+msgstr "창과 함께 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:46
+msgid "Rotate Flip Left"
+msgstr "왼쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:47
+msgid "Flip to left viewport and warp pointer"
+msgstr "왼쪽 작업 공간으로 전환한 후, 포인터 이동"
+
+#: ../plugins/rotate/rotate.xml.in.h:48
+msgid "Rotate Flip Right"
+msgstr "오른쪽으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:49
+msgid "Flip to right viewport and warp pointer"
+msgstr "오른쪽 작업 공간으로 전환한 후, 포인터 이동"
+
+#: ../plugins/rotate/rotate.xml.in.h:50
+msgid "Rotate to cube face"
+msgstr "특정 큐브 면으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:51
+msgid "Rotate To Face 1"
+msgstr "1번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:52
+msgid "Rotate to face 1"
+msgstr "1번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:53
+msgid "Rotate To Face 2"
+msgstr "2번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:54
+msgid "Rotate to face 2"
+msgstr "2번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:55
+msgid "Rotate To Face 3"
+msgstr "3번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:56
+msgid "Rotate to face 3"
+msgstr "3번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:57
+msgid "Rotate To Face 4"
+msgstr "4번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:58
+msgid "Rotate to face 4"
+msgstr "4번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:59
+msgid "Rotate To Face 5"
+msgstr "5번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:60
+msgid "Rotate to face 5"
+msgstr "5번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:61
+msgid "Rotate To Face 6"
+msgstr "6번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:62
+msgid "Rotate to face 6"
+msgstr "6번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:63
+msgid "Rotate To Face 7"
+msgstr "7번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:64
+msgid "Rotate to face 7"
+msgstr "7번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:65
+msgid "Rotate To Face 8"
+msgstr "8번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:66
+msgid "Rotate to face 8"
+msgstr "8번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:67
+msgid "Rotate To Face 9"
+msgstr "9번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:68
+msgid "Rotate to face 9"
+msgstr "9번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:69
+msgid "Rotate To Face 10"
+msgstr "10번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:70
+msgid "Rotate to face 10"
+msgstr "10번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:71
+msgid "Rotate To Face 11"
+msgstr "11번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:72
+msgid "Rotate to face 11"
+msgstr "11번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:73
+msgid "Rotate To Face 12"
+msgstr "12번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:74
+msgid "Rotate to face 12"
+msgstr "12번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:75
+msgid "Rotate to cube face with window"
+msgstr "창과 함께 특정 큐브 면으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:76
+msgid "Rotate To Face 1 with Window"
+msgstr "모든 창과 함께 1번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:77
+msgid "Rotate to face 1 and bring active window along"
+msgstr "사용 중인 창과 함께 1번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:78
+msgid "Rotate To Face 2 with Window"
+msgstr "모든 창과 함께 2번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:79
+msgid "Rotate to face 2 and bring active window along"
+msgstr "사용 중인 창과 함께 2번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:80
+msgid "Rotate To Face 3 with Window"
+msgstr "모든 창과 함께 3번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:81
+msgid "Rotate to face 3 and bring active window along"
+msgstr "사용 중인 창과 함께 3번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:82
+msgid "Rotate To Face 4 with Window"
+msgstr "모든 창과 함께 4번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:83
+msgid "Rotate to face 4 and bring active window along"
+msgstr "사용 중인 창과 함께 4번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:84
+msgid "Rotate To Face 5 with Window"
+msgstr "모든 창과 함께 5번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:85
+msgid "Rotate to face 5 and bring active window along"
+msgstr "사용 중인 창과 함께 5번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:86
+msgid "Rotate To Face 6 with Window"
+msgstr "모든 창과 함께 6번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:87
+msgid "Rotate to face 6 and bring active window along"
+msgstr "사용 중인 창과 함께 6번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:88
+msgid "Rotate To Face 7 with Window"
+msgstr "모든 창과 함께 7번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:89
+msgid "Rotate to face 7 and bring active window along"
+msgstr "사용 중인 창과 함께 7번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:90
+msgid "Rotate To Face 8 with Window"
+msgstr "모든 창과 함께 8번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:91
+msgid "Rotate to face 8 and bring active window along"
+msgstr "사용 중인 창과 함께 8번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:92
+msgid "Rotate To Face 9 with Window"
+msgstr "모든 창과 함께 9번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:93
+msgid "Rotate to face 9 and bring active window along"
+msgstr "사용 중인 창과 함께 9번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:94
+msgid "Rotate To Face 10 with Window"
+msgstr "모든 창과 함께 10번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:95
+msgid "Rotate to face 10 and bring active window along"
+msgstr "사용 중인 창과 함께 10번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:96
+msgid "Rotate To Face 11 with Window"
+msgstr "모든 창과 함께 11번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:97
+msgid "Rotate to face 11 and bring active window along"
+msgstr "사용 중인 창과 함께 11번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:98
+msgid "Rotate To Face 12 with Window"
+msgstr "모든 창과 함께 12번 작업 공간으로 회전"
+
+#: ../plugins/rotate/rotate.xml.in.h:99
+msgid "Rotate to face 12 and bring active window along"
+msgstr "사용 중인 창과 함께 12번 작업 공간으로 회전"
+
+#: ../plugins/scale/scale.xml.in.h:1
+msgid "Scale"
+msgstr "크기 조정"
+
+#: ../plugins/scale/scale.xml.in.h:2
+msgid "Scale windows"
+msgstr "크기 조정"
+
+#: ../plugins/scale/scale.xml.in.h:4
+msgid "Spacing"
+msgstr "간격"
+
+#: ../plugins/scale/scale.xml.in.h:5
+msgid "Space between windows"
+msgstr "창 사이의 간격"
+
+#: ../plugins/scale/scale.xml.in.h:6
+msgid "X Offset"
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:7
+msgid "Horizontal offset (in pixels)."
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:8
+msgid "Y Offset"
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:9
+msgid "Vertical offset (in pixels)."
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:11
+msgid "Scale speed"
+msgstr "크기 조정 속도"
+
+#: ../plugins/scale/scale.xml.in.h:13
+msgid "Scale timestep"
+msgstr "크기 조정 시간"
+
+#: ../plugins/scale/scale.xml.in.h:14
+msgid "Darken Background"
+msgstr "배경을 어둡게"
+
+#: ../plugins/scale/scale.xml.in.h:15
+msgid "Darken background when scaling windows"
+msgstr "크기 조정 모드일 때, 배경을 어둡게"
+
+#: ../plugins/scale/scale.xml.in.h:17 ../plugins/switcher/switcher.xml.in.h:32
+msgid "Amount of opacity in percent"
+msgstr "투명도(퍼센트)"
+
+#: ../plugins/scale/scale.xml.in.h:18
+msgid "Overlay Icon"
+msgstr "아이콘 덧붙이기"
+
+#: ../plugins/scale/scale.xml.in.h:19
+msgid "Overlay an icon on windows once they are scaled"
+msgstr "창 크기를 조정할 때 아이콘을 덧붙임"
+
+#: ../plugins/scale/scale.xml.in.h:20 ../plugins/wobbly/wobbly.xml.in.h:19
+msgid "None"
+msgstr "없음"
+
+#: ../plugins/scale/scale.xml.in.h:21
+msgid "Emblem"
+msgstr "아이콘"
+
+#: ../plugins/scale/scale.xml.in.h:22
+msgid "Big"
+msgstr "크게"
+
+#: ../plugins/scale/scale.xml.in.h:24
+msgid "Scale Windows"
+msgstr "창 크기 조정"
+
+#: ../plugins/scale/scale.xml.in.h:25
+msgid "Windows that should be scaled in scale mode"
+msgstr "크기 조정 모드일 때 크기 조정해야 하는 창"
+
+#: ../plugins/scale/scale.xml.in.h:26
+msgid "Drag and Drop Hover Timeout"
+msgstr "끌어 놓기 후버 시간 초과"
+
+#: ../plugins/scale/scale.xml.in.h:27
+msgid ""
+"Time (in ms) before scale mode is terminated when hovering over a window "
+"dragging and dropping an item"
+msgstr "항목을 창 위로 끌어다 놓을 때 크기 조정 모드가 끝나는 시간"
+
+#: ../plugins/scale/scale.xml.in.h:28
+msgid "Drag and Drop Distance"
+msgstr "끌어 놓기 거리"
+
+#: ../plugins/scale/scale.xml.in.h:29
+msgid "The minimum distance (in px) beyond which the timeout is reset."
+msgstr "시간 초과가 초기화되는 최소 거리를 설정합니다(단위: 픽셀)."
+
+#: ../plugins/scale/scale.xml.in.h:31
+msgid "Selects where windows are scaled if multiple output devices are used."
+msgstr "복수의 모니터를 사용할 때 창 크기를 조정할 모니터를 설정합니다."
+
+#: ../plugins/scale/scale.xml.in.h:32
+msgid "On current output device"
+msgstr "현재 모니터의 창"
+
+#: ../plugins/scale/scale.xml.in.h:33
+msgid "On all output devices"
+msgstr "모든 모니터의 창"
+
+#: ../plugins/scale/scale.xml.in.h:35
+msgid "Key Bindings Toggle Scale Mode"
+msgstr "키보드 바로 가기로 크기를 조정"
+
+#: ../plugins/scale/scale.xml.in.h:36
+msgid ""
+"Key bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
+msgstr "누르고 떼서 크기를 조정하는 대신 키보드 바로 가기로 크기 조절 모드를 켜고 끕니다."
+
+#: ../plugins/scale/scale.xml.in.h:37
+msgid "Button Bindings Toggle Scale Mode"
+msgstr "단추로 크기 조정 모드 활성화"
+
+#: ../plugins/scale/scale.xml.in.h:38
+msgid ""
+"Button bindings toggle scale mode instead of enabling it when pressed and "
+"disabling it when released."
+msgstr "누르고 떼서 크기를 조정하는 대신 단추로 크기 조절 모드를 켜고 끕니다."
+
+#: ../plugins/scale/scale.xml.in.h:39
+msgid "Initiate Window Picker"
+msgstr "창 선택 도구 시작"
+
+#: ../plugins/scale/scale.xml.in.h:40
+msgid "Layout and start transforming windows"
+msgstr "창을 배치하고 변형함"
+
+#: ../plugins/scale/scale.xml.in.h:41
+msgid "Initiate Window Picker For All Windows"
+msgstr "모든 창에 대해서 창 고르기를 시작"
+
+#: ../plugins/scale/scale.xml.in.h:42
+msgid "Layout and start transforming all windows"
+msgstr "모든 창을 배치한 후 변형함"
+
+#: ../plugins/scale/scale.xml.in.h:43
+msgid "Initiate Window Picker For Window Group"
+msgstr "창 그룹에 대하여 창 고르기를 시작"
+
+#: ../plugins/scale/scale.xml.in.h:44
+msgid "Layout and start transforming window group"
+msgstr "창 그룹을 배치하고 변형함"
+
+#: ../plugins/scale/scale.xml.in.h:45
+msgid "Initiate Window Picker For Windows on Current Output"
+msgstr "현재 화면의 창들에 대해 창 고르기를 시작"
+
+#: ../plugins/scale/scale.xml.in.h:46
+msgid "Layout and start transforming windows on current output"
+msgstr "현재 화면의 창들을 배치하고 변형함"
+
+#: ../plugins/scale/scale.xml.in.h:47
+msgid "Click on empty area"
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:48
+msgid "Action to perform on click on empty area"
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:49
+msgid "Show desktop"
+msgstr ""
+
+#: ../plugins/scale/scale.xml.in.h:50
+msgid "Terminate scale"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:1
+msgid "Screenshot"
+msgstr "스크린샷"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:2
+msgid "Easily capture parts of your screen and save them as .png image"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:4
+msgid "Initiate the capture, release the button to take the shot."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:5
+msgid "Draw Screenshot Selection Indicator"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:6
+msgid "Draw a rectangle outline indicating the screenshot selection."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:7
+msgid "Selection Indicator Outline Color"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:8
+msgid "Color and opacity of the screenshot selection rectangle outline."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:9
+msgid "Selection Indicator Fill Color"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:10
+msgid "Fill color and opacity of the screenshot selection rectangle."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:11
+msgid "Save Directory"
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:12
+msgid ""
+"Save screenshot images in this directory. If empty, the desktop directory "
+"will be used."
+msgstr ""
+
+#: ../plugins/screenshot/screenshot.xml.in.h:13
+msgid "Launch Application"
+msgstr "프로그램 실행"
+
+#: ../plugins/screenshot/screenshot.xml.in.h:14
+msgid "Automatically open the screenshot in this application."
+msgstr ""
+
+#: ../plugins/switcher/switcher.xml.in.h:1
+msgid "Application Switcher"
+msgstr "프로그램 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:3
+msgid "Next window"
+msgstr "다음 창"
+
+#: ../plugins/switcher/switcher.xml.in.h:4
+msgid "Popup switcher if not visible and select next window"
+msgstr "전환 창이 없을 때는 전환 창을 보이고, 다음 창으로 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:5
+msgid "Prev window"
+msgstr "이전 창"
+
+#: ../plugins/switcher/switcher.xml.in.h:6
+msgid "Popup switcher if not visible and select previous window"
+msgstr "전환 창이 없을 때는 전환 창을 보이고, 모든 창 중에서 이전 창으로 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:7
+msgid "Next window (All windows)"
+msgstr "다음 창(모든 창)"
+
+#: ../plugins/switcher/switcher.xml.in.h:8
+msgid ""
+"Popup switcher if not visible and select next window out of all windows"
+msgstr "전환 창이 없을 때는 전환 창을 보이고, 모든 창 중에서 다음 창으로 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:9
+msgid "Prev window (All windows)"
+msgstr "이전 창(모든 창)"
+
+#: ../plugins/switcher/switcher.xml.in.h:10
+msgid ""
+"Popup switcher if not visible and select previous window out of all windows"
+msgstr "전환 창이 없을 때는 전환 창을 보이고, 모든 창 중에서 이전 창으로 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:11
+msgid "Next window (No popup)"
+msgstr "다음 창(전환 창 없이)"
+
+#: ../plugins/switcher/switcher.xml.in.h:12
+msgid "Select next window without showing the popup window."
+msgstr "전환 창을 보여주지 않고 다음 창으로 전환합니다."
+
+#: ../plugins/switcher/switcher.xml.in.h:13
+msgid "Prev window (No popup)"
+msgstr "이전 창(전환 창 없이)"
+
+#: ../plugins/switcher/switcher.xml.in.h:14
+msgid "Select previous window without showing the popup window."
+msgstr "전환 창을 보여주지 않고 다음 창으로 전환합니다."
+
+#: ../plugins/switcher/switcher.xml.in.h:15
+msgid "Next Panel"
+msgstr "다음 패널"
+
+#: ../plugins/switcher/switcher.xml.in.h:16
+msgid "Select next panel type window."
+msgstr "다음 패널 타입 창을 선택하세요."
+
+#: ../plugins/switcher/switcher.xml.in.h:17
+msgid "Prev Panel"
+msgstr "이전 패널"
+
+#: ../plugins/switcher/switcher.xml.in.h:18
+msgid "Select previous panel type window."
+msgstr "이전 패널 타입 창을 선택합니다."
+
+#: ../plugins/switcher/switcher.xml.in.h:20
+msgid "Switcher speed"
+msgstr "전환 속도"
+
+#: ../plugins/switcher/switcher.xml.in.h:22
+msgid "Switcher timestep"
+msgstr "전환 간격"
+
+#: ../plugins/switcher/switcher.xml.in.h:23
+msgid "Switcher windows"
+msgstr "창 전환"
+
+#: ../plugins/switcher/switcher.xml.in.h:24
+msgid "Windows that should be shown in switcher"
+msgstr "전환 창 안에 포함될 창들"
+
+#: ../plugins/switcher/switcher.xml.in.h:26
+msgid "Generate mipmaps when possible for higher quality scaling"
+msgstr "높은 품질을 얻기 위해 가능한 경우 mipmap을 생성"
+
+#: ../plugins/switcher/switcher.xml.in.h:28
+msgid "Amount of saturation in percent"
+msgstr "대조(퍼센트)"
+
+#: ../plugins/switcher/switcher.xml.in.h:30
+msgid "Amount of brightness in percent"
+msgstr "밝기(퍼센트)"
+
+#: ../plugins/switcher/switcher.xml.in.h:33
+msgid "Focus on Switch"
+msgstr "전환할 때 포커스"
+
+#: ../plugins/switcher/switcher.xml.in.h:34
+msgid "Focus windows when they are visible during the switch"
+msgstr "전환 중 창이 보일 때 포커스 맞추기"
+
+#: ../plugins/switcher/switcher.xml.in.h:35
+msgid "Bring To Front"
+msgstr "앞으로 띄우기"
+
+#: ../plugins/switcher/switcher.xml.in.h:36
+msgid "Bring selected window to front"
+msgstr "선택한 창을 앞으로 띄우기"
+
+#: ../plugins/switcher/switcher.xml.in.h:38
+msgid "Distance desktop should be zoom out while switching windows"
+msgstr "창을 전환하는 동안 데스크톱이 뒤로 물러나는 거리"
+
+#: ../plugins/switcher/switcher.xml.in.h:39
+msgid "Icon"
+msgstr "아이콘"
+
+#: ../plugins/switcher/switcher.xml.in.h:40
+msgid "Show icon next to thumbnail"
+msgstr "미리 보기 옆에 아이콘 표시"
+
+#: ../plugins/switcher/switcher.xml.in.h:41
+msgid "Only show icon"
+msgstr "아이콘만"
+
+#: ../plugins/switcher/switcher.xml.in.h:42
+msgid "Only show the window icon and do not display a thumbnail at all"
+msgstr "미리 보기는 전혀 표시하지 않고 창 아이콘 만 표시합니다"
+
+#: ../plugins/switcher/switcher.xml.in.h:43
+msgid "Minimized"
+msgstr "최소화"
+
+#: ../plugins/switcher/switcher.xml.in.h:44
+msgid "Show minimized windows"
+msgstr "최소화된 창 표시"
+
+#: ../plugins/switcher/switcher.xml.in.h:45
+msgid "Auto Rotate"
+msgstr "자동으로 회전"
+
+#: ../plugins/switcher/switcher.xml.in.h:46
+msgid "Rotate to the selected window while switching"
+msgstr "전환하는 동안 선택된 창으로 회전"
+
+#: ../plugins/water/water.xml.in.h:1
+msgid "Water Effect"
+msgstr "물결 효과"
+
+#: ../plugins/water/water.xml.in.h:2
+msgid "Adds water effects to different desktop actions"
+msgstr "다양한 데스크톱 동작에 물결 효과를 추가함"
+
+#: ../plugins/water/water.xml.in.h:4
+msgid "Enable pointer water effects"
+msgstr "마우스 포인터 물결 효과 활성화"
+
+#: ../plugins/water/water.xml.in.h:5
+msgid "Toggle rain"
+msgstr "비 내리기"
+
+#: ../plugins/water/water.xml.in.h:6
+msgid "Toggle rain effect"
+msgstr "비 내리는 효과 켜기"
+
+#: ../plugins/water/water.xml.in.h:7
+msgid "Toggle wiper"
+msgstr "와이퍼 켜기"
+
+#: ../plugins/water/water.xml.in.h:8
+msgid "Toggle wiper effect"
+msgstr "와이퍼 효과 켜기"
+
+#: ../plugins/water/water.xml.in.h:9
+msgid "Offset Scale"
+msgstr "여백 크기"
+
+#: ../plugins/water/water.xml.in.h:10
+msgid "Water offset scale"
+msgstr "물결의 여백 크기"
+
+#: ../plugins/water/water.xml.in.h:11
+msgid "Rain Delay"
+msgstr "비 지연 시간"
+
+#: ../plugins/water/water.xml.in.h:12
+msgid "Delay (in ms) between each rain-drop"
+msgstr "빗 방울들 사이의 시간 간격(초 단위)"
+
+#: ../plugins/water/water.xml.in.h:13
+msgid "lightVec X"
+msgstr "빛 벡터 X 좌표"
+
+#: ../plugins/water/water.xml.in.h:14
+msgid "Light vector X coordinate"
+msgstr "빛 벡터 X 좌표를 설정합니다."
+
+#: ../plugins/water/water.xml.in.h:15
+msgid "lightVec Y"
+msgstr "빛 벡터 Y 좌표"
+
+#: ../plugins/water/water.xml.in.h:16
+msgid "Light vector Y coordinate"
+msgstr "빛 벡터 Y 좌표를 설정합니다"
+
+#: ../plugins/water/water.xml.in.h:17
+msgid "lightVec Z"
+msgstr "빛 벡터 Z 좌표"
+
+#: ../plugins/water/water.xml.in.h:18
+msgid "Light vector Z coordinate"
+msgstr "빛 벡터 Z 좌표를 설정합니다."
+
+#: ../plugins/water/water.xml.in.h:19
+msgid "Title wave"
+msgstr "제목 출렁임"
+
+#: ../plugins/water/water.xml.in.h:20
+msgid "Wave effect from window title"
+msgstr "창 제목 표시줄에 대한 물결 효과"
+
+#: ../plugins/water/water.xml.in.h:21
+msgid "Point"
+msgstr "점"
+
+#: ../plugins/water/water.xml.in.h:22
+msgid "Add point"
+msgstr "점 추가"
+
+#: ../plugins/water/water.xml.in.h:23
+msgid "Line"
+msgstr "줄"
+
+#: ../plugins/water/water.xml.in.h:24
+msgid "Add line"
+msgstr "줄 추가"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:1
+msgid "Wobbly Windows"
+msgstr "창 출렁거림"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:2
+msgid "Use spring model for wobbly window effect"
+msgstr "출렁거리는 효과를 위해 용수철 모델 사용"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:3
+msgid "Snap windows"
+msgstr "창 잡아당기기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:4
+msgid "Toggle window snapping"
+msgstr "창 잡아당기기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:5
+msgid "Snap Inverted"
+msgstr "반대로 잡아당기기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:6
+msgid "Inverted window snapping"
+msgstr "창 반대로 잡아당기기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:7
+msgid "Shiver"
+msgstr "떨림"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:8
+msgid "Make window shiver"
+msgstr "창 떨리게 하기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:9
+msgid "Friction"
+msgstr "충돌"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:10
+msgid "Spring Friction"
+msgstr "용수철 마찰"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:11
+msgid "Spring K"
+msgstr "용수철 K"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:12
+msgid "Spring Konstant"
+msgstr "용수철 상수"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:13
+msgid "Grid Resolution"
+msgstr "격자 해상도"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:14
+msgid "Vertex Grid Resolution"
+msgstr "격자 해상도"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:15
+msgid "Minimum Grid Size"
+msgstr "격자의 최소 크기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:16
+msgid "Minimum Vertex Grid Size"
+msgstr "최소 격자 크기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:17
+msgid "Map Effect"
+msgstr "선택 효과"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:18
+msgid "Map Window Effect"
+msgstr "창 선택 효과"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:20
+msgid "Focus Effect"
+msgstr "포커스 효과"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:21
+msgid "Focus Window Effect"
+msgstr "창 포커스 효과"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:22
+msgid "Map Windows"
+msgstr "적용되는 창"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:23
+msgid "Windows that should wobble when mapped"
+msgstr "창을 선택했을 때 출렁거리는 효과를 사용합니다"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:24
+msgid "Focus Windows"
+msgstr "창 포커스"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:25
+msgid "Windows that should wobble when focused"
+msgstr "선택했을 때 출렁거릴 창"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:26
+msgid "Grab Windows"
+msgstr "창 잡기"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:27
+msgid "Windows that should wobble when grabbed"
+msgstr "잡았을 때 출렁거릴 창"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:28
+msgid "Move Windows"
+msgstr "창 이동"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:29
+msgid "Windows that should wobble when moved"
+msgstr "이동할 때 출렁거릴 창"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:30
+msgid "Maximize Effect"
+msgstr "최대화 효과"
+
+#: ../plugins/wobbly/wobbly.xml.in.h:31
+msgid "Wobble effect when maximizing and unmaximizing windows"
+msgstr "창을 최대화하거나 해제할 때 출렁거리는 효과"

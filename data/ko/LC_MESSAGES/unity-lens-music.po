@@ -1,0 +1,299 @@
+# Korean translation for unity-lens-music
+# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
+# This file is distributed under the same license as the unity-lens-music package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: unity-lens-music\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-02-17 21:49+0000\n"
+"PO-Revision-Date: 2013-12-26 14:29+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:28+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../src/banshee-scope.vala:35 ../src/rhythmbox-scope.vala:37
+#: ../src/musicstore-scope.vala:48
+msgid "Search music"
+msgstr "음악 검색"
+
+#: ../src/banshee-scope.vala:40 ../banshee.scope.in.in.h:1
+msgid "Banshee"
+msgstr "밴시"
+
+#: ../src/banshee-scope.vala:114 ../src/rhythmbox-scope.vala:106
+#: ../src/rhythmbox-scope.vala:134
+msgid "Play"
+msgstr "연주"
+
+#: ../src/banshee-scope.vala:118 ../src/rhythmbox-scope.vala:110
+#: ../src/rhythmbox-scope.vala:138
+msgid "Show in Folder"
+msgstr "폴더 열기"
+
+#: ../src/rhythmbox-scope.vala:42 ../rhythmbox.scope.in.in.h:1
+msgid "Rhythmbox"
+msgstr "리듬박스"
+
+#: ../src/simple-scope.vala:70
+msgid "Decade"
+msgstr "10년"
+
+#: ../src/simple-scope.vala:72
+msgid "Old"
+msgstr "오래됨"
+
+#: ../src/simple-scope.vala:73
+msgid "60s"
+msgstr "60년대"
+
+#: ../src/simple-scope.vala:74
+msgid "70s"
+msgstr "70년대"
+
+#: ../src/simple-scope.vala:75
+msgid "80s"
+msgstr "80년대"
+
+#: ../src/simple-scope.vala:76
+msgid "90s"
+msgstr "90년대"
+
+#: ../src/simple-scope.vala:77
+msgid "00s"
+msgstr "00년대"
+
+#: ../src/simple-scope.vala:78
+msgid "10s"
+msgstr "10년대"
+
+#: ../src/simple-scope.vala:85
+msgid "Genre"
+msgstr "장르"
+
+#: ../src/simple-scope.vala:88
+msgid "Blues"
+msgstr "블루스"
+
+#: ../src/simple-scope.vala:89
+msgid "Classical"
+msgstr "클래식"
+
+#: ../src/simple-scope.vala:90
+msgid "Country"
+msgstr "컨트리"
+
+#: ../src/simple-scope.vala:91
+msgid "Disco"
+msgstr "디스코"
+
+#: ../src/simple-scope.vala:92
+msgid "Funk"
+msgstr "펑크"
+
+#: ../src/simple-scope.vala:93
+msgid "Rock"
+msgstr "록"
+
+#: ../src/simple-scope.vala:94
+msgid "Metal"
+msgstr "메탈"
+
+#: ../src/simple-scope.vala:95
+msgid "Hip-hop"
+msgstr "힙합"
+
+#: ../src/simple-scope.vala:96
+msgid "House"
+msgstr "하우스"
+
+#: ../src/simple-scope.vala:97
+msgid "New-wave"
+msgstr "뉴웨이브"
+
+#: ../src/simple-scope.vala:98
+msgid "R&B"
+msgstr "R&B"
+
+#: ../src/simple-scope.vala:99
+msgid "Punk"
+msgstr "펑크"
+
+#: ../src/simple-scope.vala:100
+msgid "Jazz"
+msgstr "재즈"
+
+#: ../src/simple-scope.vala:101
+msgid "Pop"
+msgstr "팝"
+
+#: ../src/simple-scope.vala:102
+msgid "Reggae"
+msgstr "레게"
+
+#: ../src/simple-scope.vala:103
+msgid "Soul"
+msgstr "소울"
+
+#: ../src/simple-scope.vala:104
+msgid "Techno"
+msgstr "테크노"
+
+#: ../src/simple-scope.vala:105
+msgid "Other"
+msgstr "기타"
+
+#: ../src/simple-scope.vala:120
+msgid "Music"
+msgstr "음악"
+
+#: ../src/simple-scope.vala:124
+msgid "Songs"
+msgstr "노래"
+
+#: ../src/simple-scope.vala:128
+msgid "Albums"
+msgstr "음반"
+
+#: ../src/simple-scope.vala:132
+msgid "More suggestions"
+msgstr "추천 음악"
+
+#: ../src/simple-scope.vala:137
+msgid "Radio"
+msgstr "라디오"
+
+#: ../src/simple-scope.vala:205
+msgid "Sorry, there is no music that matches your search."
+msgstr "죄송합니다. 검색어와 일치하는 음악이 없습니다."
+
+#: ../src/musicstore-scope.vala:28
+msgid ""
+"It seems you don't have an Ubuntu One account, or you are not logged in. To "
+"continue, please login and visit the Ubuntu One online store."
+msgstr ""
+"우분투 원 계정을 이용하지 않거나 계정에 로그인하지 않은 것 같습니다. 계속 진행하려면 우분투 원 온라인 상점에 로그인하고 방문해주십시오."
+
+#: ../src/musicstore-scope.vala:29
+msgid ""
+"It seems you haven't set yet your preferred Ubuntu One payment method. To "
+"add a payment method, please visit the Ubuntu One online store."
+msgstr ""
+"선호하는 우분투 원 지불 수단을 설정하지 않은 것 같습니다. 지불 수단을 추가하려면 우분투 원 온라인 상점을 방문해주십시오."
+
+#: ../src/musicstore-scope.vala:30
+msgid ""
+"Sorry, we have encountered a technical problem. No money has been taken from "
+"your account. To try your purchase again, please visit the Ubuntu One online "
+"store."
+msgstr ""
+"죄송합니다. 기술 문제가 발생했습니다. 사용자 계정에서 돈을 인출하지 않았습니다. 다시 구입하려면 우분투 원 온라인 상점을 방문해주십시오."
+
+#: ../src/musicstore-scope.vala:57
+msgid "Purchase started"
+msgstr "구입 시작"
+
+#: ../src/musicstore-scope.vala:130
+msgid "Download"
+msgstr "다운로드"
+
+#: ../src/musicstore-scope.vala:134
+msgid "Free"
+msgstr "무료"
+
+#: ../src/musicstore-scope.vala:185 ../src/musicstore-scope.vala:387
+msgid "Digital CD"
+msgstr "디지털 CD"
+
+#: ../src/musicstore-scope.vala:192 ../src/musicstore-scope.vala:409
+msgid "Cancel"
+msgstr "취소"
+
+#: ../src/musicstore-scope.vala:313
+msgid "Go to Ubuntu One"
+msgstr "우분투 원으로 이동"
+
+#: ../src/musicstore-scope.vala:324
+msgid "Please enter your password"
+msgstr "암호를 입력해주십시오."
+
+#: ../src/musicstore-scope.vala:340
+msgid "Authorizing purchase"
+msgstr "구입 승인 중"
+
+#: ../src/musicstore-scope.vala:350
+msgid "Purchase completed"
+msgstr "구입 완료"
+
+#: ../src/musicstore-scope.vala:360
+msgid "Wrong password"
+msgstr "올바르지 않은 암호"
+
+#: ../src/musicstore-scope.vala:363
+msgid "Continue"
+msgstr "계속"
+
+#: ../src/musicstore-scope.vala:382
+#, c-format
+msgid ""
+"Hi %s, you purchased in the past from Ubuntu One, would you like to use the "
+"same payment details? Please review your order."
+msgstr ""
+"%s님 안녕하세요. 이전에 우분투 원에서 구입한 기록이 있습니다. 같은 지불 수단을 사용하시겠습니까? 주문을 확인해주십시오."
+
+#. actions
+#: ../src/musicstore-scope.vala:401
+msgid "Buy Now"
+msgstr "지금 구입"
+
+#: ../src/musicstore-scope.vala:405
+msgid "forgotten your Ubuntu One password?"
+msgstr "우분투 원 암호를 잊으셨습니까?"
+
+#: ../src/musicstore-scope.vala:413
+msgid "change payment method"
+msgstr "지불 수단 바꾸기"
+
+#: ../banshee.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Banshee to be "
+"searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+"밴시 프로그램에서 정보를 검색하여 대시 내 음악 헤더에 표시하는 에서 우분투 검색 플러그인입니다. 이 항목에서 검색하지 않으려면 검색 "
+"플러그인을 사용하지 않도록 설정하십시오."
+
+#: ../banshee.scope.in.in.h:3 ../rhythmbox.scope.in.in.h:3
+msgid "Search music collection"
+msgstr "음악 모음 검색"
+
+#: ../rhythmbox.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Rhythmbox to "
+"be searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+"리듬박스에서 정보를 검색하여 대시 내 음악 헤더에 표시하는 에서 우분투 검색 플러그인입니다. 이 항목에서 검색하지 않으려면 검색 "
+"플러그인을 사용하지 않도록 설정하십시오."
+
+#: ../musicstore.scope.in.in.h:1
+msgid "Music store"
+msgstr "음악 상점"
+
+#: ../musicstore.scope.in.in.h:2
+msgid ""
+"This is an Ubuntu search plugin that enables information from Ubuntu One to "
+"be searched and displayed in the Dash underneath the Music header. If you do "
+"not wish to search this content source, you can disable this search plugin."
+msgstr ""
+"우분투 원에서 정보를 검색하여 대시 내 음악 헤더에 표시하는 에서 우분투 검색 플러그인입니다. 이 항목에서 검색하지 않으려면 검색 "
+"플러그인을 사용하지 않도록 설정하십시오."
+
+#: ../musicstore.scope.in.in.h:3
+msgid "Search music store"
+msgstr "음악 상점에서 검색"

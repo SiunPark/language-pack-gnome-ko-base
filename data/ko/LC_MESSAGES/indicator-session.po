@@ -1,0 +1,188 @@
+# Korean translations for PACKAGE package.
+# Copyright (C) 2010 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Canonical OEM, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: indicator-session\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-01 13:12+0200\n"
+"PO-Revision-Date: 2013-10-09 01:17+0000\n"
+"Last-Translator: Jinkyu Yi <Unknown>\n"
+"Language-Team: Korean\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:02+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:1
+msgid "Suppress the dialog to confirm logout, restart and shutdown action"
+msgstr "로그아웃하거나 다시 시작할 때 또는 컴퓨터를 끌 때 확인 대화 상자를 만들지 않기"
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:2
+msgid ""
+"Whether or not to show confirmation dialogs for logout, restart and shutdown "
+"actions."
+msgstr "로그아웃하거나 다시 시작할 때 또는 컴퓨터기 동작에 대한 확인 대화 상자를 만들지 결정합니다."
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:3
+msgid "Remove the Log Out item from the session menu"
+msgstr "세션 메뉴에서 로그아웃 항목 제거"
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:4
+msgid "Makes it so that the logout button doesn’t show in the session menu."
+msgstr "세션 메뉴에 로그아웃 단추가 나타나지 않게 합니다."
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:5
+msgid "Remove the Restart item from the session menu"
+msgstr "세션 메뉴에서 다시 시작 항목 제거"
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:6
+msgid "Makes it so that the restart button doesn’t show in the session menu."
+msgstr "세션 메뉴에 다시 시작 단추가 나타나지 않게 합니다."
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:7
+msgid "Remove the shutdown item from the session menu"
+msgstr "세션 메뉴에서 컴퓨터 끄기 항목 제거"
+
+#: ../data/com.canonical.indicator.session.gschema.xml.in.h:8
+msgid ""
+"Makes it so that the shutdown button doesn’t show in the session menu."
+msgstr "세션 메뉴에 컴퓨터 끄기 단추가 나타나지 않게 합니다."
+
+#: ../data/extra-sessions/classic-desktop.desktop.in.in.h:1
+msgid "Classic Guest Session"
+msgstr "고전 손님 세션"
+
+#: ../data/extra-sessions/classic-desktop.desktop.in.in.h:2
+msgid "Start a guest session using the classic desktop"
+msgstr "고전 데스크톱을 사용해 손님 세션을 시작합니다."
+
+#: ../src/backend-dbus/actions.c:619
+msgid "Are you sure you want to close all programs and log out?"
+msgstr "정말 모든 프로그램을 끝내고 로그아웃하시겠습니까?"
+
+#: ../src/backend-dbus/actions.c:620
+msgid ""
+"Some software updates won't be applied until the computer next restarts."
+msgstr "일부 소프트웨어 업데이트는 컴퓨터를 다시 시작하기 전에는 적용되지 않습니다."
+
+#: ../src/backend-dbus/actions.c:625 ../src/backend-dbus/actions.c:627
+#: ../src/service.c:549
+msgid "Log Out"
+msgstr "로그아웃"
+
+#: ../src/backend-dbus/actions.c:628 ../src/backend-dbus/actions.c:660
+#: ../src/backend-dbus/actions.c:685
+msgid "Cancel"
+msgstr "취소"
+
+#: ../src/backend-dbus/actions.c:657 ../src/backend-dbus/actions.c:659
+#: ../src/service.c:561
+msgid "Restart"
+msgstr "다시 시작"
+
+#: ../src/backend-dbus/actions.c:658
+msgid "Are you sure you want to close all programs and restart the computer?"
+msgstr "모든 프로그램을 닫고 컴퓨터를 다시 시작하시겠습니까?"
+
+#: ../src/backend-dbus/actions.c:682 ../src/backend-dbus/actions.c:684
+#: ../src/service.c:567
+msgid "Shut Down"
+msgstr "컴퓨터 끄기"
+
+#: ../src/backend-dbus/actions.c:683
+msgid ""
+"Are you sure you want to close all programs and shut down the computer?"
+msgstr "모든 프로그램을 닫고 컴퓨터를 끄시겠습니까?"
+
+#. Translators: the name of the menu ("System"), then the user's name,
+#. then a hint that something in this menu requires user attention
+#: ../src/service.c:180
+#, c-format
+msgid "System, %s (Attention Required)"
+msgstr "시스템, %s(주의 필요)"
+
+#. Translators: the name of the menu ("System"), then the user's name
+#: ../src/service.c:185
+#, c-format
+msgid "System, %s"
+msgstr "시스템, %s"
+
+#: ../src/service.c:189
+msgid "System (Attention Required)"
+msgstr "시스템(주의 필요)"
+
+#: ../src/service.c:193
+msgid "System"
+msgstr "시스템"
+
+#: ../src/service.c:280
+msgid "Guest"
+msgstr "손님"
+
+#: ../src/service.c:304
+msgid "About This Computer"
+msgstr "이 컴퓨터 정보"
+
+#: ../src/service.c:305
+msgid "Ubuntu Help"
+msgstr "우분투 도움말"
+
+#: ../src/service.c:316
+msgid "System Settings…"
+msgstr "시스템 설정…"
+
+#: ../src/service.c:318
+msgid "Online Accounts…"
+msgstr "온라인 계정…"
+
+#: ../src/service.c:459
+msgid "Start Screen Saver"
+msgstr "화면 보호기 시작"
+
+#: ../src/service.c:464
+msgid "Switch Account…"
+msgstr "계정 전환..."
+
+#: ../src/service.c:465
+msgid "Switch Account"
+msgstr "계정 전환"
+
+#: ../src/service.c:472
+msgid "Lock"
+msgstr "잠그기"
+
+#: ../src/service.c:474
+msgid "Lock/Switch Account…"
+msgstr "계정 잠그기/전환…"
+
+#: ../src/service.c:475
+msgid "Lock/Switch Account"
+msgstr "계정 잠그기/전환"
+
+#: ../src/service.c:487
+msgid "Guest Session"
+msgstr "손님 세션"
+
+#: ../src/service.c:549
+msgid "Log Out…"
+msgstr "로그아웃…"
+
+#: ../src/service.c:554
+msgid "Suspend"
+msgstr "절전"
+
+#: ../src/service.c:557
+msgid "Hibernate"
+msgstr "최대 절전"
+
+#: ../src/service.c:561
+msgid "Restart…"
+msgstr "다시 시작…"
+
+#: ../src/service.c:567
+msgid "Shut Down…"
+msgstr "컴퓨터 끄기…"

@@ -1,0 +1,231 @@
+# GNOME Korea translation of nautilus-sendto.
+# This file is distributed under the same license as the nautilus-sendto package.
+#
+# Young-Ho Cha <ganadist at mizi.com>, 2007.
+# Namhyung Kim <namhyung@gmail.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-sendto\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=nautilus-"
+"sendto&component=general\n"
+"POT-Creation-Date: 2014-02-17 20:42+0000\n"
+"PO-Revision-Date: 2010-10-02 06:46+0000\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 13:29+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../src/nautilus-nste.c:90 ../src/nautilus-nste.c:95
+#: ../src/nautilus-sendto.ui.h:1
+msgid "Send To..."
+msgstr "보내기..."
+
+# ...은 기타 등등이라는 뜻
+#: ../src/nautilus-nste.c:91
+msgid "Send file by mail, instant message..."
+msgstr "전자메일, 메신저 등에 파일 보내기"
+
+# ...은 기타 등등이라는 뜻
+#: ../src/nautilus-nste.c:96
+msgid "Send files by mail, instant message..."
+msgstr "전자메일, 메신저 등에 파일 보내기"
+
+#: ../src/nautilus-sendto-command.c:592
+msgid "Files"
+msgstr "파일"
+
+#: ../src/nautilus-sendto-command.c:802
+#, c-format
+msgid "Expects URIs or filenames to be passed as options\n"
+msgstr "옵션으로 URI 또는 파일 이름이 전달될 것으로 예상\n"
+
+#: ../src/nautilus-sendto-command.c:824
+#, c-format
+msgid "Could not parse command-line options: %s\n"
+msgstr "명령행 옵션을 분석할 수 없습니다: %s\n"
+
+#: ../src/nautilus-sendto-command.c:839
+msgid "Could not load any plugins."
+msgstr "아무 플러그인도 불러올 수 없습니다."
+
+#: ../src/nautilus-sendto-command.c:842
+msgid "Please verify your installation"
+msgstr "설치 상태를 확인하십시오"
+
+#: ../src/nautilus-sendto.ui.h:2
+msgid "_Send"
+msgstr "보내기(_S)"
+
+#: ../src/nautilus-sendto.ui.h:3
+msgid "<b>Destination</b>"
+msgstr "<b>대상</b>"
+
+#: ../src/nautilus-sendto.ui.h:4
+msgid "Send _as:"
+msgstr "보낼 방법(_A):"
+
+#: ../src/nautilus-sendto.ui.h:5
+msgid "Send t_o:"
+msgstr "받을 사람(_O):"
+
+#: ../src/nautilus-sendto.ui.h:6
+msgid "<b>Compression</b>"
+msgstr "<b>압축</b>"
+
+#: ../src/nautilus-sendto.ui.h:7
+msgid "Send _packed in:"
+msgstr "묶어서 보내기(_P):"
+
+#: ../src/plugins/evolution/evolution.c:381
+msgid "Email"
+msgstr "전자메일"
+
+#: ../src/plugins/evolution/e-contact-entry.c:148
+#, c-format
+msgid "Cannot get contact: %s"
+msgstr "연락처를 가져올 수 없습니다: %s"
+
+#: ../src/plugins/evolution/e-contact-entry.c:181
+#, c-format
+msgid "Could not find contact: %s"
+msgstr "연락처를 찾을 수 없습니다: %s"
+
+#: ../src/plugins/evolution/e-contact-entry.c:400
+msgid "Cannot create searchable view."
+msgstr "검색 가능 뷰를 만들 수 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:862
+msgid "Success"
+msgstr "성공"
+
+#: ../src/plugins/evolution/e-contact-entry.c:864
+msgid "An argument was invalid."
+msgstr "인자가 잘못됐습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:866
+msgid "The address book is busy."
+msgstr "주소록이 사용 중입니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:868
+msgid "The address book is offline."
+msgstr "주소록이 연결 중지 상태입니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:870
+msgid "The address book does not exist."
+msgstr "주소록이 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:872
+msgid "The \"Me\" contact does not exist."
+msgstr "\"나\" 연락처가 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:874
+msgid "The address book is not loaded."
+msgstr "주소록을 읽어들이지 않았습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:876
+msgid "The address book is already loaded."
+msgstr "주소록을 이미 읽어들였습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:878
+msgid "Permission was denied when accessing the address book."
+msgstr "주소록에 접근하는데 권한이 거부되었습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:880
+msgid "The contact was not found."
+msgstr "연락처가 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:882
+msgid "This contact ID already exists."
+msgstr "이 연락처 ID가 이미 있습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:884
+msgid "The protocol is not supported."
+msgstr "프로토콜을 지원하지 않습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:886
+msgid "The operation was cancelled."
+msgstr "해당 동작을 취소했습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:888
+msgid "The operation could not be cancelled."
+msgstr "해당 동작은 취소할 수 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:890
+msgid "The address book authentication failed."
+msgstr "주소록 인증이 실패했습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:892
+msgid ""
+"Authentication is required to access the address book and was not given."
+msgstr "주소록에 접근하는데 인증이 필요하지만 인증하지 않았습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:894
+msgid "A secure connection is not available."
+msgstr "보안 연결을 사용할 수 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:896
+msgid "A CORBA error occurred whilst accessing the address book."
+msgstr "주소록에 접근하는데 CORBA 오류가 발생했습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:898
+msgid "The address book source does not exist."
+msgstr "주소록 소스가 없습니다."
+
+#: ../src/plugins/evolution/e-contact-entry.c:900
+#: ../src/plugins/evolution/e-contact-entry.c:903
+msgid "An unknown error occurred."
+msgstr "알 수 없는 오류가 발생했습니다."
+
+#: ../src/plugins/gajim/gajim.c:418
+msgid "Unable to send file"
+msgstr "파일을 보낼 수 없습니다"
+
+#: ../src/plugins/gajim/gajim.c:419
+msgid "There is no connection to gajim remote service."
+msgstr "gajim 원격 서비스로 연결이 없습니다."
+
+#: ../src/plugins/gajim/gajim.c:443 ../src/plugins/gajim/gajim.c:483
+msgid "Sending file failed"
+msgstr "파일 보내기 실패"
+
+#: ../src/plugins/gajim/gajim.c:444
+msgid "Recipient is missing."
+msgstr "수신자가 없 습니다."
+
+#: ../src/plugins/gajim/gajim.c:483
+msgid "Unknown recipient."
+msgstr "수신자를 알 수 없습니다."
+
+#: ../src/plugins/gajim/gajim.c:506
+msgid "Instant Message (Gajim)"
+msgstr "메신저 (Gajim)"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:92
+msgid "New CD/DVD"
+msgstr "새 CD/DVD"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:99
+msgid "Existing CD/DVD"
+msgstr "기존 CD/DVD"
+
+#: ../src/plugins/nautilus-burn/nautilus-burn.c:178
+msgid "CD/DVD Creator"
+msgstr "CD/DVD 만들기"
+
+#: ../src/plugins/pidgin/pidgin.c:464
+msgid "Instant Message (Pidgin)"
+msgstr "메신저 (피진)"
+
+#: ../src/plugins/removable-devices/removable-devices.c:248
+msgid "Removable disks and shares"
+msgstr "이동식 디스크 및 공유"
+
+#: ../src/plugins/upnp/upnp.c:309
+msgid "UPnP Media Server"
+msgstr "UPnP 미디어 서버"

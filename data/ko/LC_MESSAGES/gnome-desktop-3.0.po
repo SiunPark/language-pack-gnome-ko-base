@@ -1,0 +1,252 @@
+# Korean translation of gnome-desktop
+# This file is distributed under the same license as the gnome-desktop package.
+#
+# Sung-Hyun Nam <namsh@kldp.org>, 2000.
+# Young-Ho Cha <ganadist@chollian.net>, 2000, 2001,2003, 2007.
+# Eunju Kim <eukim@redhat.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 1998, 2002-2005, 2008-2010, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-desktop\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"desktop&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-03-17 04:37+0000\n"
+"PO-Revision-Date: 2014-03-17 19:23+0000\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:19+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+"Language: \n"
+
+#. Translators: "Unknown" here is used to identify a monitor for which
+#. * we don't know the vendor. When a vendor is known, the name of the
+#. * vendor is used.
+#: ../libgnome-desktop/display-name.c:107
+msgctxt "Monitor vendor"
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../libgnome-desktop/gnome-languages.c:896
+msgid "Unspecified"
+msgstr "지정하지 않음"
+
+#. Translators: a CRTC is a CRT Controller (this is X terminology).
+#: ../libgnome-desktop/gnome-rr.c:452
+#, c-format
+msgid "could not get the screen resources (CRTCs, outputs, modes)"
+msgstr "화면 정보를 읽어 올 수 없습니다(CRTC, 출력, 모드)"
+
+#: ../libgnome-desktop/gnome-rr.c:472
+#, c-format
+msgid "unhandled X error while getting the range of screen sizes"
+msgstr "스크린 크기의 범위를 가져오는 데 처리하지 못하는 X 오류가 발생했습니다"
+
+#: ../libgnome-desktop/gnome-rr.c:478
+#, c-format
+msgid "could not get the range of screen sizes"
+msgstr "화면 크기의 목록을 읽어 올 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr.c:769
+#, c-format
+msgid "RANDR extension is not present"
+msgstr "RANDR 확장 기능이 없습니다"
+
+#: ../libgnome-desktop/gnome-rr.c:1580
+#, c-format
+msgid "could not get information about output %d"
+msgstr "출력 %d번에 대한 정보를 읽어 올 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr.c:1764
+msgid "Built-in Display"
+msgstr "내장 화면"
+
+#. Translators: %s is the size of the monitor in inches
+#: ../libgnome-desktop/gnome-rr.c:1782
+#, c-format
+msgid "%s Display"
+msgstr "%s 화면"
+
+#: ../libgnome-desktop/gnome-rr.c:1789
+msgid "Unknown Display"
+msgstr "알 수 없는 화면"
+
+#. Translators: the "position", "size", and "maximum"
+#. * words here are not keywords; please translate them
+#. * as usual.  A CRTC is a CRT Controller (this is X terminology)
+#: ../libgnome-desktop/gnome-rr.c:2237
+#, c-format
+msgid ""
+"requested position/size for CRTC %d is outside the allowed limit: "
+"position=(%d, %d), size=(%d, %d), maximum=(%d, %d)"
+msgstr ""
+"CRTC %d번의 요청한 위치/크기가 허용하는 크기 제한을 넘어갑니다. 위치=(%d, %d), 크기=(%d, %d), 최대=(%d, %d)"
+
+#: ../libgnome-desktop/gnome-rr.c:2271
+#, c-format
+msgid "could not set the configuration for CRTC %d"
+msgstr "CRTC %d번을 설정할 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr.c:2425
+#, c-format
+msgid "could not get information about CRTC %d"
+msgstr "CRTC %d번에 대한 정보를 읽어 올 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr-config.c:712
+#, c-format
+msgid ""
+"none of the saved display configurations matched the active configuration"
+msgstr "저장한 화면 설정은 사용 가능한 설정 중에 일치하는 설정이 없습니다."
+
+#: ../libgnome-desktop/gnome-rr-config.c:1468
+#, c-format
+msgid "CRTC %d cannot drive output %s"
+msgstr "CRTC %d번은 %s 출력을 할 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1475
+#, c-format
+msgid "output %s does not support mode %dx%d@%dHz"
+msgstr "%s 출력은 %dx%d@%dHz 모드를 지원하지 않습니다"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1486
+#, c-format
+msgid "CRTC %d does not support rotation=%s"
+msgstr "CRTC %d번은 %s 회전을 지원하지 않습니다"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1500
+#, c-format
+msgid ""
+"output %s does not have the same parameters as another cloned output:\n"
+"existing mode = %d, new mode = %d\n"
+"existing coordinates = (%d, %d), new coordinates = (%d, %d)\n"
+"existing rotation = %s, new rotation = %s"
+msgstr ""
+"%s 출력에 복사한 출력과 같은 파라미터가 없습니다:\n"
+"현재 모드 = %d, 새 모드 = %d\n"
+"현재 좌표 = (%d, %d), 새 좌표 = (%d, %d)\n"
+"현재 회전 = %s, 새 회전 = %s"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1515
+#, c-format
+msgid "cannot clone to output %s"
+msgstr "%s 출력에 복사할 수 없습니다"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1684
+#, c-format
+msgid "Trying modes for CRTC %d\n"
+msgstr "CRTC %d번에 화면 모드 시도\n"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1708
+#, c-format
+msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
+msgstr "CRTC %d: %dx%d@%dHz 모드를 %dx%d@%dHz 출력에 시도(패스 %d)\n"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1755
+#, c-format
+msgid ""
+"could not assign CRTCs to outputs:\n"
+"%s"
+msgstr ""
+"CRTC를 출력에 할당할 수 없습니다:\n"
+"%s"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1759
+#, c-format
+msgid ""
+"none of the selected modes were compatible with the possible modes:\n"
+"%s"
+msgstr ""
+"선택한 모드 중에 어느 모드도 가능한 모드와 호환되지 않습니다:\n"
+"%s"
+
+#. Translators: the "requested", "minimum", and
+#. * "maximum" words here are not keywords; please
+#. * translate them as usual.
+#: ../libgnome-desktop/gnome-rr-config.c:1953
+#, c-format
+msgid ""
+"required virtual size does not fit available size: requested=(%d, %d), "
+"minimum=(%d, %d), maximum=(%d, %d)"
+msgstr "필요한 가상 화면 크기가 가능한 크기에 맞지 않습니다. 요청=(%d, %d), 최소=(%d, %d), 최대=(%d, %d)"
+
+#: ../libgnome-desktop/gnome-rr-config.c:1975
+#, c-format
+msgid ""
+"Requested size (%d, %d) exceeds 3D hardware limit (%d, %d).\n"
+"You must either rearrange the displays so that they fit within a (%d, %d) "
+"square."
+msgstr ""
+"요청한 크기(%d, %d)가 3D 하드웨어의 한계(%d, %d)를 초과합니다.\n"
+"디스플레이를 다시 조정해 적절한 크기(%d, %d)의 상자 안에 들어가도록 조정하십시오."
+
+#. Translators: This is the time format with full date used
+#. in 24-hour mode.
+#. The character between %R and %S is U+2236 RATIO
+#: ../libgnome-desktop/gnome-wall-clock.c:271
+msgid "%a %b %e, %R∶%S"
+msgstr "%b %e일 (%a), %R∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:272
+msgid "%a %b %e, %R"
+msgstr "%b %e일 (%a), %R"
+
+#. Translators: This is the time format with day used
+#. in 24-hour mode.
+#. The character between %R and %S is U+2236 RATIO
+#: ../libgnome-desktop/gnome-wall-clock.c:277
+msgid "%a %R∶%S"
+msgstr "(%a) %R∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:278
+msgid "%a %R"
+msgstr "(%a) %R"
+
+#. Translators: This is the time format without date used
+#. in 24-hour mode.
+#. The character between %R and %S is U+2236 RATIO
+#: ../libgnome-desktop/gnome-wall-clock.c:283
+msgid "%R∶%S"
+msgstr "%R∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:283
+msgid "%R"
+msgstr "%R"
+
+#. Translators: This is a time format with full date used
+#. for AM/PM.
+#. The Unicode characters are U+2236 RATIO and
+#. U+2009 THIN SPACE
+#: ../libgnome-desktop/gnome-wall-clock.c:291
+msgid "%a %b %e, %l∶%M∶%S %p"
+msgstr "%b %e일 (%a), %p %l∶%M∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:292
+msgid "%a %b %e, %l∶%M %p"
+msgstr "%b %e일 (%a), %p %l∶%M"
+
+#. Translators: This is a time format with day used
+#. for AM/PM.
+#. The Unicode characters are U+2236 RATIO and
+#. U+2009 THIN SPACE
+#: ../libgnome-desktop/gnome-wall-clock.c:298
+msgid "%a %l∶%M∶%S %p"
+msgstr "(%a) %p %l∶%M∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:299
+msgid "%a %l∶%M %p"
+msgstr "(%a) %p %l∶%M"
+
+#. Translators: This is a time format without date used
+#. for AM/PM.
+#. The Unicode characters are U+2236 RATIO and
+#. U+2009 THIN SPACE
+#: ../libgnome-desktop/gnome-wall-clock.c:305
+msgid "%l∶%M∶%S %p"
+msgstr "%p %l∶%M∶%S"
+
+#: ../libgnome-desktop/gnome-wall-clock.c:306
+msgid "%l∶%M %p"
+msgstr "%p %l∶%M"

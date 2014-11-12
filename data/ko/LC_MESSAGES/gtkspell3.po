@@ -1,0 +1,46 @@
+# Korean translation for gtkspell3
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the gtkspell3 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtkspell3\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-02-17 18:50+0000\n"
+"PO-Revision-Date: 2012-03-10 05:53+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:37+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../gtkspell/gtkspell.c:428
+msgid "<i>(no suggestions)</i>"
+msgstr "<i>(제안 없음)</i>"
+
+#: ../gtkspell/gtkspell.c:444
+msgid "More..."
+msgstr "더 보기..."
+
+#. + Add to Dictionary
+#: ../gtkspell/gtkspell.c:465
+#, c-format
+msgid "Add \"%s\" to Dictionary"
+msgstr "사전에 \"%s\" 추가"
+
+#: ../gtkspell/gtkspell.c:480 ../gtkspell/gtkspell.c:482
+msgid "Ignore All"
+msgstr "모두 무시"
+
+#. on top: language selection
+#: ../gtkspell/gtkspell.c:602
+msgid "Languages"
+msgstr "언어"
+
+#: ../gtkspell/gtkspell.c:702
+#, c-format
+msgid "enchant error for language: %s"
+msgstr "언어에 대한 오류 발생: %s"

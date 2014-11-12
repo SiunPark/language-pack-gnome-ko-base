@@ -1,0 +1,583 @@
+# Korean translation for sessioninstaller
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the sessioninstaller package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sessioninstaller\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2014-03-29 10:16+0000\n"
+"PO-Revision-Date: 2013-03-23 00:58+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:08+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../test.py:40
+msgid "Install the given packages"
+msgstr "주어진 패키지 설치"
+
+#: ../test.py:43
+msgid "Install package files"
+msgstr "패키지 파일 설치"
+
+#: ../test.py:46
+msgid "Install packages which provide the given files"
+msgstr "주어진 파일을 제공하는 패키지 설치"
+
+#: ../test.py:49
+msgid "Remove the packages which provide the given files"
+msgstr "주어진 파일을 제공하는 패키지 설치"
+
+#: ../test.py:53
+msgid "Check if a package is installed"
+msgstr "패키지 설치 여부 확인"
+
+#: ../test.py:56
+msgid "Search for the package providing the given file"
+msgstr "주어진 파일을 제공하는 패키지 검색"
+
+#: ../test.py:60
+#, python-format
+msgid ""
+"Specify the interaction mode by providing a comma spearated list of the "
+"following values: %s. This is currently not supported."
+msgstr "%s 값의 목록을 쉼표로 구분하여 대화 모드를 지정합니다. 이 것은 현재 지원하지 않습니다."
+
+#: ../test.py:68
+msgid "Install the packages specfied in the given PackageKit catalog"
+msgstr "주어진 패키지 키트에 지정된 패키지를 설치"
+
+#: ../test.py:72
+msgid "Install mime type handlers"
+msgstr "mimetype 처리 도구 설치"
+
+#: ../test.py:75
+msgid ""
+"Install the given GStreamer resource. The value 'single' can be used as an "
+"alias for WMV9 and the value 'multi' as an alias for a group of codecs."
+msgstr ""
+"주어진 Gstreamer 자원을 설치합니다. '단일' 값은 WMV9의 이름으로 사용할 수 있으며 '다중' 값은 코덱 그룹의 이름으로 "
+"사용할 수 있습니다."
+
+#: ../test.py:81
+msgid ""
+"Wait for the given seconds until the action is done. Defaults to 5 Minutes."
+msgstr "동작이 끝날 때까지 기다려주십시오. 기본값은 5분입니다."
+
+#: ../test.py:90
+#, python-format
+msgid "Removing files: %s"
+msgstr "파일 제거하는 중: %s"
+
+#: ../test.py:96
+#, python-format
+msgid "Checking if %s is installed"
+msgstr "%s 설치 여부 확인"
+
+#: ../test.py:100
+#, python-format
+msgid "Searching for %s"
+msgstr "%s을(를) 검색하는 중"
+
+#: ../test.py:104
+#, python-format
+msgid "Installing from catalog: %s"
+msgstr "카탈로그에서 설치: %s"
+
+#: ../test.py:109
+#, python-format
+msgid "Installing files: %s"
+msgstr "파일 설치중 : %s"
+
+#: ../test.py:115
+#, python-format
+msgid "Installing packages: %s"
+msgstr "패키지 설치중 : %s"
+
+#: ../test.py:121
+#, python-format
+msgid "Installing mimetype handlers: %s"
+msgstr "mimetype 처리 도구 설치: %s"
+
+#: ../test.py:127
+#, python-format
+msgid "Installing providers: %s"
+msgstr "설치 제공 업체: %s"
+
+#: ../test.py:146
+#, python-format
+msgid "Installing GStreamer-Resource: %s"
+msgstr "GStreamer 자원 설치 중: %s"
+
+#: ../sessioninstaller/core.py:262
+msgid "_Install"
+msgstr "설치(_I)"
+
+#: ../sessioninstaller/core.py:280
+msgid "Install"
+msgstr "설치"
+
+#: ../sessioninstaller/core.py:284
+msgid "Package"
+msgstr "패키지"
+
+#. TRANSLATORS: %s is the name of a piece of software
+#: ../sessioninstaller/core.py:333
+#, python-format
+msgid ""
+"The use of %s may be restricted in some countries. You must verify that one "
+"of the following is true:\n"
+"- These restrictions do not apply in your country of legal residence\n"
+"- You have permission to use this software (for example, a patent license)\n"
+"- You are using this software for research purposes only"
+msgstr ""
+"일부 국가에서는 %s을(를) 사용하면 법에 저촉될 수 있습니다. 다음 중 해당하는 항목이 있는지 확인하십시오:\n"
+"- 이 제한은 사용자가 거주하는 국가의 법에 저촉되지 않습니다.\n"
+"- 이 소프트웨어를 사용할 권한(예: 특허)이 있습니다.\n"
+"- 연구 목적으로만 이 소프트웨어를 사용합니다."
+
+#: ../sessioninstaller/core.py:638
+msgid "Failed to install multiple package files"
+msgstr "복수의 패키지 파일을 설치할 수 없습니다."
+
+#: ../sessioninstaller/core.py:639
+msgid ""
+"Installing more than one package file at the same time isn't supported. "
+"Please install one after the other."
+msgstr "하나 이상의 패키지 파일을 동시에 설치할 수 없습니다. 하나를 설치한 뒤 다른 패키지를 설치하십시오."
+
+#: ../sessioninstaller/core.py:643
+msgid "Relative path to package file"
+msgstr "패키지 파일의 상대경로"
+
+#: ../sessioninstaller/core.py:644
+msgid "You have to specify the absolute path to the package file."
+msgstr "패키지 파일의 절대경로를 지정해야 합니다."
+
+#: ../sessioninstaller/core.py:647 ../sessioninstaller/core.py:653
+msgid "Unsupported package format"
+msgstr "지원하지 않는 패키지 형식"
+
+#: ../sessioninstaller/core.py:648 ../sessioninstaller/core.py:654
+msgid "Only Debian packages are supported (*.deb)"
+msgstr "데비안 패키지(*.deb)만 지원합니다."
+
+#: ../sessioninstaller/core.py:660
+msgid "Install package file?"
+msgid_plural "Install package files?"
+msgstr[0] "패키지 파일을 설치하시겠습니까?"
+
+#: ../sessioninstaller/core.py:665
+#, python-format
+msgid "%s requests to install the following package file."
+msgid_plural "%s requests to install the following package files."
+msgstr[0] "%s이(가) 다음 패키지 파일을 설치하려 합니다."
+
+#: ../sessioninstaller/core.py:673
+msgid ""
+"Software from foreign sources could be malicious, could contain security "
+"risks and or even break your system.Install packages from your "
+"distribution's repositories as far as possible."
+msgstr ""
+"외부 저장소의 소프트웨어는 위험할 수 있으며, 보안적 결함을 가지고 있거나 사용자의 시스템을 망가뜨릴 수도 있습니다. 가능하면 배포판 "
+"저장소에서 패키지를 설치하십시오."
+
+#. FIXME: show a message here that the binaries were not
+#. found instead of falling through to the misleading
+#. other error message
+#. FIXME: use a different error message
+#: ../sessioninstaller/core.py:728
+msgid "Installing packages by files isn't supported"
+msgstr "파일로 패키지를 설치할 수 없습니다."
+
+#: ../sessioninstaller/core.py:729
+msgid "This method hasn't yet been implemented."
+msgstr "아직 이식하지 않은 방법입니다."
+
+#: ../sessioninstaller/core.py:769 ../sessioninstaller/core.py:779
+#: ../sessioninstaller/core.py:786
+msgid "Catalog could not be read"
+msgstr "카탈로그를 읽을 수 없습니다."
+
+#. TRANSLATORS: %s is a file path
+#: ../sessioninstaller/core.py:771
+#, python-format
+msgid "The catalog file '%s' doesn't exist."
+msgstr "카탈로그 파일 '%s'이(가) 존재하지 않습니다."
+
+#. TRANSLATORS: %s is a file path
+#: ../sessioninstaller/core.py:781
+#, python-format
+msgid "The catalog file '%s' could not be opened  and read."
+msgstr "카탈로그 파일 '%s'을(를) 열고 읽을 수 없습니다."
+
+#. TRANSLATORS: %s is a file path
+#: ../sessioninstaller/core.py:788
+#, python-format
+msgid ""
+"The file '%s' isn't a valid software catalog. Please redownload or contact "
+"the provider."
+msgstr "'%s'은(는) 올바른 소프트웨어 카탈로그가 아닙니다. 다시 다운로드하거나 공급 업체에 연락하십시오."
+
+#: ../sessioninstaller/core.py:797
+msgid "Catalog is not supported"
+msgstr "카탈로그를 지원하지 않습니다."
+
+#: ../sessioninstaller/core.py:798
+#, python-format
+msgid ""
+"The method '%s' which is used to specify packages isn't supported.\n"
+"Please contact the provider of the catalog about this issue."
+msgstr ""
+"패키지를 지정하는데 사용한 '%s' 방식을 지원하지 않습니다.\n"
+"이 문제에 관해 카탈로그 제공 업체에 연락하십시오."
+
+#: ../sessioninstaller/core.py:818
+msgid "A required package is not installable"
+msgid_plural "Required packages are not installable"
+msgstr[0] "필수 패키지를 설치할 수 없습니다."
+
+#. TRANSLATORS: %s is the name of the missing packages
+#: ../sessioninstaller/core.py:823
+#, python-format
+msgid ""
+"The catalog requires the installation of the package %s which is not "
+"available."
+msgid_plural ""
+"The catalog requires the installation of the following packages which are "
+"not available: %s"
+msgstr[0] "카탈로그가 사용할 수 없는 패키지 %s을(를) 설치하려 합니다."
+
+#: ../sessioninstaller/core.py:833
+msgid "Install the following software package?"
+msgid_plural "Install the following software packages?"
+msgstr[0] "다음 소프트웨어 패키지를 설치하시겠습니까?"
+
+#. TRANSLATORS: %s is the name of the application which requested
+#. the installation
+#: ../sessioninstaller/core.py:839
+#, python-format
+msgid "%s requires the installation of an additional software package."
+msgid_plural "%s requires the installation of additional software packages."
+msgstr[0] "%s이(가) 추가 소프트웨어 패키지를 설치하려 합니다."
+
+#. TRANSLATORS: %s is an absolute file path, e.g. /usr/bin/xterm
+#: ../sessioninstaller/core.py:846
+#, python-format
+msgid "The package catalog %s requests to install the following software."
+msgid_plural "The following catalogs request to install software: %s"
+msgstr[0] "패키지 카탈로그 %s이(가) 다음 소프트웨어를 설치하려 합니다."
+
+#. should get from XID, but removed from Gdk 3
+#: ../sessioninstaller/core.py:883
+msgid "Install additional software package?"
+msgid_plural "Install additional software packages?"
+msgstr[0] "추가 소프트웨어 패키지를 설치하시겠습니까?"
+
+#: ../sessioninstaller/core.py:888
+#, python-format
+msgid ""
+"%s requests to install the following software package to provide additional "
+"features."
+msgid_plural ""
+"%s requests to install the following software packages to provide additional "
+"features."
+msgstr[0] "패키지 카탈로그 %s(으)로 추가 기능을 사용하려면 다음 소프트웨어를 설치하려 합니다."
+
+#: ../sessioninstaller/core.py:896
+msgid ""
+"The following software package is required to provide additional features."
+msgid_plural ""
+"The following software packages are required to provide additional features."
+msgstr[0] "추가 기능을 제공하려면 다음 소프트웨어를 설치해야 합니다."
+
+#: ../sessioninstaller/core.py:919
+msgid "Could not find requested package"
+msgid_plural "Could not find requested packages"
+msgstr[0] "필요한 패키지를 찾을 수 없습니다."
+
+#: ../sessioninstaller/core.py:923
+#, python-format
+msgid ""
+"%s requests to install the following software package to provide additional "
+"features:"
+msgid_plural ""
+"%s requests to install the following software packages to provide additional "
+"features:"
+msgstr[0] "%s(으)로 추가 기능을 사용하려면 다음 소프트웨어 패키지를 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:933
+msgid ""
+"The following software package is required to provide additional features "
+"but cannot be installed:"
+msgid_plural ""
+"The following software packages are required to provide additional features "
+"but cannot be installed:"
+msgstr[0] "추가 기능을 사용하려면 다음 소프트웨어 패키지를 설치해야 하지만 설치할 수 없습니다:"
+
+#. FIXME: should provide some information about how to find apps
+#: ../sessioninstaller/core.py:977
+msgid "Installing mime type handlers isn't supported"
+msgstr "mimetype 처리 도구 설치를 지원하지 않습니다."
+
+#: ../sessioninstaller/core.py:978
+msgid ""
+"To search and install software which can open certain file types you have to "
+"install app-install-data."
+msgstr "특정 파일 형식을 열 수 있는 소프트웨어를 찾아 설치하려면 app-install-data를 설치해야 합니다."
+
+#: ../sessioninstaller/core.py:986
+msgid "Searching for suitable software to open files"
+msgstr "파일을 여는 데 적합한 소프트웨어 검색 중"
+
+#. TRANSLATORS: %s is an application
+#: ../sessioninstaller/core.py:991
+#, python-format
+msgid ""
+"%s requires to install software to open files of the following file type:"
+msgid_plural ""
+"%s requires to install software to open files of the following file types:"
+msgstr[0] "%s(으)로 다음 형식의 파일을 열려면 소프트웨어를 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:998
+msgid ""
+"Software to open files of the following file type is required but is not "
+"installed:"
+msgid_plural ""
+"Software to open files of the following file types is required but is not "
+"installed:"
+msgstr[0] "다음 형식의 파일을 열려면 소프트웨어를 설치해야 하지만 설치할 수 없습니다:"
+
+#: ../sessioninstaller/core.py:1061
+msgid "Supported file types"
+msgstr "지원하는 파일 형식"
+
+#: ../sessioninstaller/core.py:1064
+msgid "Install software to open files?"
+msgstr "파일을 여는 데 필요한 소프트웨어를 설치하시겠습니까?"
+
+#. TRANSLATORS: %s is either a single file type or a bullet list of
+#. file types
+#: ../sessioninstaller/core.py:1072
+#, python-format
+msgid "%s is not supported."
+msgid_plural "Unsupported file types: %s"
+msgstr[0] "지원하지 않는 파일 형식입니다: %s"
+
+#: ../sessioninstaller/core.py:1078
+msgid "Application"
+msgstr "프로그램"
+
+#: ../sessioninstaller/core.py:1081 ../sessioninstaller/core.py:1410
+msgid "All"
+msgstr "모두"
+
+#. TRANSLATORS: Separator for a list of plugins
+#: ../sessioninstaller/core.py:1084 ../sessioninstaller/core.py:1413
+msgid ",\n"
+msgstr ",\n"
+
+#: ../sessioninstaller/core.py:1115
+msgid "Installing printer drivers on request isn't supported"
+msgstr "요청한 프린터 드라이버 설치를 지원하지 않습니다."
+
+#: ../sessioninstaller/core.py:1116
+msgid ""
+"Currently autodetection and installation of missing printer drivers is not "
+"supported."
+msgstr "현재 프린터 드라이버의 자동 검출과 설치 기능을 지원하지 않습니다."
+
+#: ../sessioninstaller/core.py:1143
+msgid "Installing fonts on request isn't supported"
+msgstr "요청하신 글꼴 설치는 지원되지 않습니다."
+
+#: ../sessioninstaller/core.py:1144
+msgid ""
+"Currently autodetection and installation of missing fonts is not supported."
+msgstr "현재 글꼴 자동 검출과 설치 기능을 지원하지 않습니다."
+
+#: ../sessioninstaller/core.py:1184
+msgid "Invalid search term"
+msgstr "올바르지 않은 검색어"
+
+#: ../sessioninstaller/core.py:1185
+#, python-format
+msgid "The following term doesn't describe a GStreamer resource: %s"
+msgstr "다음 검색어는 Gstreamer 자원을 설명할 수 없습니다: %s"
+
+#: ../sessioninstaller/core.py:1210
+msgid "Searching for multimedia plugins"
+msgstr "멀티미디어 플러그인을 찾는 중"
+
+#. TRANSLATORS: %s is the application requesting the plugins
+#: ../sessioninstaller/core.py:1215
+#, python-format
+msgid ""
+"%s requires to install plugins to create media files of the following type:"
+msgid_plural ""
+"%s requires to install plugins to create files of the following types:"
+msgstr[0] "%s(으)로 다음 형식의 미디어 파일을 만들려면 플러그인을 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:1223
+msgid ""
+"The plugin to create media files of the following type is not installed:"
+msgid_plural ""
+"The plugin to create media files of the following types is not installed:"
+msgstr[0] "미디어 파일을 만드는데 필요한 플러그인을 설치할 수 없습니다:"
+
+#. TRANSLATORS: %s is the application requesting the plugins
+#: ../sessioninstaller/core.py:1233
+#, python-format
+msgid ""
+"%s requires to install plugins to play media files of the following type:"
+msgid_plural ""
+"%s requires to install plugins to play files of the following types:"
+msgstr[0] "%s(으)로 다음 형식의 미디어 파일을 재생하려면 플러그인을 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:1241
+msgid ""
+"The plugin to play media files of the following type is not installed:"
+msgid_plural ""
+"The plugin to play media files of the following types is not installed:"
+msgstr[0] "다음 형식의 미디어 파일을 재생하는데 필요한 플러그인을 설치할 수 없습니다:"
+
+#. TRANSLATORS: %s is the application requesting the plugins
+#: ../sessioninstaller/core.py:1251
+#, python-format
+msgid ""
+"%s requires to install plugins to create and play media files of the "
+"following type:"
+msgid_plural ""
+"%s requires to install plugins to create and play media files of the "
+"following types:"
+msgstr[0] "%s(으)로 다음 형식의 미디어 파일을 만들고 재생하려면 플러그인을 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:1259
+msgid ""
+"The plugins to create and play media files of the following type are not "
+"installed:"
+msgid_plural ""
+"The plugins to create and play media files of the following types are not "
+"installed:"
+msgstr[0] "다음 형식의 미디어 파일을 만들고 재생하는데 필요한 플러그인을 설치할 수 없습니다:"
+
+#. TRANSLATORS: %s is the application requesting the plugins
+#: ../sessioninstaller/core.py:1269
+#, python-format
+msgid ""
+"%s requires to install plugins to support the following multimedia feature:"
+msgid_plural ""
+"%s requires to install plugins to support the following multimedia features:"
+msgstr[0] "%s(으)로 다음 멀티미디어 기능을 사용하려면 플러그인을 설치해야 합니다:"
+
+#: ../sessioninstaller/core.py:1277
+msgid ""
+"Extra plugins to provide the following multimedia feature are not installed:"
+msgid_plural ""
+"Extra plugins to provide the following multimedia features are not installed:"
+msgstr[0] "다음 멀티미디어 기능을 사용하는데 필요한 추가 플러그인을 설치할 수 없습니다:"
+
+#. FIXME: Add more info and possible solutions for the user
+#: ../sessioninstaller/core.py:1376
+msgid "Required plugin could not be found"
+msgstr "요청한 플러그인을 찾을 수 없습니다."
+
+#. Show a confirmation dialog
+#: ../sessioninstaller/core.py:1382
+msgid "Install extra multimedia plugin?"
+msgid_plural "Install extra multimedia plugins?"
+msgstr[0] "추가 멀티미디어 플러그인을 설치하시겠습니까?"
+
+#: ../sessioninstaller/core.py:1388
+msgid "The following plugin is not available:"
+msgid_plural "The following plugins are not available:"
+msgstr[0] "다음 플러그인을 사용할 수 없습니다:"
+
+#: ../sessioninstaller/core.py:1400
+msgid "Provides"
+msgstr "제공"
+
+#: ../sessioninstaller/core.py:1407
+msgid "Plugin Package"
+msgstr "플러그인 패키지"
+
+#: ../sessioninstaller/core.py:1450
+msgid "Searching software to be removed"
+msgstr "제거할 소프트웨어 찾는 중"
+
+#: ../sessioninstaller/core.py:1452
+#, python-format
+msgid "%s wants to remove the software which provides the following file:"
+msgid_plural ""
+"%s wants to remove the software which provides the following files:"
+msgstr[0] "%s이(가) 다음 파일을 제공하는 소프트웨어를 제거합니다:"
+
+#: ../sessioninstaller/core.py:1478
+msgid "Files are not installed"
+msgstr "파일을 설치하지 않았습니다."
+
+#: ../sessioninstaller/core.py:1479
+msgid ""
+"The files which should be removed are not part of any installed software."
+msgstr "제거해야 할 파일이 설치한 소프트웨어 중 어디에도 없습니다."
+
+#: ../sessioninstaller/core.py:1482
+msgid "Remove software package?"
+msgid_plural "Remove software packages?"
+msgstr[0] "소프트웨어 패키지를 제거하시겠습니까?"
+
+#. TRANSLATORS: %s is the name of an application
+#: ../sessioninstaller/core.py:1486
+#, python-format
+msgid "%s wants to remove the following software package from your computer."
+msgid_plural ""
+"%s wants to remove the following software packages from your computer."
+msgstr[0] "%s이(가) 컴퓨터에서 다음 패키지를 제거하려 합니다."
+
+#: ../sessioninstaller/core.py:1492
+msgid "The following software package will be removed from your computer."
+msgid_plural ""
+"The following software packages will be removed from your computer."
+msgstr[0] "다음 소프트웨어를 컴퓨터에서 제거합니다."
+
+#: ../sessioninstaller/core.py:1499
+msgid "_Remove"
+msgstr "제거(_R)"
+
+#: ../sessioninstaller/backends/dummy.py:39
+msgid "Removing packages"
+msgstr "패키지 제거 중"
+
+#: ../sessioninstaller/backends/dummy.py:40
+#, python-format
+msgid "The following packages will be removed with interaction mode %s: %s"
+msgstr "대화 모드 %s(으)로 다음 패키지를 제거합니다: %s"
+
+#: ../sessioninstaller/backends/dummy.py:45
+msgid "Installing packages"
+msgstr "패키지 설치 중"
+
+#: ../sessioninstaller/backends/dummy.py:46
+#, python-format
+msgid "The following packages will be installed with interaction mode %s: %s"
+msgstr "대화 모드 %s(으)로 다음 패키지를 설치합니다: %s"
+
+#: ../sessioninstaller/backends/dummy.py:51
+msgid "Installing package files"
+msgstr "패키지 파일 설치 중"
+
+#: ../sessioninstaller/backends/dummy.py:52
+#, python-format
+msgid ""
+"The following package files will be installed with interaction mode %s: %s"
+msgstr "대화 모드 %s(으)로 다음 패키지 파일을 설치합니다: %s"
+
+#: ../sessioninstaller/gstinstaller.py:90
+msgid "The X Window ID of the calling application"
+msgstr "부르는 중인 프로그램의 X Window ID"

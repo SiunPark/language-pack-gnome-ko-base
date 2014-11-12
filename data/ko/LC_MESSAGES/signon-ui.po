@@ -1,0 +1,82 @@
+# Korean translation for signon-ui
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the signon-ui package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: signon-ui\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-03-28 10:13+0300\n"
+"PO-Revision-Date: 2012-10-03 12:24+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:38+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: browser-request.cpp:268
+msgid ""
+"The authentication process is complete.\n"
+"You may now close this dialog and return to the application."
+msgstr ""
+"인증 작업을 완료했습니다.\n"
+"이 대화 상자를 닫은 후 프로그램으로 돌아갈 수 있습니다."
+
+#: browser-request.cpp:274
+msgid "Done"
+msgstr "완료"
+
+#: browser-request.cpp:291
+msgid "Web authentication for %1"
+msgstr "%1 웹 인증"
+
+#: browser-request.cpp:294
+msgid "Web authentication"
+msgstr "웹 인증"
+
+#: dialog-request.cpp:105
+msgid "Enter your credentials to login"
+msgstr "로그인하려면 인증서를 입력하십시오."
+
+#: dialog-request.cpp:107
+msgid "Previous authentication attempt failed. Please try again."
+msgstr "이 전 인증 작업을 실패했습니다. 다시 시도해주십시오."
+
+#: dialog-request.cpp:142
+msgid "Enter your credentials"
+msgstr "인증서 입력"
+
+#: dialog-request.cpp:166
+msgid "Username:"
+msgstr "사용자 이름:"
+
+#: dialog-request.cpp:176
+msgid "Password:"
+msgstr "암호:"
+
+#: dialog-request.cpp:182
+msgid ""
+"As an additional security measure, please fill in the text from the picture "
+"below:"
+msgstr "추가 보안 수단으로 아래 그림에서 텍스트를 채워 주십시오:"
+
+#: dialog-request.cpp:191
+msgid "Text from the picture:"
+msgstr "그림의 텍스트:"
+
+#: indicator-service.cpp:140
+msgid "Applications can no longer access some of your Web Accounts"
+msgstr "프로그램이 더 이상 웹 계정에 접근할 수 없습니다."
+
+#: indicator-service.cpp:143
+msgid "Applications can no longer access your %1 Web Account"
+msgstr "프로그램이 더 이상 %1 웹 계정에 접근할 수 없습니다."
+
+#: indicator-service.cpp:147
+msgid ""
+"Choose <b>Web Accounts</b> from the user menu to reinstate access to this "
+"account."
+msgstr "이 계정에 다시 접근하려면 사용자 메뉴에서 <b>웹 계정</b>을 선택해주십시오."

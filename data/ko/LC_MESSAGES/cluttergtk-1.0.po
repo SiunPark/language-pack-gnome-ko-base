@@ -1,0 +1,23 @@
+# Korean translation for clutter-gtk
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the clutter-gtk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: clutter-gtk\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-03-19 10:09-0300\n"
+"PO-Revision-Date: 2012-03-10 05:51+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 14:14+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: clutter-gtk/gtk-clutter-texture.c:134
+#, c-format
+msgid "Stock ID '%s' not found"
+msgstr "스톡 ID '%s'을(를) 찾을 수 없음"

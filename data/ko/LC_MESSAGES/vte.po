@@ -1,0 +1,118 @@
+# vte
+# This file is distributed under the same license as the vte package.
+#
+# Nam SungHyun <namsh@kldp.org>, 2003
+# Changwoo Ryu <cwryu@debian.org>, 2007, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: vte\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=vte&component=general\n"
+"POT-Creation-Date: 2007-10-06 10:12+0000\n"
+"PO-Revision-Date: 2014-02-18 21:13+0000\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 12:51+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+"Language: Korean\n"
+
+#: ../src/iso2022.c:791 ../src/iso2022.c:799 ../src/iso2022.c:830
+#: ../src/vte.c:1840
+#, c-format
+msgid "Unable to convert characters from %s to %s."
+msgstr "문자를 %s을(를) %s(으)로 변환할 수 없습니다."
+
+#: ../src/iso2022.c:1540
+#, c-format
+msgid "Attempt to set invalid NRC map '%c'."
+msgstr "잘못된 NRC 맵 '%c' 설정을 시도했습니다."
+
+#. Application signalled an "identified coding system" we haven't heard of.  See ECMA-35 for gory details.
+#: ../src/iso2022.c:1570
+msgid "Unrecognized identified coding system."
+msgstr "올바르지만 알지 못하는 코딩 시스템."
+
+#: ../src/iso2022.c:1629 ../src/iso2022.c:1656
+#, c-format
+msgid "Attempt to set invalid wide NRC map '%c'."
+msgstr "잘못된 와이드 NRC 맵 '%c' 설정을 시도했습니다."
+
+#. Give the user some clue as to why session logging is not
+#. * going to work (assuming we can open a pty using some other
+#. * method).
+#: ../src/pty.c:879
+#, c-format
+msgid "can not run %s"
+msgstr "%s 프로그램을 실행할 수 없습니다"
+
+#: ../src/reaper.c:136
+msgid "Error creating signal pipe."
+msgstr "시그널 파이프를 만드는 데 오류가 발생했습니다."
+
+#: ../src/trie.c:414
+#, c-format
+msgid "Duplicate (%s/%s)!"
+msgstr "중복 (%s/%s)"
+
+#: ../src/vte.c:1227
+#, c-format
+msgid "Error compiling regular expression \"%s\"."
+msgstr "정규 표현식 \"%s\" 컴파일에 오류가 발생했습니다."
+
+#: ../src/vte.c:2701 ../src/vte.c:2706
+#, c-format
+msgid "No handler for control sequence `%s' defined."
+msgstr "컨트롤 배열 `%s'에 대한 핸들러가 정의되지 않았습니다."
+
+#. Translators: %s is replaced with error message returned by strerror().
+#: ../src/vte.c:3671
+#, c-format
+msgid "Error reading from child: %s."
+msgstr "하위 프로세스에서 읽기 오류: %s."
+
+#: ../src/vte.c:3787
+msgid "Unable to send data to child, invalid charset convertor"
+msgstr "데이터를 하위 프로세스로 보낼 수 없습니다. 문자세트 변환이 잘못되었습니다"
+
+#: ../src/vte.c:3798 ../src/vte.c:4705
+#, c-format
+msgid "Error (%s) converting data for child, dropping."
+msgstr "하위 프로세스를 위한 데이터 변환에 오류가 발생했습니다. (%s) 그만둡니다."
+
+#: ../src/vte.c:6941
+#, c-format
+msgid "Error reading PTY size, using defaults: %s."
+msgstr "PTY 크기 읽기 오류, 기본값 사용: %s."
+
+#: ../src/vte.c:6977
+#, c-format
+msgid "Error setting PTY size: %s."
+msgstr "PTY 크기 설정 오류: %s."
+
+#. Aaargh.  We're screwed.
+#: ../src/vte.c:11451
+msgid "_vte_conv_open() failed setting word characters"
+msgstr "_vte_iconv_open()이 단어 문자들을 설정하는 데 실패했습니다"
+
+#: ../src/vteseq.c:3929
+#, c-format
+msgid "Got unexpected (key?) sequence `%s'."
+msgstr "잘못된 (키?) 배열 `%s'을(를) 받았습니다."
+
+#. Bail back to normal mode.
+#: ../src/vteapp.c:780
+msgid "Could not open console.\n"
+msgstr "콘솔을 열 수 없습니다.\n"
+
+#: ../src/vteapp.c:844
+msgid "Could not parse the geometry spec passed to --geometry"
+msgstr "--geometry 옵션에 넘긴 위치/크기 정보를 파싱할 수 없습니다"
+
+#: ../src/vteglyph.c:562
+#, c-format
+msgid "Unknown pixel mode %d.\n"
+msgstr "알 수 없는 픽셀 모드 %d.\n"

@@ -1,0 +1,124 @@
+# Korean translation for webapps-applications
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the webapps-applications package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: webapps-applications\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-02-21 11:04-0500\n"
+"PO-Revision-Date: 2012-10-18 11:28+0000\n"
+"Last-Translator: Kim Boram <boramism@gmail.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-04-10 15:44+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
+
+#: ../src/Amazon/Amazon.user.js:14
+msgid "Basket"
+msgstr "바구니"
+
+#: ../src/Amazon/Amazon.user.js:15
+msgid "Wishlist"
+msgstr "희망 목록"
+
+#: ../src/Amazon/Amazon.user.js:16
+msgid "Orders"
+msgstr "주문"
+
+#: ../src/Amazon/Amazon.user.js:17
+msgid "Manage your Kindle"
+msgstr "킨들을 관리합니다."
+
+#: ../src/FacebookMessenger/FacebookMessenger.user.js:57
+msgid "Messages"
+msgstr "메시지"
+
+#: ../src/FacebookMessenger/FacebookMessenger.user.js:60
+msgid "Notifications"
+msgstr "알림"
+
+#: ../src/GMail/GMail.user.js:93 ../src/GMail/GMail.user.js:123
+#: ../src/LinkedIn/LinkedIn.user.js:76 ../src/mail-ru/mail-ru.user.js:26
+#: ../src/qq-mail/qq-mail.user.js:34 ../src/Reddit/Reddit.user.js:12
+#: ../src/Tumblr/Tumblr.user.js:36 ../src/Vkcom/Vkcom.user.js:70
+#: ../src/YahooMail/YahooMail.user.js:45
+msgid "Inbox"
+msgstr "받은 편지함"
+
+#: ../src/GMail/GMail.user.js:110 ../src/GMail/GMail.user.js:112
+#: ../src/LinkedIn/LinkedIn.user.js:86 ../src/Reddit/Reddit.user.js:15
+#: ../src/YahooMail/YahooMail.user.js:100
+msgid "Compose New Message"
+msgstr "새 메시지 쓰기"
+
+#: ../src/GoogleCalendar/GoogleCalendar.user.js:23
+msgid "Create an event"
+msgstr "새 이벤트 만들기"
+
+#: ../src/GoogleCalendar/GoogleCalendar.user.js:27
+msgid "Google Calendar"
+msgstr "구글 달력"
+
+#: ../src/GoogleDocs/GoogleDocs.user.js:199
+msgid "Google Docs"
+msgstr "구글 문서"
+
+#: ../src/GoogleNews/GoogleNews.user.js:15
+#: ../src/GoogleNews/GoogleNews.user.js:70
+msgid "Google News"
+msgstr "구글 뉴스"
+
+#: ../src/GoogleNews/GoogleNews.user.js:57
+msgid "Unread"
+msgstr "읽지 않음"
+
+#: ../src/mail-ru/mail-ru.user.js:35
+msgid "mail.ru"
+msgstr "mail.ru"
+
+#. parse tumblr controls and add hud actions
+#: ../src/Tumblr/Tumblr.user.js:57
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: ../Twitter.user.js:49
+msgid "Tweets"
+msgstr "트윗"
+
+#: ../src/Vkcom/Vkcom.user.js:81
+msgid "vk.com"
+msgstr "vk.com"
+
+#: ../src/wordpress-com/wordpress-com.user.js:24
+msgid "New Post"
+msgstr "새 글"
+
+#: ../src/wordpress-com/wordpress-com.user.js:51
+msgid "new comments"
+msgstr "새 코멘트"
+
+#: ../src/YahooNews/YahooNews.user.js:34 ../src/YahooNews/YahooNews.user.js:41
+msgid "Yahoo News"
+msgstr "야후 뉴스"
+
+#: ../src/YandexMail/YandexMail.user.js:64
+msgid "Yandex"
+msgstr "Yandex"
+
+#: ../src/yandex-music/yandex-music.user.js:32
+#: ../src/yandex-music/yandex-music.user.js:64
+msgid "Yandex Music"
+msgstr "Yandex 음악"
+
+#: ../src/YandexNews/YandexNews.user.js:45
+#: ../src/YandexNews/YandexNews.user.js:69
+msgid "Yandex News"
+msgstr "Yandex 뉴스"
+
+#: ../default-apps/UbuntuOneMusiconeubuntucom.desktop.in.h:1
+msgid "Ubuntu One Music"
+msgstr "우분투 원 음악"
