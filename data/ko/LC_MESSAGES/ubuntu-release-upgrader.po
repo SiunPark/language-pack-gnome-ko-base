@@ -1033,7 +1033,7 @@ msgstr "가져오기 완료"
 #: ../DistUpgrade/DistUpgradeViewKDE.py:226
 #, python-format
 msgid "Fetching file %li of %li at %sB/s"
-msgstr "%li번째 파일(전체 %li개)을 %sB/s의 속로로 가져오는 중"
+msgstr "%li번째 파일(전체 %li개)을 %sB/s의 속도로 가져오는 중"
 
 #: ../DistUpgrade/DistUpgradeViewGtk.py:151
 #: ../DistUpgrade/DistUpgradeViewGtk.py:298
