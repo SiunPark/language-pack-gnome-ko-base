@@ -220,7 +220,7 @@ msgid ""
 "The upgrade will abort now. Please try without ssh."
 msgstr ""
 "원격 SSH접속을 통한 업그레이드를 지원하지 않는 SS H프론트엔드를 사용하여 업그레이드를 실행하고 있습니다. 'do-release-"
-"upgrade' 명령으로 텍스트모드 업그레이드를 사요해주십시오.\n"
+"upgrade' 명령으로 텍스트모드 업그레이드를 사용해주십시오.\n"
 "\n"
 "업그레이드를 중지될 것입니다. SSH를 사용하지 않고 다시 시도하십시오."
 
